@@ -1,6 +1,13 @@
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 public class Complex {
     private double real;
     private double imag;
+    private int plusPosition;
+    private int iPosition;
+    private String realStr;
+    private String imagStr;
 
     public Complex() {
     }
@@ -11,13 +18,28 @@ public class Complex {
     }
 
     public Complex(String complexStr){
-        int plusPosition=complexStr.indexOf("+");
-        int iPosition=complexStr.indexOf("i");
-        String realStr=complexStr.substring(0,plusPosition);
-        String imagStr=complexStr.substring(plusPosition,iPosition);
-        if(iPosition==complexStr.length()-1 && realStr)
+        this.plusPosition=complexStr.indexOf("+");
+        this.iPosition=complexStr.indexOf("i");
+        this.realStr=complexStr.substring(0,plusPosition);
+        this.imagStr=complexStr.substring(plusPosition,iPosition);
+
+
         this.real=Integer.parseInt(realStr);
         this.imag=Integer.parseInt(imagStr);
+    }
+
+    public boolean isMatchComplex(String complexStr){
+        boolean isMatchReal = Pattern.matches("^([1-9][0-9]*)$", this.realStr); //非0开头的数字组合
+        boolean isMatchImag = Pattern.matches("^([1-9][0-9]*)$", this.imagStr); //非0开头的数字组合
+        boolean isMatchIPosition =
+        if(iPosition==complexStr.length()-1 &&  ){
+            try {
+                throw new ComplexException("复数格式错误！");
+            } catch (ComplexException e) {
+                e.printStackTrace();
+            }
+        }
+        return true;
     }
 
     public double getReal() {
@@ -61,5 +83,9 @@ public class Complex {
     }
 
 
-
+    private class ComplexException extends Exception {
+        public ComplexException(String message) {
+            super(message);
+        }
+    }
 }
