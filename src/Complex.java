@@ -21,25 +21,33 @@ public class Complex {
         this.plusPosition=complexStr.indexOf("+");
         this.iPosition=complexStr.indexOf("i");
         this.realStr=complexStr.substring(0,plusPosition);
-        this.imagStr=complexStr.substring(plusPosition,iPosition);
-
-
-        this.real=Integer.parseInt(realStr);
-        this.imag=Integer.parseInt(imagStr);
+        if (this.iPosition==-1){
+            if(isMatchNum(realStr)) {
+                this.real=Double.parseDouble(realStr);
+                this.imag=0;
+            }
+        }else {
+            this.imagStr=complexStr.substring(plusPosition+1,iPosition);
+            if (this.iPosition==complexStr.length()-1 && isMatchNum(realStr) && isMatchNum(imagStr)){
+                this.real=Double.parseDouble(realStr);
+                this.imag=Double.parseDouble(imagStr);
+            }
+        }
+        System.out.println(toString());
     }
 
-    public boolean isMatchComplex(String complexStr){
-        boolean isMatchReal = Pattern.matches("^([1-9][0-9]*)$", this.realStr); //非0开头的数字组合
-        boolean isMatchImag = Pattern.matches("^([1-9][0-9]*)$", this.imagStr); //非0开头的数字组合
-        boolean isMatchIPosition =
-        if(iPosition==complexStr.length()-1 &&  ){
+    public boolean isMatchNum(String str){
+        boolean isMatch = Pattern.matches("^-?([1-9]\\d*\\.\\d*|0\\.\\d*|0)$", str); //非0开头的数字组合
+        if(isMatch){
+            return true;
+        }else {
             try {
-                throw new ComplexException("复数格式错误！");
+                throw new ComplexException("数字格式错误！");
             } catch (ComplexException e) {
                 e.printStackTrace();
             }
+            return false;
         }
-        return true;
     }
 
     public double getReal() {
@@ -60,7 +68,7 @@ public class Complex {
 
     @Override
     public String toString() {
-        return this.real + this.imag +"i";
+        return this.real + "+" + this.imag +"i";
     }
 
     public void add(Complex complex){
@@ -82,6 +90,19 @@ public class Complex {
         return new Complex(complex1.real-complex2.real,complex1.imag-complex2.imag);
     }
 
+    public  static boolean equals(Complex complex1,Complex complex2){
+        if (complex1.real==(complex2.real)  && complex1.imag==complex2.imag){
+            return true;
+        }else {
+            return false;
+        }
+    }
+
+    public boolean equals(String comStr1, String comStr2){
+        Complex complex1=new Complex(comStr1);
+        Complex complex2=new Complex(comStr2);
+        return equals(complex1,complex2);
+    }
 
     private class ComplexException extends Exception {
         public ComplexException(String message) {
