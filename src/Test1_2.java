@@ -37,10 +37,8 @@ public class Test1_2 {
         int tempMinIndex;
         for (int i=0; i<integers.length; i++){
             tempMinIndex=i;
-            for (int j=i; j<integers.length-1; j++){
-                if (integers[j]>integers[j+1]){
-                    tempMinIndex=j+1;
-                }else {
+            for (int j=i; j<integers.length; j++){
+                if (integers[tempMinIndex]>integers[j]){
                     tempMinIndex=j;
                 }
             }
