@@ -115,7 +115,7 @@ public class SeqList<T> extends Object {
     }
 
     /**删除第i个元素，返回被删除元素*/
-    public T romove(int i){
+    public T remove(int i){
         if (i>=0 && i<this.n){
             T del=(T)element[i];
             for (int k=i; k<this.n-1; k++){
@@ -134,34 +134,82 @@ public class SeqList<T> extends Object {
         this.n=0;
     }
 
-//    /**查找首次出现的与key相等元素，返回元素序号i*/
-//    public int search(T key){
-//
-//    }
-//
-//    /**判断是否包括关键字为key元素*/
-//    public boolean contains(T key){
-//
-//    }
-//
-//    /**插入不重复元素*/
-//    public int insertDifferent(T x){
-//
-//    }
-//
-//    /**删除首次出现的与key相等元素，返回被删除元素*/
-//    public T remove(T key){
-//
-//    }
-//
-//    /**比较两个线性表所有元素是否对应相等*/
-//    @Override
-//    public boolean equals(Object object){
-//
-//    }
-//
-//    /**在this中添加list的所有元素，集合并运算*/
-//    public void addAll(List<T> list){
-//
-//    }
+    /**查找首次出现的与key相等元素，返回元素序号i*/
+    public int search(T key){
+        if (key==null){
+            throw new NullPointerException("x=null");
+        }
+        for (int i=0; i<this.n; i++){
+            if (this.element[i].equals(key)){
+                return i;
+            }
+        }
+        return -1;
+    }
+
+    /**判断是否包括关键字为key元素*/
+    public boolean contains(T key){
+        if (this.search(key)!=-1){
+            return true;
+        }
+        return false;
+        //相当于return this.search(key)!=-1;
+    }
+
+    /**插入不重复元素，查找不成功时，尾插入*/
+    public int insertDifferent(T x){
+        if (this.search(x)==-1){
+            return insert(x);
+        }else {
+            return -1;
+        }
+        //相当于return this.search(x)==-1 ? this.insert(x) : -1;
+    }
+
+    /**删除首次出现的与key相等元素，返回被删除元素。查找不成功则返回null*/
+    public T remove(T key){
+        return this.remove(this.search(key));
+    }
+
+    /**比较两个线性表所有元素是否对应相等*/
+    @Override
+    public boolean equals(Object object){
+        if (this==object){
+            return true;
+        }
+        if (object instanceof SeqList<?>){
+            SeqList<T> list=(SeqList<T>)object;
+            if (list.n==this.n){
+                for (int i=0; i<this.n; i++){
+                    if(!this.element[i].equals(list.element[i])){
+                        return false;
+                    }
+                }
+                return true;
+            }
+
+        }
+        return false;
+    }
+
+    /**在this中添加list的所有元素，集合并运算*/
+    public void addAll(List<T> list){
+
+    }
+
+    /**顺序表的浅拷贝。拷贝构造方法，复制对象。但数组是引用数据类型，只复制了数组引用或对象引用，没有实现对对象的复制功能
+    public SeqList(SeqList<T> list){
+        this.n=list.n;
+        this.element=list.element;
+    }
+     */
+
+    /**顺序表的深拷贝，申请数组存储空间并复制所有数组元素*/
+    public SeqList(SeqList<? extends T> list){
+         this.n=list.n;
+         this.element=new Object[list.element.length];
+         for (int i=0; i<this.n; i++){
+             this.element[i]=list.element[i];
+         }
+    }
 }
