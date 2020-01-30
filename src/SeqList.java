@@ -85,26 +85,28 @@ public class SeqList<T> extends Object {
 
     /**插入x作为第i个元素，x!=null，返回x序号*/
     public int insert(int i, T x){
-        if (this.n==this.element.length||i>this.element.length){
+        if (x==null){
+            throw new NullPointerException("x=null");
+        }
+        if (i<0){
+            i=0;
+        }
+        if (i>this.n){
+            i=this.n;
+        }
+        if (this.n==this.element.length){
             Object[] elementTemp=this.element;
             this.element=new Object[this.n*2];
-            for (int j=0; j<this.n; j++){
+            for (int j=0; j<i; j++){
                 this.element[j]=elementTemp[j];
             }
         }
-        if (i>=0 && i<=this.n){
-            for (int k=this.n-1; k>=i; k++){
-                this.element[k+1]=this.element[k];
-            }
-            this.element[i-1]=x;
-        }else {
-            this.element[i-1]=x;
+        for (int k=this.n-1; k>=i; k++){
+            this.element[k+1]=this.element[k];
         }
-        if (x != null){
-            return i-1;
-        }else {
-            return -1;
-        }
+        this.element[i]=x;
+        this.n++;
+        return i;
     }
 
     /**在线性表最后插入x元素，返回x序号*/
@@ -114,12 +116,22 @@ public class SeqList<T> extends Object {
 
     /**删除第i个元素，返回被删除元素*/
     public T romove(int i){
-        
+        if (i>=0 && i<this.n){
+            T del=(T)element[i];
+            for (int k=i; k<this.n; k++){
+                this.element[k]=this.element[k+1];
+            }
+            this.element[n-1]=null;
+            this.n--;
+            return del;
+        }else {
+            return null;
+        }
     }
 
     /**删除线性表所有元素*/
     public void clear(){
-
+        this.n=0;
     }
 
     /**查找首次出现的与key相等元素，返回元素序号i*/
