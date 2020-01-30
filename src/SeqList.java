@@ -118,7 +118,7 @@ public class SeqList<T> extends Object {
     public T romove(int i){
         if (i>=0 && i<this.n){
             T del=(T)element[i];
-            for (int k=i; k<this.n; k++){
+            for (int k=i; k<this.n-1; k++){
                 this.element[k]=this.element[k+1];
             }
             this.element[n-1]=null;
@@ -134,34 +134,34 @@ public class SeqList<T> extends Object {
         this.n=0;
     }
 
-    /**查找首次出现的与key相等元素，返回元素序号i*/
-    public int search(T key){
-
-    }
-
-    /**判断是否包括关键字为key元素*/
-    public boolean contains(T key){
-
-    }
-
-    /**插入不重复元素*/
-    public int insertDifferent(T x){
-
-    }
-
-    /**删除首次出现的与key相等元素，返回被删除元素*/
-    public T remove(T key){
-
-    }
-
-    /**比较两个线性表所有元素是否对应相等*/
-    @Override
-    public boolean equals(Object object){
-
-    }
-
-    /**在this中添加list的所有元素，集合并运算*/
-    public void addAll(List<T> list){
-
-    }
+//    /**查找首次出现的与key相等元素，返回元素序号i*/
+//    public int search(T key){
+//
+//    }
+//
+//    /**判断是否包括关键字为key元素*/
+//    public boolean contains(T key){
+//
+//    }
+//
+//    /**插入不重复元素*/
+//    public int insertDifferent(T x){
+//
+//    }
+//
+//    /**删除首次出现的与key相等元素，返回被删除元素*/
+//    public T remove(T key){
+//
+//    }
+//
+//    /**比较两个线性表所有元素是否对应相等*/
+//    @Override
+//    public boolean equals(Object object){
+//
+//    }
+//
+//    /**在this中添加list的所有元素，集合并运算*/
+//    public void addAll(List<T> list){
+//
+//    }
 }
