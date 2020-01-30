@@ -193,8 +193,10 @@ public class SeqList<T> extends Object {
     }
 
     /**在this中添加list的所有元素，集合并运算*/
-    public void addAll(List<T> list){
-
+    public void addAll(SeqList<? extends T> list){
+        for (int i=0; i<list.n; i++){
+            this.insert(list.get(i));
+        }
     }
 
     /**顺序表的浅拷贝。拷贝构造方法，复制对象。但数组是引用数据类型，只复制了数组引用或对象引用，没有实现对对象的复制功能
@@ -204,7 +206,12 @@ public class SeqList<T> extends Object {
     }
      */
 
-    /**顺序表的深拷贝，申请数组存储空间并复制所有数组元素*/
+    /**顺序表的深拷贝，申请数组存储空间并复制所有数组元素,但是由于对象赋值是引用赋值，深拷贝没有复制元素对象，导致两个数组对应元素引用
+     * 相同的实例，修改其中某个实例，仍将影响对方。
+     * 注意：由于String、Integer是常量类，没有提供修改对象属性值的方法，所以他们作为SeqList<T>的元素类型，执行深拷贝时，只能说明两个
+     * 顺序表对象分布由各自的数组
+     *
+     * 深度拷贝：复制每个引用类型成员变量所引用的数组或对象，直至该对象可达的所有对象*/
     public SeqList(SeqList<? extends T> list){
          this.n=list.n;
          this.element=new Object[list.element.length];
