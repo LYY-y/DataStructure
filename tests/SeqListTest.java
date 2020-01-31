@@ -3,6 +3,8 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.omg.PortableInterceptor.INACTIVE;
 
+import java.util.List;
+
 import static org.junit.Assert.*;
 
 public class SeqListTest {
@@ -49,14 +51,18 @@ public class SeqListTest {
     public void insert() {
         seqList.insert(2,99);
         Integer[] expects={5,80,99,60,90,20};
-        assertArrayEquals(expects,seqList.element);
+        for (int i=0; i<expects.length; i++){
+            assertEquals(expects[i],seqList.element[i]);
+        }
     }
 
     @Test
     public void insert1() {
         seqList.insert(99);
         Integer[] expects={5,80,60,90,20,99};
-        assertArrayEquals(expects,seqList.element);
+        for (int i=0; i<expects.length; i++){
+            assertEquals(expects[i],seqList.element[i]);
+        }
     }
 
     @Test
@@ -68,8 +74,9 @@ public class SeqListTest {
     public void clear() {
         seqList.clear();
         Integer[] expects={};
-        assertArrayEquals(expects,seqList.element);
-    }
+        for (int i=0; i<expects.length; i++){
+            assertEquals(expects[i],seqList.element[i]);
+        }    }
 
     @Test
     public void search() {
@@ -83,18 +90,29 @@ public class SeqListTest {
 
     @Test
     public void insertDifferent() {
-
+        assertEquals(-1,seqList.insertDifferent(80));
     }
 
     @Test
     public void remove1() {
+        assertEquals(80,(Object)seqList.remove(1));
     }
 
     @Test
     public void equals1() {
+        Integer[] integersTest={1,2,3,4};
+        assertFalse(seqList.equals(integersTest));
     }
 
     @Test
     public void addAll() {
+        Integer[] addArr={10,50};
+        SeqList<Integer> seqListAdd=new SeqList<Integer>(addArr);
+        Integer[] expects={5,80,60,90,20,10,50};
+        seqList.addAll(seqListAdd);
+        for (int i=0; i<expects.length; i++){
+            assertEquals(expects[i],seqList.element[i]);
+        }
+
     }
 }
