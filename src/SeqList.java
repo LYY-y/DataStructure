@@ -94,15 +94,15 @@ public class SeqList<T> extends Object {
         if (i>this.n){
             i=this.n;
         }
+        Object[] elementTemp=this.element;
         if (this.n==this.element.length){
-            Object[] elementTemp=this.element;
             this.element=new Object[this.n*2];
             for (int j=0; j<i; j++){
                 this.element[j]=elementTemp[j];
             }
         }
-        for (int k=this.n-1; k>=i; k++){
-            this.element[k+1]=this.element[k];
+        for (int k=this.n-1; k>=i; k--){
+            this.element[k+1]=elementTemp[k];
         }
         this.element[i]=x;
         this.n++;
