@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca9eb0ac-934a-487f-bf37-73b21374be81" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MineTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MineTest.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SeqList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SeqList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/SeqListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/SeqListTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -69,11 +67,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SeqList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-456">
-              <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+            <state relative-caret-position="-54">
+              <caret line="128" column="9" lean-forward="true" selection-start-line="128" selection-start-column="9" selection-end-line="128" selection-end-column="9" />
               <folding>
                 <element signature="method#get#0;class#SeqList#0" />
-                <element signature="method#set#0;class#SeqList#0" />
                 <element signature="method#toString#0;class#SeqList#0" />
                 <element signature="e#2682#2683#0" expanded="true" />
                 <element signature="e#2726#2727#0" expanded="true" />
@@ -87,15 +84,21 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/SeqListTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+            <state relative-caret-position="393">
+              <caret line="71" column="5" lean-forward="true" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
               <folding>
                 <element signature="e#344#345#0" expanded="true" />
                 <element signature="e#373#374#0" expanded="true" />
                 <element signature="e#437#438#0" expanded="true" />
                 <element signature="e#467#468#0" expanded="true" />
-                <element signature="e#531#532#0" expanded="true" />
-                <element signature="e#570#571#0" expanded="true" />
+                <element signature="e#519#520#0" expanded="true" />
+                <element signature="e#578#579#0" expanded="true" />
+                <element signature="e#1246#1247#0" expanded="true" />
+                <element signature="e#1267#1268#0" expanded="true" />
+                <element signature="e#1514#1515#0" expanded="true" />
+                <element signature="e#1530#1531#0" expanded="true" />
+                <element signature="e#1604#1605#0" expanded="true" />
+                <element signature="e#1626#1627#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -313,7 +316,7 @@
       <workItem from="1580373397819" duration="480000" />
       <workItem from="1580373907589" duration="6278000" />
       <workItem from="1580387415931" duration="4016000" />
-      <workItem from="1580431528858" duration="9361000" />
+      <workItem from="1580431528858" duration="11243000" />
     </task>
     <servers />
   </component>
@@ -350,7 +353,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="102425000" />
+    <option name="totallyTimeSpent" value="104307000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -565,6 +568,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/SeqList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-54">
+          <caret line="128" column="9" lean-forward="true" selection-start-line="128" selection-start-column="9" selection-end-line="128" selection-end-column="9" />
+          <folding>
+            <element signature="method#get#0;class#SeqList#0" />
+            <element signature="method#toString#0;class#SeqList#0" />
+            <element signature="e#2682#2683#0" expanded="true" />
+            <element signature="e#2726#2727#0" expanded="true" />
+            <element signature="e#3995#3996#0" expanded="true" />
+            <element signature="e#4047#4048#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/SortedSeqList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="181">
@@ -581,33 +599,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SeqList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-456">
-          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-          <folding>
-            <element signature="method#get#0;class#SeqList#0" />
-            <element signature="method#set#0;class#SeqList#0" />
-            <element signature="method#toString#0;class#SeqList#0" />
-            <element signature="e#2682#2683#0" expanded="true" />
-            <element signature="e#2726#2727#0" expanded="true" />
-            <element signature="e#3995#3996#0" expanded="true" />
-            <element signature="e#4047#4048#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/SeqListTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+        <state relative-caret-position="393">
+          <caret line="71" column="5" lean-forward="true" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
           <folding>
             <element signature="e#344#345#0" expanded="true" />
             <element signature="e#373#374#0" expanded="true" />
             <element signature="e#437#438#0" expanded="true" />
             <element signature="e#467#468#0" expanded="true" />
-            <element signature="e#531#532#0" expanded="true" />
-            <element signature="e#570#571#0" expanded="true" />
+            <element signature="e#519#520#0" expanded="true" />
+            <element signature="e#578#579#0" expanded="true" />
+            <element signature="e#1246#1247#0" expanded="true" />
+            <element signature="e#1267#1268#0" expanded="true" />
+            <element signature="e#1514#1515#0" expanded="true" />
+            <element signature="e#1530#1531#0" expanded="true" />
+            <element signature="e#1604#1605#0" expanded="true" />
+            <element signature="e#1626#1627#0" expanded="true" />
           </folding>
         </state>
       </provider>
