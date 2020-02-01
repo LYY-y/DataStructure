@@ -15,23 +15,19 @@ public class SortedSeqList<T extends Comparable<? super T>> extends SeqList<T> {
         }
     }
 
-
-
-
     /**插入x，根据x对象大小顺序查找确定插入位置，插入在等值节点之前，返回x序号
      * 调用T 的CompareTo（）方法比较对象大小 P31*/
     @Override
     public int insert(T x) {
         int i=0;
         if (this.isEmpty()){
-            return super.insert(x);
+            return super.insert(i,x);
         }
         for (i=0; i<this.n; i++){
             if (x.compareTo(this.get(i))<=0){
                 break;
             }
         }
-        this.n++;
         return super.insert(i,x);
     }
 
@@ -53,15 +49,15 @@ public class SortedSeqList<T extends Comparable<? super T>> extends SeqList<T> {
         throw new java.lang.UnsupportedOperationException("insert(int i, T x)");
     }
 
-    public static void main(String[] args){
-        Integer[] values={10,80,50};
-        SeqList<Integer> seqList=new SeqList<Integer>(values);
-        //SortedSeqList<Integer> sortedSeqList=new SortedSeqList<Integer>(values);
-        seqList.insert(0,10);
-        seqList.insert(40);
-        //sortedSeqList.insert(40);
-        System.out.println("seqList:"+seqList.toString());
-       // System.out.println("sortedSeqList:"+sortedSeqList.toString());
-       // sortedSeqList.insert(0,90);
-    }
+//    public static void main(String[] args){
+//        Integer[] values={10,80,50};
+//        SeqList<Integer> seqList=new SeqList<Integer>(values);
+//        //SortedSeqList<Integer> sortedSeqList=new SortedSeqList<Integer>(values);
+//        seqList.insert(0,10);
+//        seqList.insert(40);
+//        //sortedSeqList.insert(40);
+//        System.out.println("seqList:"+seqList.toString());
+//       // System.out.println("sortedSeqList:"+sortedSeqList.toString());
+//       // sortedSeqList.insert(0,90);
+//    }
 }
