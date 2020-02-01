@@ -15,6 +15,13 @@ public class SortedSeqList<T extends Comparable<? super T>> extends SeqList<T> {
         }
     }
 
+    public SortedSeqList(SeqList<? extends T> list) {
+        super(list.n);
+        for (int i=0; i<list.n; i++){
+            this.insert(list.get(i));
+        }
+    }
+
     /**插入x，根据x对象大小顺序查找确定插入位置，插入在等值节点之前，返回x序号
      * 调用T 的CompareTo（）方法比较对象大小 P31*/
     @Override
@@ -49,15 +56,27 @@ public class SortedSeqList<T extends Comparable<? super T>> extends SeqList<T> {
         throw new java.lang.UnsupportedOperationException("insert(int i, T x)");
     }
 
-//    public static void main(String[] args){
-//        Integer[] values={10,80,50};
-//        SeqList<Integer> seqList=new SeqList<Integer>(values);
-//        //SortedSeqList<Integer> sortedSeqList=new SortedSeqList<Integer>(values);
-//        seqList.insert(0,10);
-//        seqList.insert(40);
-//        //sortedSeqList.insert(40);
-//        System.out.println("seqList:"+seqList.toString());
-//       // System.out.println("sortedSeqList:"+sortedSeqList.toString());
-//       // sortedSeqList.insert(0,90);
-//    }
+    /**顺序查找首次出现的与key相等元素，返回元素序号i（0<=i<n）；若查找不成功，则返回-1，覆盖*/
+    @Override
+    public int search(T key){
+        if (key==null){
+            throw new NullPointerException("key=null");
+        }
+        for (int i=0; i<this.n; i++){
+            if (key.compareTo(this.get(i))==0){
+                return i;
+            }
+            if (key.compareTo(this.get(i))<0){
+                break;
+            }
+        }
+        return -1;
+    }
+
+    /**删除首次出现的与key相等元素，返回被删除元素；查找不成功返回null*/
+    @Override
+    public T remove(T key){
+        return this.remove(this.search(key));
+    }
+
 }

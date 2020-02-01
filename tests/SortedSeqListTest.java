@@ -1,5 +1,6 @@
 import org.junit.Before;
 import org.junit.Test;
+import org.omg.Messaging.SYNC_WITH_TRANSPORT;
 
 import static org.junit.Assert.*;
 
@@ -12,22 +13,36 @@ public class SortedSeqListTest {
     }
 
     @Test
-    public void insert() {
+    public void testInsert() {
         assertEquals(3,sortedSeqList.insert(70));
     }
 
     @Test
-    public void insertDifferent() {
+    public void testInsertDifferent() {
         assertEquals(-1,sortedSeqList.insertDifferent(60));
     }
 
     @Test(expected=java.lang.UnsupportedOperationException.class)
-    public void set() {
+    public void testSet() {
         sortedSeqList.set(0,50);
     }
 
     @Test(expected=java.lang.UnsupportedOperationException.class)
-    public void insert1() {
+    public void testInsert1() {
         sortedSeqList.insert(0,80);
+    }
+
+    @Test
+    public void testSearch(){
+        assertEquals(1,sortedSeqList.search(20));
+    }
+
+    @Test
+    public void testRemove(){
+        Integer[] excepts={5,60,80,90};
+        assertEquals(20,(Object)sortedSeqList.remove((Integer) 20));
+        for (int i=0; i<excepts.length; i++){
+            assertEquals(excepts[i],sortedSeqList.element[i]);
+        }
     }
 }
