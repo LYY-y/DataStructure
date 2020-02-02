@@ -15,11 +15,17 @@ public class SortedSeqList<T extends Comparable<? super T>> extends SeqList<T> {
         }
     }
 
+    /**顺序排序表的拷贝构造方法，深拷贝*/
     public SortedSeqList(SeqList<? extends T> list) {
         super(list.n);
         for (int i=0; i<list.n; i++){
             this.insert(list.get(i));
         }
+    }
+
+    /**顺序排序表的拷贝构造方法，深拷贝，list引用实例，参数类型赋值相容*/
+    public SortedSeqList(SortedSeqList<? extends T> list) {
+        super(list.n);
     }
 
     /**插入x，根据x对象大小顺序查找确定插入位置，插入在等值节点之前，返回x序号
@@ -79,4 +85,8 @@ public class SortedSeqList<T extends Comparable<? super T>> extends SeqList<T> {
         return this.remove(this.search(key));
     }
 
+    @Override
+    public void addAll(SeqList<? extends T> list) {
+        super.addAll(list);
+    }
 }

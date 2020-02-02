@@ -219,4 +219,10 @@ public class SeqList<T> extends Object {
              this.element[i]=list.element[i];
          }
     }
+
+    public SeqList<T> union(SeqList<? extends T> list){
+        SeqList<T> result=new SeqList<T>(this);
+        result.addAll(list);
+        return result;
+    }
 }

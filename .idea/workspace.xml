@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca9eb0ac-934a-487f-bf37-73b21374be81" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SeqList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SeqList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SortedSeqList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SortedSeqList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/SeqListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/SeqListTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/SortedSeqListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/SortedSeqListTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -21,28 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../课内例题源码/02.2.2  顺序表/src/SeqList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="125" column="35" selection-start-line="125" selection-start-column="35" selection-end-line="125" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SeqList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3648">
-              <caret line="222" lean-forward="true" selection-start-line="222" selection-end-line="222" />
-              <folding>
-                <element signature="e#364#365#0" expanded="true" />
-                <element signature="e#388#389#0" expanded="true" />
-                <element signature="e#2677#2678#0" expanded="true" />
-                <element signature="e#2721#2722#0" expanded="true" />
-                <element signature="e#3990#3991#0" expanded="true" />
-                <element signature="e#4042#4043#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="160">
+              <caret line="324" column="20" selection-start-line="324" selection-start-column="20" selection-end-line="324" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -50,19 +36,19 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SortedSeqList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+            <state relative-caret-position="170">
+              <caret line="86" lean-forward="true" selection-start-line="86" selection-end-line="86" />
               <folding>
                 <element signature="e#124#125#0" expanded="true" />
                 <element signature="e#147#148#0" expanded="true" />
                 <element signature="e#187#188#0" expanded="true" />
                 <element signature="e#216#217#0" expanded="true" />
                 <element signature="method#SortedSeqList#2;class#SortedSeqList#0" />
+                <element signature="e#624#625#0" expanded="true" />
+                <element signature="e#653#654#0" expanded="true" />
                 <element signature="method#insert#0;class#SortedSeqList#0" />
-                <element signature="e#1174#1175#0" expanded="true" />
-                <element signature="e#1261#1262#0" expanded="true" />
-                <element signature="e#1769#1770#0" expanded="true" />
-                <element signature="e#1821#1822#0" expanded="true" />
+                <element signature="e#2218#2219#0" expanded="true" />
+                <element signature="e#2252#2253#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -71,22 +57,51 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/SortedSeqListTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="41" column="39" lean-forward="true" selection-start-line="41" selection-start-column="39" selection-end-line="41" selection-end-column="39" />
+            <state relative-caret-position="18">
+              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+              <folding>
+                <element signature="method#testRemove#0;class#SortedSeqListTest#0" />
+                <element signature="e#1378#1387#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/SeqListTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+            <state relative-caret-position="2033">
+              <caret line="124" column="9" lean-forward="true" selection-start-line="124" selection-start-column="9" selection-end-line="124" selection-end-column="9" />
               <folding>
+                <element signature="e#429#430#0" expanded="true" />
+                <element signature="e#486#487#0" expanded="true" />
                 <element signature="e#520#521#0" expanded="true" />
                 <element signature="e#578#579#0" expanded="true" />
                 <element signature="e#1720#1721#0" expanded="true" />
                 <element signature="e#1770#1771#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SeqList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="246">
+              <caret line="226" column="5" lean-forward="true" selection-start-line="226" selection-start-column="5" selection-end-line="226" selection-end-column="5" />
+              <folding>
+                <element signature="e#364#365#0" expanded="true" />
+                <element signature="e#388#389#0" expanded="true" />
+                <element signature="method#set#0;class#SeqList#0" />
+                <element signature="method#toString#0;class#SeqList#0" />
+                <element signature="method#toPreviousString#0;class#SeqList#0" />
+                <element signature="method#insert#0;class#SeqList#0" />
+                <element signature="method#remove#0;class#SeqList#0" />
+                <element signature="e#3990#3991#0" expanded="true" />
+                <element signature="e#4042#4043#0" expanded="true" />
+                <element signature="e#4768#4937#0" />
+                <element signature="docComment;method#SeqList#3;class#SeqList#0" />
+                <element signature="method#SeqList#3;class#SeqList#0" />
               </folding>
             </state>
           </provider>
@@ -106,6 +121,7 @@
     <findStrings>
       <find>remove</find>
       <find>equals</find>
+      <find>union</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -120,11 +136,17 @@
         <option value="$PROJECT_DIR$/src/Test1_3.java" />
         <option value="$PROJECT_DIR$/src/Test1_4.java" />
         <option value="$PROJECT_DIR$/src/Matrix.java" />
+        <option value="$PROJECT_DIR$/src/book_example2/Student.java" />
+        <option value="$PROJECT_DIR$/src/book_ex_2_4/Student.java" />
+        <option value="$PROJECT_DIR$/src/book_ex_2_1/Josephus.java" />
         <option value="$PROJECT_DIR$/src/Josephus.java" />
-        <option value="$PROJECT_DIR$/tests/SeqListTest.java" />
-        <option value="$PROJECT_DIR$/src/SeqList.java" />
-        <option value="$PROJECT_DIR$/tests/SortedSeqListTest.java" />
+        <option value="$PROJECT_DIR$/src/Student.java" />
+        <option value="$PROJECT_DIR$/src/SeqList_Student.java" />
+        <option value="$PROJECT_DIR$/tests/SeqList_StudentTest.java" />
         <option value="$PROJECT_DIR$/src/SortedSeqList.java" />
+        <option value="$PROJECT_DIR$/tests/SortedSeqListTest.java" />
+        <option value="$PROJECT_DIR$/src/SeqList.java" />
+        <option value="$PROJECT_DIR$/tests/SeqListTest.java" />
       </list>
     </option>
   </component>
@@ -139,7 +161,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -162,6 +183,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -187,6 +209,9 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
@@ -203,14 +228,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SortedSeqListTest.testRemove">
-    <configuration name="SortedSeqList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SortedSeqList" />
-      <module name="MineTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.SeqListTest">
     <configuration name="SeqListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MineTest" />
       <option name="PACKAGE_NAME" value="" />
@@ -220,30 +238,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortedSeqListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SeqListTest.testUnion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MineTest" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SortedSeqListTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SortedSeqListTest.testRemove" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MineTest" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SortedSeqListTest" />
-      <option name="METHOD_NAME" value="testRemove" />
+      <option name="MAIN_CLASS_NAME" value="SeqListTest" />
+      <option name="METHOD_NAME" value="testUnion" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortedSeqListTest.testSearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SeqList_StudentTest.testSearchByName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MineTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SeqList_StudentTest" />
+      <option name="METHOD_NAME" value="testSearchByName" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SeqList_StudentTest.testSearchByScore" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MineTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SeqList_StudentTest" />
+      <option name="METHOD_NAME" value="testSearchByScore" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SortedSeqListTest.testAddAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MineTest" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="SortedSeqListTest" />
-      <option name="METHOD_NAME" value="testSearch" />
+      <option name="METHOD_NAME" value="testAddAll" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -251,11 +280,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SortedSeqListTest.testRemove" />
-        <item itemvalue="JUnit.SortedSeqListTest.testSearch" />
-        <item itemvalue="JUnit.SortedSeqListTest" />
         <item itemvalue="JUnit.SeqListTest" />
-        <item itemvalue="Application.SortedSeqList" />
+        <item itemvalue="JUnit.SeqListTest.testUnion" />
+        <item itemvalue="JUnit.SortedSeqListTest.testAddAll" />
+        <item itemvalue="JUnit.SeqList_StudentTest.testSearchByScore" />
+        <item itemvalue="JUnit.SeqList_StudentTest.testSearchByName" />
       </list>
     </recent_temporary>
   </component>
@@ -278,50 +307,51 @@
       <workItem from="1580373907589" duration="6278000" />
       <workItem from="1580387415931" duration="4016000" />
       <workItem from="1580431528858" duration="15162000" />
-      <workItem from="1580527740028" duration="13001000" />
+      <workItem from="1580527740028" duration="13267000" />
+      <workItem from="1580607416200" duration="14202000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SortedSeqListTest_testRemove - 2020.02.01 at 20h 11m 04s.xml">
-      <configuration name="SortedSeqListTest.testRemove" configurationId="JUnit" />
+    <history-entry file="SeqList_StudentTest_testSearchByScore - 2020.02.02 at 13h 16m 30s.xml">
+      <configuration name="SeqList_StudentTest.testSearchByScore" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SortedSeqListTest_testRemove - 2020.02.01 at 20h 11m 15s.xml">
-      <configuration name="SortedSeqListTest.testRemove" configurationId="JUnit" />
+    <history-entry file="SeqList_StudentTest_testSearchByScore - 2020.02.02 at 13h 16m 43s.xml">
+      <configuration name="SeqList_StudentTest.testSearchByScore" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SortedSeqListTest_testRemove - 2020.02.01 at 20h 14m 53s.xml">
-      <configuration name="SortedSeqListTest.testRemove" configurationId="JUnit" />
+    <history-entry file="SeqList_StudentTest_testSearchByScore - 2020.02.02 at 13h 19m 51s.xml">
+      <configuration name="SeqList_StudentTest.testSearchByScore" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SortedSeqListTest_testRemove - 2020.02.01 at 20h 15m 51s.xml">
-      <configuration name="SortedSeqListTest.testRemove" configurationId="JUnit" />
+    <history-entry file="SeqList_StudentTest_testSearchByScore - 2020.02.02 at 13h 31m 38s.xml">
+      <configuration name="SeqList_StudentTest.testSearchByScore" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SortedSeqListTest_testRemove - 2020.02.01 at 20h 16m 09s.xml">
-      <configuration name="SortedSeqListTest.testRemove" configurationId="JUnit" />
+    <history-entry file="SeqList_StudentTest_testSearchByScore - 2020.02.02 at 13h 33m 51s.xml">
+      <configuration name="SeqList_StudentTest.testSearchByScore" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SortedSeqListTest_testRemove - 2020.02.01 at 20h 16m 52s.xml">
-      <configuration name="SortedSeqListTest.testRemove" configurationId="JUnit" />
+    <history-entry file="SeqList_StudentTest_testSearchByScore - 2020.02.02 at 13h 34m 45s.xml">
+      <configuration name="SeqList_StudentTest.testSearchByScore" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SortedSeqListTest_testRemove - 2020.02.01 at 20h 18m 11s.xml">
-      <configuration name="SortedSeqListTest.testRemove" configurationId="JUnit" />
+    <history-entry file="SortedSeqListTest_testAddAll - 2020.02.02 at 13h 49m 00s.xml">
+      <configuration name="SortedSeqListTest.testAddAll" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SortedSeqListTest_testRemove - 2020.02.01 at 20h 20m 37s.xml">
-      <configuration name="SortedSeqListTest.testRemove" configurationId="JUnit" />
+    <history-entry file="SortedSeqListTest_testAddAll - 2020.02.02 at 13h 49m 23s.xml">
+      <configuration name="SortedSeqListTest.testAddAll" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SortedSeqListTest_testRemove - 2020.02.01 at 20h 24m 50s.xml">
-      <configuration name="SortedSeqListTest.testRemove" configurationId="JUnit" />
+    <history-entry file="SeqListTest_testUnion - 2020.02.02 at 14h 03m 00s.xml">
+      <configuration name="SeqListTest.testUnion" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SortedSeqListTest_testRemove - 2020.02.01 at 20h 25m 29s.xml">
-      <configuration name="SortedSeqListTest.testRemove" configurationId="JUnit" />
+    <history-entry file="SeqListTest - 2020.02.02 at 14h 03m 08s.xml">
+      <configuration name="SeqListTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="121227000" />
+    <option name="totallyTimeSpent" value="135695000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13069706" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13203754" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -329,8 +359,8 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49865952" visible="true" weight="0.3654391" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49865952" visible="true" weight="0.3654391" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49932975" weight="0.40509915" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -427,13 +457,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Josephus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Test1_1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
@@ -452,13 +475,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../课内例题源码/02.2.2  顺序表/src/SeqList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="125" column="35" selection-start-line="125" selection-start-column="35" selection-end-line="125" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -487,57 +503,132 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SeqList.java">
+    <entry file="file://$PROJECT_DIR$/src/Josephus.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3648">
-          <caret line="222" lean-forward="true" selection-start-line="222" selection-end-line="222" />
+        <state relative-caret-position="57">
+          <caret line="3" column="56" selection-start-line="3" selection-start-column="56" selection-end-line="3" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/StringBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="136" selection-start-line="136" selection-end-line="136" />
           <folding>
-            <element signature="e#364#365#0" expanded="true" />
-            <element signature="e#388#389#0" expanded="true" />
-            <element signature="e#2677#2678#0" expanded="true" />
-            <element signature="e#2721#2722#0" expanded="true" />
-            <element signature="e#3990#3991#0" expanded="true" />
-            <element signature="e#4042#4043#0" expanded="true" />
+            <element signature="e#2871#2872#0" expanded="true" />
+            <element signature="e#2896#2897#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SortedSeqList.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+        <state relative-caret-position="131">
+          <caret line="976" selection-start-line="976" selection-end-line="976" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/SeqList_StudentTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
           <folding>
-            <element signature="e#124#125#0" expanded="true" />
-            <element signature="e#147#148#0" expanded="true" />
-            <element signature="e#187#188#0" expanded="true" />
-            <element signature="e#216#217#0" expanded="true" />
-            <element signature="method#SortedSeqList#2;class#SortedSeqList#0" />
-            <element signature="method#insert#0;class#SortedSeqList#0" />
             <element signature="e#1174#1175#0" expanded="true" />
-            <element signature="e#1261#1262#0" expanded="true" />
-            <element signature="e#1769#1770#0" expanded="true" />
-            <element signature="e#1821#1822#0" expanded="true" />
+            <element signature="e#1204#1205#0" expanded="true" />
+            <element signature="e#1356#1357#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SeqList_Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="e#265#266#0" expanded="true" />
+            <element signature="e#350#351#0" expanded="true" />
+            <element signature="e#650#651#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/SeqListTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2033">
+          <caret line="124" column="9" lean-forward="true" selection-start-line="124" selection-start-column="9" selection-end-line="124" selection-end-column="9" />
+          <folding>
+            <element signature="e#429#430#0" expanded="true" />
+            <element signature="e#486#487#0" expanded="true" />
+            <element signature="e#520#521#0" expanded="true" />
+            <element signature="e#578#579#0" expanded="true" />
+            <element signature="e#1720#1721#0" expanded="true" />
+            <element signature="e#1770#1771#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/SortedSeqListTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="41" column="39" lean-forward="true" selection-start-line="41" selection-start-column="39" selection-end-line="41" selection-end-column="39" />
+        <state relative-caret-position="18">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="method#testRemove#0;class#SortedSeqListTest#0" />
+            <element signature="e#1378#1387#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/SeqListTest.java">
+    <entry file="file://$PROJECT_DIR$/src/SortedSeqList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+        <state relative-caret-position="170">
+          <caret line="86" lean-forward="true" selection-start-line="86" selection-end-line="86" />
           <folding>
-            <element signature="e#520#521#0" expanded="true" />
-            <element signature="e#578#579#0" expanded="true" />
-            <element signature="e#1720#1721#0" expanded="true" />
-            <element signature="e#1770#1771#0" expanded="true" />
+            <element signature="e#124#125#0" expanded="true" />
+            <element signature="e#147#148#0" expanded="true" />
+            <element signature="e#187#188#0" expanded="true" />
+            <element signature="e#216#217#0" expanded="true" />
+            <element signature="method#SortedSeqList#2;class#SortedSeqList#0" />
+            <element signature="e#624#625#0" expanded="true" />
+            <element signature="e#653#654#0" expanded="true" />
+            <element signature="method#insert#0;class#SortedSeqList#0" />
+            <element signature="e#2218#2219#0" expanded="true" />
+            <element signature="e#2252#2253#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SeqList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="226" column="5" lean-forward="true" selection-start-line="226" selection-start-column="5" selection-end-line="226" selection-end-column="5" />
+          <folding>
+            <element signature="e#364#365#0" expanded="true" />
+            <element signature="e#388#389#0" expanded="true" />
+            <element signature="method#set#0;class#SeqList#0" />
+            <element signature="method#toString#0;class#SeqList#0" />
+            <element signature="method#toPreviousString#0;class#SeqList#0" />
+            <element signature="method#insert#0;class#SeqList#0" />
+            <element signature="method#remove#0;class#SeqList#0" />
+            <element signature="e#3990#3991#0" expanded="true" />
+            <element signature="e#4042#4043#0" expanded="true" />
+            <element signature="e#4768#4937#0" />
+            <element signature="docComment;method#SeqList#3;class#SeqList#0" />
+            <element signature="method#SeqList#3;class#SeqList#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../课内例题源码/02.2.2  顺序表/src/SeqList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="324" column="20" selection-start-line="324" selection-start-column="20" selection-end-line="324" selection-end-column="20" />
         </state>
       </provider>
     </entry>

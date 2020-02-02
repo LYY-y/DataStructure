@@ -15,40 +15,38 @@ public class SeqListTest {
         seqList=new SeqList<Integer>(integers);
     }
 
-
-
     @Test
-    public void isEmpty() {
+    public void testIsEmpty() {
         assertFalse("该顺序表不是空的",seqList.isEmpty());
     }
 
     @Test
-    public void size() {
+    public void testSize() {
         assertEquals("该顺序表的大小为：",5,seqList.size());
     }
 
     @Test
-    public void get() {
+    public void testGet() {
         assertEquals("索引为2的值为：", 60, (Object)seqList.get(2));
     }
 
     @Test
-    public void set() {
+    public void testSet() {
         seqList.set(0,70);
         System.out.print(seqList.toString());
     }
 @Ignore
     @Test
-    public void toString1() {
+    public void testToString1() {
 
     }
 @Ignore
     @Test
-    public void toPreviousString() {
+    public void testToPreviousString() {
     }
 
     @Test
-    public void insert() {
+    public void testInsert() {
         seqList.insert(2,99);
         Integer[] expects={5,80,99,60,90,20};
         for (int i=0; i<expects.length; i++){
@@ -57,7 +55,7 @@ public class SeqListTest {
     }
 
     @Test
-    public void insert1() {
+    public void testInsert1() {
         seqList.insert(99);
         Integer[] expects={5,80,60,90,20,99};
         for (int i=0; i<expects.length; i++){
@@ -66,12 +64,12 @@ public class SeqListTest {
     }
 
     @Test
-    public void remove() {
+    public void testRemove() {
         assertEquals(80,(Object)seqList.remove(1));
     }
 
     @Test
-    public void clear() {
+    public void testClear() {
         seqList.clear();
         Integer[] expects={};
         for (int i=0; i<expects.length; i++){
@@ -79,33 +77,33 @@ public class SeqListTest {
         }    }
 
     @Test
-    public void search() {
+    public void testSearch() {
         assertEquals(2,seqList.search(60));
     }
 
     @Test
-    public void contains() {
+    public void testContains() {
         assertTrue("顺序表中存在60",seqList.contains(60));
     }
 
     @Test
-    public void insertDifferent() {
+    public void testInsertDifferent() {
         assertEquals(-1,seqList.insertDifferent(80));
     }
 
     @Test
-    public void remove1() {
+    public void testRemove1() {
         assertEquals(80,(Object)seqList.remove(1));
     }
 
     @Test
-    public void equals1() {
+    public void testEquals1() {
         Integer[] integersTest={1,2,3,4};
         assertFalse(seqList.equals(integersTest));
     }
 
     @Test
-    public void addAll() {
+    public void testAddAll() {
         Integer[] addArr={10,50};
         SeqList<Integer> seqListAdd=new SeqList<Integer>(addArr);
         Integer[] expects={5,80,60,90,20,10,50};
@@ -114,5 +112,16 @@ public class SeqListTest {
             assertEquals(expects[i],seqList.element[i]);
         }
 
+    }
+
+    @Test
+    public void testUnion(){
+        Integer[] unionArr={10,50};
+        SeqList<Integer> seqListAdd=new SeqList<Integer>(unionArr);
+        Integer[] expects={5,80,60,90,20,10,50};
+        SeqList<Integer> result=seqList.union(seqListAdd);
+        for (int i=0; i<expects.length; i++){
+            assertEquals(expects[i],result.element[i]);
+        }
     }
 }

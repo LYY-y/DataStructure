@@ -45,4 +45,12 @@ public class SortedSeqListTest {
             assertEquals(excepts[i],sortedSeqList.element[i]);
         }
     }
+
+    @Test
+    public void testAddAll(){
+        Integer[] integersAdd={1,2,99};
+        SortedSeqList<Integer> sortedSeqListAdd=new SortedSeqList<Integer>(integersAdd);
+        sortedSeqList.addAll(sortedSeqListAdd);
+        System.out.print(sortedSeqList.toString());
+    }
 }
