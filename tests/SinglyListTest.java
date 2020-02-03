@@ -27,4 +27,14 @@ public class SinglyListTest {
         singlyList.set(0,50);
         assertEquals(50,(Object)singlyList.get(0));
     }
+
+    @Test
+    public void testSize(){
+        assertEquals(5,singlyList.size());
+    }
+
+    @Test
+    public void testToString(){
+        System.out.print(singlyList.toString());
+    }
 }
