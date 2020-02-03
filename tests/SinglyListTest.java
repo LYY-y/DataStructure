@@ -86,7 +86,7 @@ public class SinglyListTest {
         assertEquals(20,(Object)singlyList.remove((Integer) 20));
         System.out.print(singlyList.toString());
         assertEquals(null,singlyList.remove((Integer) 90));
-        //assertEquals(null,singlyList.remove((Integer) 20));
+        assertEquals(null,singlyList.remove((Integer) 20));
         System.out.print(singlyList.toString());
     }
 }

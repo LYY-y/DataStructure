@@ -66,9 +66,10 @@ public class SinglyList<T> extends Object {
     /**返回单链表所有元素的描述字符串，形式为（，）。覆盖Object类的toString方法。O（n）*/
     @Override
     public String toString() {
+        int size=this.size();
         String string=this.getClass().getName()+"（";
-        for (int i=0; i<this.size(); i++){
-            if (i==this.size()-1){
+        for (int i=0; i<size; i++){
+            if (i==size-1){
                 string+=this.get(i).toString();
                 break;
             }
@@ -85,14 +86,22 @@ public class SinglyList<T> extends Object {
         if (x==null){
             throw new NullPointerException("x=null");
         }
-        if (i<0){
-            i=0;
-        }
-        if (i>this.size()-1){
-            i=this.size();
-        }
+//使用size（）时间复杂度为O（n）,则花费时间更多
+//        int size=this.size();
+//        if (i<0){
+//            i=0;
+//        }
+//        if (i>size-1){
+//            i=size;
+//        }
+//        Node<T> front=this.head.next;
+//        for (int k=0; k<i-1; k++){
+//            front=front.next;
+//        }
+//        front.next=new Node<T>(x,front.next);
+//        return front.next;
         Node<T> front=this.head.next;
-        for (int k=0; k<i-1; k++){
+        for (int k=0; k<i && front.next!=null; k++){
             front=front.next;
         }
         front.next=new Node<T>(x,front.next);
@@ -107,14 +116,16 @@ public class SinglyList<T> extends Object {
     /**删除
      * 删除第i个元素，0<=i<n，返回被删除元素；若i越界，则返回null*/
     public T remove(int i){
-        if (i>=0 && i<this.size()){
+        if (i>=0){
             Node<T> front=this.head.next;
-            for (int k=0; k<i-1; k++){
+            for (int k=0; k<i && front.next!=null; k++){
                 front=front.next;
             }
-            T delDate=front.next.data;
-            front.next=front.next.next;
-            return delDate;
+            if (front.next!=null){
+                T delDate=front.next.data;
+                front.next=front.next.next;
+                return delDate;
+            }
         }
         return null;
     }
@@ -129,8 +140,9 @@ public class SinglyList<T> extends Object {
         if (key==null){
             throw new NullPointerException("key=null");
         }
+        int size=this.size();
         Node<T> p=this.head.next;
-        for (int i=0; i<this.size(); i++){
+        for (int i=0; i<size; i++){
             if (key.equals(p.data)){
                 return p;
             }
@@ -151,16 +163,21 @@ public class SinglyList<T> extends Object {
 
     /**删除首个与key相等元素，返回被删除元素；查找不成功返回null*/
     public T remove(T key){
+        if (key==null){
+            throw new NullPointerException("key=null");
+        }
+        int size=this.size();
         Node<T> p=this.head.next;
-        if (this.search(key)!=null){
-            for (int i=0; i<this.size(); i++){
-                if (key.equals(p.data)){
-                    this.remove(i);
-                    return this.get(i);
-                }
-                p=p.next;
+        for (int i=0; i<size; i++){
+            if (key.equals(p.data)){
+                return this.remove(i);
             }
+            p=p.next;
         }
         return null;
     }
+
+
+
+
 }

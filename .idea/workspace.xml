@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca9eb0ac-934a-487f-bf37-73b21374be81" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Node.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SinglyList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SinglyList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/SinglyListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/SinglyListTest.java" afterDir="false" />
     </list>
@@ -33,19 +32,25 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/SinglyList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="111" column="29" selection-start-line="111" selection-start-column="29" selection-end-line="111" selection-end-column="29" />
+            <state relative-caret-position="152">
+              <caret line="119" column="31" lean-forward="true" selection-start-line="119" selection-start-column="31" selection-end-line="119" selection-end-column="31" />
               <folding>
                 <element signature="method#SinglyList#1;class#SinglyList#0" />
+                <element signature="method#get#0;class#SinglyList#0" />
                 <element signature="method#set#0;class#SinglyList#0" />
+                <element signature="method#size#0;class#SinglyList#0" />
                 <element signature="method#toString#0;class#SinglyList#0" />
                 <element signature="e#1789#1828#0" />
                 <element signature="method#insert#0;class#SinglyList#0" />
+                <element signature="e#2081#2109#0" />
                 <element signature="e#2442#2492#0" />
-                <element signature="e#3396#3397#0" expanded="true" />
-                <element signature="e#3447#3448#0" expanded="true" />
-                <element signature="e#3525#3526#0" expanded="true" />
-                <element signature="e#3577#3578#0" expanded="true" />
+                <element signature="e#3147#3148#0" expanded="true" />
+                <element signature="e#3182#3183#0" expanded="true" />
+                <element signature="e#3643#3644#0" expanded="true" />
+                <element signature="e#3703#3704#0" expanded="true" />
+                <element signature="e#3772#3773#0" expanded="true" />
+                <element signature="e#3835#3836#0" expanded="true" />
+                <element signature="method#remove#1;class#SinglyList#0" />
               </folding>
             </state>
           </provider>
@@ -54,17 +59,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/SinglyListTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
-              <caret line="85" selection-start-line="85" selection-end-line="85" />
+            <state relative-caret-position="284">
+              <caret line="91" column="1" lean-forward="true" selection-start-line="91" selection-start-column="1" selection-end-line="91" selection-end-column="1" />
               <folding>
-                <element signature="e#441#442#0" expanded="true" />
-                <element signature="e#499#500#0" expanded="true" />
-                <element signature="e#664#665#0" expanded="true" />
-                <element signature="e#713#714#0" expanded="true" />
-                <element signature="e#756#757#0" expanded="true" />
-                <element signature="e#811#812#0" expanded="true" />
-                <element signature="e#1532#1533#0" expanded="true" />
-                <element signature="e#1599#1600#0" expanded="true" />
+                <element signature="method#setUp#0;class#SinglyListTest#0" />
+                <element signature="method#testSet#0;class#SinglyListTest#0" />
+                <element signature="method#testInsert1#0;class#SinglyListTest#0" />
+                <element signature="method#testInsert2#0;class#SinglyListTest#0" />
+                <element signature="method#testClear#0;class#SinglyListTest#0" />
+                <element signature="method#testInsertDifferent#0;class#SinglyListTest#0" />
+                <element signature="method#testRemove2#0;class#SinglyListTest#0" />
               </folding>
             </state>
           </provider>
@@ -198,42 +202,31 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SinglyListTest.testRemove">
-    <configuration name="SinglyListTest.testGet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.SinglyListTest">
+    <configuration name="SinglyListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MineTest" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="SinglyListTest" />
-      <option name="METHOD_NAME" value="testGet" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SinglyListTest.testInsert1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MineTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SinglyListTest" />
+      <option name="METHOD_NAME" value="testInsert1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SinglyListTest.testInsertDifferent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SinglyListTest.testInsert2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MineTest" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="SinglyListTest" />
-      <option name="METHOD_NAME" value="testInsertDifferent" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SinglyListTest.testIsEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MineTest" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SinglyListTest" />
-      <option name="METHOD_NAME" value="testIsEmpty" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SinglyListTest.testRemove" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MineTest" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SinglyListTest" />
-      <option name="METHOD_NAME" value="testRemove" />
+      <option name="METHOD_NAME" value="testInsert2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -249,13 +242,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SinglyListTest.testToString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MineTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SinglyListTest" />
+      <option name="METHOD_NAME" value="testToString" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SinglyListTest.testRemove" />
+        <item itemvalue="JUnit.SinglyListTest" />
+        <item itemvalue="JUnit.SinglyListTest.testInsert2" />
+        <item itemvalue="JUnit.SinglyListTest.testInsert1" />
+        <item itemvalue="JUnit.SinglyListTest.testToString" />
         <item itemvalue="JUnit.SinglyListTest.testRemove2" />
-        <item itemvalue="JUnit.SinglyListTest.testGet" />
-        <item itemvalue="JUnit.SinglyListTest.testIsEmpty" />
-        <item itemvalue="JUnit.SinglyListTest.testInsertDifferent" />
       </list>
     </recent_temporary>
   </component>
@@ -280,44 +283,44 @@
       <workItem from="1580431528858" duration="15162000" />
       <workItem from="1580527740028" duration="13267000" />
       <workItem from="1580607416200" duration="27225000" />
-      <workItem from="1580697680353" duration="15989000" />
+      <workItem from="1580697680353" duration="18608000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SinglyListTest_testRemove2 - 2020.02.03 at 19h 18m 55s.xml">
+    <history-entry file="SinglyListTest_testRemove2 - 2020.02.03 at 20h 56m 49s.xml">
       <configuration name="SinglyListTest.testRemove2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SinglyListTest_testRemove2 - 2020.02.03 at 19h 19m 19s.xml">
+    <history-entry file="SinglyListTest_testRemove2 - 2020.02.03 at 20h 56m 52s.xml">
       <configuration name="SinglyListTest.testRemove2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SinglyListTest_testRemove2 - 2020.02.03 at 19h 22m 24s.xml">
+    <history-entry file="SinglyListTest_testRemove2 - 2020.02.03 at 20h 57m 03s.xml">
       <configuration name="SinglyListTest.testRemove2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SinglyListTest_testRemove2 - 2020.02.03 at 19h 22m 43s.xml">
+    <history-entry file="SinglyListTest_testRemove2 - 2020.02.03 at 21h 00m 02s.xml">
       <configuration name="SinglyListTest.testRemove2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SinglyListTest_testRemove2 - 2020.02.03 at 19h 23m 10s.xml">
-      <configuration name="SinglyListTest.testRemove2" configurationId="JUnit" />
+    <history-entry file="SinglyListTest_testToString - 2020.02.03 at 21h 05m 33s.xml">
+      <configuration name="SinglyListTest.testToString" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SinglyListTest_testRemove2 - 2020.02.03 at 19h 23m 55s.xml">
-      <configuration name="SinglyListTest.testRemove2" configurationId="JUnit" />
+    <history-entry file="SinglyListTest_testInsert1 - 2020.02.03 at 21h 06m 42s.xml">
+      <configuration name="SinglyListTest.testInsert1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SinglyListTest_testIsEmpty - 2020.02.03 at 19h 30m 20s.xml">
-      <configuration name="SinglyListTest.testIsEmpty" configurationId="JUnit" />
+    <history-entry file="SinglyListTest - 2020.02.03 at 21h 08m 18s.xml">
+      <configuration name="SinglyListTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SinglyListTest_testGet - 2020.02.03 at 19h 30m 22s.xml">
-      <configuration name="SinglyListTest.testGet" configurationId="JUnit" />
+    <history-entry file="SinglyListTest_testInsert1 - 2020.02.03 at 21h 19m 15s.xml">
+      <configuration name="SinglyListTest.testInsert1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SinglyListTest_testRemove2 - 2020.02.03 at 19h 30m 28s.xml">
-      <configuration name="SinglyListTest.testRemove2" configurationId="JUnit" />
+    <history-entry file="SinglyListTest_testInsert2 - 2020.02.03 at 21h 19m 29s.xml">
+      <configuration name="SinglyListTest.testInsert2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SinglyListTest_testRemove2 - 2020.02.03 at 19h 39m 09s.xml">
-      <configuration name="SinglyListTest.testRemove2" configurationId="JUnit" />
+    <history-entry file="SinglyListTest - 2020.02.03 at 21h 28m 16s.xml">
+      <configuration name="SinglyListTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="164707000" />
+    <option name="totallyTimeSpent" value="167326000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -332,8 +335,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49865952" weight="0.3654391" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49932975" visible="true" weight="0.40509915" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49865952" visible="true" weight="0.3654391" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49932975" weight="0.40509915" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -372,60 +375,6 @@
           <line>43</line>
           <properties />
           <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/tests/SinglyListTest.java</url>
-          <line>48</line>
-          <properties />
-          <option name="timeStamp" value="61" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/tests/SinglyListTest.java</url>
-          <line>85</line>
-          <properties />
-          <option name="timeStamp" value="72" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/SinglyList.java</url>
-          <line>134</line>
-          <properties />
-          <option name="timeStamp" value="73" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/SinglyList.java</url>
-          <line>156</line>
-          <properties />
-          <option name="timeStamp" value="75" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/SinglyList.java</url>
-          <line>160</line>
-          <properties />
-          <option name="timeStamp" value="76" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/SinglyList.java</url>
-          <line>158</line>
-          <properties />
-          <option name="timeStamp" value="77" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/SinglyList.java</url>
-          <line>111</line>
-          <properties />
-          <option name="timeStamp" value="78" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/SinglyList.java</url>
-          <line>112</line>
-          <properties />
-          <option name="timeStamp" value="79" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/SinglyList.java</url>
-          <line>116</line>
-          <properties />
-          <option name="timeStamp" value="80" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -675,36 +624,41 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/SinglyListTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="85" selection-start-line="85" selection-end-line="85" />
+        <state relative-caret-position="284">
+          <caret line="91" column="1" lean-forward="true" selection-start-line="91" selection-start-column="1" selection-end-line="91" selection-end-column="1" />
           <folding>
-            <element signature="e#441#442#0" expanded="true" />
-            <element signature="e#499#500#0" expanded="true" />
-            <element signature="e#664#665#0" expanded="true" />
-            <element signature="e#713#714#0" expanded="true" />
-            <element signature="e#756#757#0" expanded="true" />
-            <element signature="e#811#812#0" expanded="true" />
-            <element signature="e#1532#1533#0" expanded="true" />
-            <element signature="e#1599#1600#0" expanded="true" />
+            <element signature="method#setUp#0;class#SinglyListTest#0" />
+            <element signature="method#testSet#0;class#SinglyListTest#0" />
+            <element signature="method#testInsert1#0;class#SinglyListTest#0" />
+            <element signature="method#testInsert2#0;class#SinglyListTest#0" />
+            <element signature="method#testClear#0;class#SinglyListTest#0" />
+            <element signature="method#testInsertDifferent#0;class#SinglyListTest#0" />
+            <element signature="method#testRemove2#0;class#SinglyListTest#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SinglyList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="111" column="29" selection-start-line="111" selection-start-column="29" selection-end-line="111" selection-end-column="29" />
+        <state relative-caret-position="152">
+          <caret line="119" column="31" lean-forward="true" selection-start-line="119" selection-start-column="31" selection-end-line="119" selection-end-column="31" />
           <folding>
             <element signature="method#SinglyList#1;class#SinglyList#0" />
+            <element signature="method#get#0;class#SinglyList#0" />
             <element signature="method#set#0;class#SinglyList#0" />
+            <element signature="method#size#0;class#SinglyList#0" />
             <element signature="method#toString#0;class#SinglyList#0" />
             <element signature="e#1789#1828#0" />
             <element signature="method#insert#0;class#SinglyList#0" />
+            <element signature="e#2081#2109#0" />
             <element signature="e#2442#2492#0" />
-            <element signature="e#3396#3397#0" expanded="true" />
-            <element signature="e#3447#3448#0" expanded="true" />
-            <element signature="e#3525#3526#0" expanded="true" />
-            <element signature="e#3577#3578#0" expanded="true" />
+            <element signature="e#3147#3148#0" expanded="true" />
+            <element signature="e#3182#3183#0" expanded="true" />
+            <element signature="e#3643#3644#0" expanded="true" />
+            <element signature="e#3703#3704#0" expanded="true" />
+            <element signature="e#3772#3773#0" expanded="true" />
+            <element signature="e#3835#3836#0" expanded="true" />
+            <element signature="method#remove#1;class#SinglyList#0" />
           </folding>
         </state>
       </provider>
