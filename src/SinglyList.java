@@ -37,7 +37,7 @@ public class SinglyList<T> extends Object {
     /**设置第i个元素为x，0<=i<表长度，x!=null*/
     public void set(int i, T x){
         if (x==null){
-            throw new NullPointerException();
+            throw new NullPointerException("x=null");
         }
         if (i<0){
             throw new java.lang.IndexOutOfBoundsException();
@@ -52,6 +52,9 @@ public class SinglyList<T> extends Object {
     /**返回单链表长度，O（n）*/
     public int size(){
         Node<T> p=this.head.next;
+        if (p==null){
+            return 0;
+        }
         for (int i=1; ; i++){
             p=p.next;
             if ( p==null){
@@ -79,6 +82,9 @@ public class SinglyList<T> extends Object {
      * 插入作为第i个元素，x!=null，返回插入结点
      * 对序号i采取容错措施，若i<0，则插入x在最前；若i>n，则插入x在最后。O（n）*/
     public Node<T> insert(int i, T x){
+        if (x==null){
+            throw new NullPointerException("x=null");
+        }
         if (i<0){
             i=0;
         }
@@ -86,8 +92,75 @@ public class SinglyList<T> extends Object {
             i=this.size();
         }
         Node<T> front=this.head.next;
-        for (int k=0; k<i; k++){
+        for (int k=0; k<i-1; k++){
             front=front.next;
         }
+        front.next=new Node<T>(x,front.next);
+        return front.next;
+    }
+
+    /**在单链表最后添加x对象，O（n）*/
+    public Node<T> insert(T x){
+        return this.insert(Integer.MAX_VALUE,x);
+    }
+
+    /**删除
+     * 删除第i个元素，0<=i<n，返回被删除元素；若i越界，则返回null*/
+    public T remove(int i){
+        if (i>=0 && i<this.size()){
+            Node<T> front=this.head.next;
+            for (int k=0; k<i-1; k++){
+                front=front.next;
+            }
+            T delDate=front.next.data;
+            front.next=front.next.next;
+            return delDate;
+        }
+        return null;
+    }
+
+    /**删除单链表所有元素*/
+    public void clear(){
+        this.head.next=null;
+    }
+
+    /**查找返回首个与key相等元素结点，查找不成功返回null*/
+    public Node<T> search(T key){
+        if (key==null){
+            throw new NullPointerException("key=null");
+        }
+        Node<T> p=this.head.next;
+        for (int i=0; i<this.size(); i++){
+            if (key.equals(p.data)){
+                return p;
+            }
+            p=p.next;
+        }
+        return null;
+    }
+
+    /**判断是否包含关键字为key元素*/
+    public boolean contains(T key){
+        return this.search(key)==null ? false : true;
+    }
+
+    /**插入不重复元素，查找不成功时尾插入*/
+    public Node<T> insertDifferent(T x){
+        return this.contains(x) ? null : this.insert(x);
+    }
+
+    /**删除首个与key相等元素，返回被删除元素；查找不成功返回null*/
+    public T remove(T key){
+        Node<T> p=this.head.next;
+        if (this.search(key)!=null){
+            for (int i=0; i<this.size(); i++){
+                if (key.equals(p.data)){
+                    this.remove(i);
+                    return this.get(i);
+                }
+                p=p.next;
+            }
+        }
+        return null;
     }
 }
