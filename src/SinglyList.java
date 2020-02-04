@@ -66,17 +66,17 @@ public class SinglyList<T> extends Object {
     /**返回单链表所有元素的描述字符串，形式为（，）。覆盖Object类的toString方法。O（n）*/
     @Override
     public String toString() {
-        int size=this.size();
+        Node<T> p=this.head.next;
         String string=this.getClass().getName()+"（";
-        for (int i=0; i<size; i++){
-            if (i==size-1){
+        for (int i=0; p!=null; i++){
+            if (p.next==null){
                 string+=this.get(i).toString();
                 break;
             }
             string+=this.get(i).toString()+"，";
+            p=p.next;
         }
-        string+="）";
-        return string;
+        return string+="）";
     }
 
     /**插入
@@ -117,17 +117,18 @@ public class SinglyList<T> extends Object {
      * 删除第i个元素，0<=i<n，返回被删除元素；若i越界，则返回null*/
     public T remove(int i){
         if (i>=0){
-            Node<T> front=this.head.next;
+            Node<T> front=this.head;
             for (int k=0; k<i && front.next!=null; k++){
                 front=front.next;
             }
-            if (front.next!=null){
+            if ( front.next!=null){
                 T delDate=front.next.data;
                 front.next=front.next.next;
                 return delDate;
             }
         }
         return null;
+
     }
 
     /**删除单链表所有元素*/
@@ -140,9 +141,8 @@ public class SinglyList<T> extends Object {
         if (key==null){
             throw new NullPointerException("key=null");
         }
-        int size=this.size();
         Node<T> p=this.head.next;
-        for (int i=0; i<size; i++){
+        for (int i=0; p!=null; i++){
             if (key.equals(p.data)){
                 return p;
             }
@@ -166,9 +166,8 @@ public class SinglyList<T> extends Object {
         if (key==null){
             throw new NullPointerException("key=null");
         }
-        int size=this.size();
         Node<T> p=this.head.next;
-        for (int i=0; i<size; i++){
+        for (int i=0; p!=null; i++){
             if (key.equals(p.data)){
                 return this.remove(i);
             }
