@@ -153,12 +153,30 @@ public class SinglyList<T> extends Object {
 
     /**判断是否包含关键字为key元素*/
     public boolean contains(T key){
-        return this.search(key)==null ? false : true;
+        //return this.search(key)==null ? false : true;
+        //以下方法更优
+        return this.search(key)!=null;
     }
 
     /**插入不重复元素，查找不成功时尾插入*/
     public Node<T> insertDifferent(T x){
-        return this.contains(x) ? null : this.insert(x);
+        //return this.contains(x) ? this.search(x) : this.insert(x);
+        //以下为另一种解法
+        //front是p的前驱结点
+        Node<T> front=this.head, p=front.next;
+        //顺序查找
+        while (p!=null && !p.data.equals(x)){
+            front = p;
+            p = p.next;
+        }
+        //查找成功，元素重复，不插入，返回p结点
+        if (p!=null)
+        {
+            System.out.println("x="+x+"，元素重复，未插入。");
+            return p;
+        }
+        //尾插入值为x结点，返回插入结点
+        return front.next = new Node<T>(x,null);
     }
 
     /**删除首个与key相等元素，返回被删除元素；查找不成功返回null*/
@@ -175,8 +193,6 @@ public class SinglyList<T> extends Object {
         }
         return null;
     }
-
-
 
 
 }

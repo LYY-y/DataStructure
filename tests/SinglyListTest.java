@@ -78,7 +78,7 @@ public class SinglyListTest {
     @Test
     public void testInsertDifferent(){
         assertEquals(60,(Object)singlyList.insertDifferent(60).data);
-        assertEquals(null,singlyList.insertDifferent(40));
+        assertEquals(40,(Object)singlyList.insertDifferent(40).data);
     }
 
     @Test
