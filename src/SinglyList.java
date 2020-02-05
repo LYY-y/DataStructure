@@ -194,5 +194,54 @@ public class SinglyList<T> extends Object {
         return null;
     }
 
+    /**单链表的浅拷贝
+     * public SinglyList(SinglyList<T> list){
+     *   this.head=list.head;
+     * }
+     * */
+
+    /**单链表的深拷贝*/
+    public SinglyList(SinglyList<T> list){
+        this();
+        Node<T> p=this.head;
+        Node<T> listNode=list.head.next;
+        while (listNode!=null){
+            p.next=new Node<T>(listNode.data,null);
+            p=p.next;
+            listNode=listNode.next;
+        }
+    }
+
+    /**比较两条单链表是否相等*/
+    @Override
+    public boolean equals(Object obj) {
+        if (this==obj){
+            return true;
+        }
+        if (obj instanceof SinglyList<?>) {
+            SinglyList<T> singlyList = (SinglyList<T>) obj;
+            Node<T> selfNode = this.head.next;
+            Node<T> objNode = ((SinglyList<T>) obj).head.next;
+            while (objNode!=null && selfNode!=null){
+                if (!objNode.data.equals(selfNode.data)){
+                    return false;
+                }
+                selfNode=selfNode.next;
+                objNode=objNode.next;
+            }
+            return (selfNode==null && objNode==null);
+        }
+        return false;
+    }
+
+    /**在this单链表之后合并连接list，设置list为空，集合并*/
+    public void addAll(SinglyList<T> list){
+        Node<T> selfNode=this.head.next;
+        while (selfNode.next!=null){
+            selfNode=selfNode.next;
+        }
+        selfNode.next= list.head.next;
+        list.head.next=null;
+    }
 
 }

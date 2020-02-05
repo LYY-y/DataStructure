@@ -5,7 +5,8 @@ import static org.junit.Assert.*;
 
 public class SinglyList_reverseTest {
     Integer[] integers={10,20,30,40,50};
-    SinglyList_reverse singlyList_reverse=new SinglyList_reverse();
+    SinglyList singlyList1;
+    SinglyList singlyList2=new SinglyList(integers);
     @Before
     public void setUp() throws Exception {
 
@@ -13,6 +14,13 @@ public class SinglyList_reverseTest {
 
     @Test
     public void testCreateReverse() {
-        singlyList_reverse.createReverse(integers);
+        singlyList1=SinglyList_reverse.createReverse(integers);
+        System.out.print("singlyList1:"+singlyList1.toString());
+    }
+
+    @Test
+    public void testReverse(){
+        SinglyList_reverse.reverse(singlyList2);
+        System.out.print(singlyList2.toString());
     }
 }

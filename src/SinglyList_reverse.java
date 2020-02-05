@@ -11,7 +11,24 @@ public class SinglyList_reverse{
     }
 
     public static <T>void reverse(SinglyList<T> list){
-        
+        Node<T> front=list.head;
+        Node<T> p=front.next;
+        Node<T> succ=p.next;
+       for (int i=0; p.next!=null; i++){
+           if (i==0){
+               p.next=null;
+               front=p;
+               p=succ;
+               succ=succ.next;
+           }
+            p.next=front;
+            front=p;
+            p=succ;
+            succ=succ.next;
+        }
+        p.next=front;
+        front=p;
+        list.head.next=front;
     }
 
 
