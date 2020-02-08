@@ -119,5 +119,11 @@ public class CirDoublyListTest {
         assertFalse(cirDoublyList.equals(cirDoublyList2));
     }
 
-
+    @Test
+    public void testAddAll(){
+        Integer[] integers2={40,50,60};
+        CirDoublyList<Integer> cirDoublyList2=new CirDoublyList<Integer>(integers2);
+        cirDoublyList.addAll(cirDoublyList2);
+        System.out.print(cirDoublyList);
+    }
 }

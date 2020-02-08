@@ -187,12 +187,17 @@ public class CirDoublyList<T> {
 
     /**合并连接*/
     public void addAll(CirDoublyList<T> list){
-        DoubleNode<T> self=this.head.next;
-        while (self!=null){
-            self=self.next;
-        }
-        self.next=list.head;
-        list.head.prev=self;
+        DoubleNode<T> selfFirstNode=this.head.prev;
+        DoubleNode<T> selfLastNode=this.head.prev;
+        DoubleNode<T> listFirstNode=list.head.next;
+        DoubleNode<T> listLastNode=list.head.prev;
+
+        selfLastNode.next=listFirstNode;
+        listFirstNode.prev=selfLastNode;
+        listLastNode.next=this.head;
+        selfFirstNode.prev=listLastNode;
+        listFirstNode=this.head;
+        listLastNode=this.head;
 
     }
 
