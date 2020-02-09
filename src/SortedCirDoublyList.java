@@ -98,18 +98,38 @@ public class SortedCirDoublyList<T extends Comparable<? super T>> extends CirDou
     /**插入排序*/
     @Override
     public void addAll(CirDoublyList<T> list) {
+        DoubleNode<T> selfNode;
         DoubleNode<T> listNode=list.head.next;
-        DoubleNode<T> selfNode=this.head.next;
+        DoubleNode<T> listNodeNext;
         while (listNode!=list.head){
-            if (selfNode.data.compareTo(listNode.data)>=0){
-                listNode.prev=selfNode.prev;
-                listNode.next=selfNode;
-                selfNode.prev.next=listNode;
-                selfNode.prev=listNode;
+            selfNode=this.head.next;
+            listNodeNext=listNode.next;
+            System.out.println(listNodeNext.data);
+            while (selfNode!=this.head && selfNode.data.compareTo(listNode.data)<0){
+                selfNode=selfNode.next;
             }
-            listNode=listNode.next;
-            listNode=listNode.next;
+            listNode.prev=selfNode.prev;
+            listNode.next=selfNode;
+            selfNode.prev.next=listNode;
+            selfNode.prev=listNode;
+            listNode=listNodeNext;
+            System.out.println(this.toString());
         }
+        list.head.prev.next=this.head;
+
+        System.out.println("this："+this.toString());
+
+        this.head.prev=list.head.prev;
+
+        System.out.println("this："+this.toString());
+
         list.head.next= list.head;
+
+        System.out.println("this："+this.toString());
+
+        list.head.prev=list.head;
+
+        System.out.println("list："+list.toString());
+        System.out.println("this："+this.toString());
     }
 }

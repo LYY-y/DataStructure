@@ -60,7 +60,7 @@ public class SortedCirDoublyListTest {
 
     @Test
     public void testAddAll() {
-        Integer[] integers2={80,60,10,70};
+        Integer[] integers2={10,20,5};
         CirDoublyList<Integer> cirDoublyList2=new CirDoublyList<Integer>(integers2);
         sortedCirDoublyList.addAll(cirDoublyList2);
         System.out.print(sortedCirDoublyList.toString());
