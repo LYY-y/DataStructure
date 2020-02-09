@@ -12,14 +12,21 @@ public class SortedCirDoublyList<T extends Comparable<? super T>> extends CirDou
     }
 
     public SortedCirDoublyList(CirDoublyList<T> list) {
-        super(list);
+        super();
+        DoubleNode<T> listNode=list.head.next;
+        while (listNode!=list.head){
+            this.insert(listNode.data);
+            listNode=listNode.next;
+        }
     }
 
     public SortedCirDoublyList(SortedCirDoublyList<T> list) {
         super();
+        DoubleNode<T> selfNode=this.head;
         DoubleNode<T> listNode=list.head.next;
-        while (listNode!=this.head){
-            this.insert(listNode.data);
+        while (listNode!=list.head){
+            selfNode.next=new DoubleNode<T>(listNode.data,selfNode,this.head);
+            selfNode=selfNode.next;
             listNode=listNode.next;
         }
     }
@@ -91,9 +98,18 @@ public class SortedCirDoublyList<T extends Comparable<? super T>> extends CirDou
     /**插入排序*/
     @Override
     public void addAll(CirDoublyList<T> list) {
-
-        super.addAll(list);
+        DoubleNode<T> listNode=list.head.next;
+        DoubleNode<T> selfNode=this.head.next;
+        while (listNode!=list.head){
+            if (selfNode.data.compareTo(listNode.data)>=0){
+                listNode.prev=selfNode.prev;
+                listNode.next=selfNode;
+                selfNode.prev.next=listNode;
+                selfNode.prev=listNode;
+            }
+            listNode=listNode.next;
+            listNode=listNode.next;
+        }
+        list.head.next= list.head;
     }
-
-
 }

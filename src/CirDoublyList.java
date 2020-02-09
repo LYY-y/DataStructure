@@ -187,27 +187,17 @@ public class CirDoublyList<T> {
 
     /**合并连接*/
     public void addAll(CirDoublyList<T> list){
-//        DoubleNode<T> selfFirstNode=this.head.prev;
-//        DoubleNode<T> selfLastNode=this.head.prev;
-//        DoubleNode<T> listFirstNode=list.head.next;
-//        DoubleNode<T> listLastNode=list.head.prev;
-//
-//        selfLastNode.next=listFirstNode;
-//        listFirstNode.prev=selfLastNode;
-//        listLastNode.next=this.head;
-//        selfFirstNode.prev=listLastNode;
-//        listFirstNode=this.head;
-//        listLastNode=this.head;
+        DoubleNode<T> selfFirstNode=this.head.prev;
+        DoubleNode<T> selfLastNode=this.head.prev;
+        DoubleNode<T> listFirstNode=list.head.next;
+        DoubleNode<T> listLastNode=list.head.prev;
 
-        DoubleNode<T> rear=head.prev;
-        rear.next = list.head.next;
-        list.head.next.prev = rear;
-        rear=list.head.prev;
-        rear.next = this.head;
-        this.head.prev = rear;
-        list.head.prev = list.head;
-        list.head.next = list.head;
-
+        selfLastNode.next=listFirstNode;
+        listFirstNode.prev=selfLastNode;
+        listLastNode.next=this.head;
+        selfFirstNode.prev=listLastNode;
+        listFirstNode=this.head;
+        listLastNode=this.head;
     }
 
     /**返回所有元素的描述字符串，元素次序从后往前*/

@@ -12,6 +12,22 @@ public class SortedCirDoublyListTest {
         sortedCirDoublyList=new SortedCirDoublyList<>(integers);
     }
 
+    @Test
+    public void testCirDoublyListStructure1(){
+        Integer[] integers2={80,60,50,70};
+        CirDoublyList<Integer> cirDoublyList=new CirDoublyList<Integer>(integers2);
+        sortedCirDoublyList=new SortedCirDoublyList<Integer>(cirDoublyList);
+        System.out.print(sortedCirDoublyList.toString());
+    }
+
+    @Test
+    public void testCirDoublyListStructure2(){
+        Integer[] integers2={80,60,50,70};
+        SortedCirDoublyList<Integer> sortedCirDoublyList2=new SortedCirDoublyList<Integer>(integers2);
+        sortedCirDoublyList=new SortedCirDoublyList<Integer>(sortedCirDoublyList2);
+        System.out.print(sortedCirDoublyList.toString());
+    }
+
     @Test(expected = java.lang.UnsupportedOperationException.class)
     public void testSet() {
         sortedCirDoublyList.set(1,50);
@@ -44,6 +60,9 @@ public class SortedCirDoublyListTest {
 
     @Test
     public void testAddAll() {
-
+        Integer[] integers2={80,60,10,70};
+        CirDoublyList<Integer> cirDoublyList2=new CirDoublyList<Integer>(integers2);
+        sortedCirDoublyList.addAll(cirDoublyList2);
+        System.out.print(sortedCirDoublyList.toString());
     }
 }
