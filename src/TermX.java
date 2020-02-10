@@ -40,7 +40,11 @@ public class TermX implements Comparable<TermX>,Addible<TermX> {
                 this.coef=Integer.parseInt(termstr.substring(0,termstr.length()-1));
             }
         }else {
-            this.coef=Integer.parseInt(termstr.substring(0,termstr.indexOf("x")));
+            if (isNegative){
+                this.coef=1;
+            }else {
+                this.coef=Integer.parseInt(termstr.substring(0,termstr.indexOf("x")));
+            }
             this.xexp=Integer.parseInt(termstr.substring(termstr.indexOf("^")+1));
         }
         if (isNegative){
@@ -69,6 +73,12 @@ public class TermX implements Comparable<TermX>,Addible<TermX> {
             }
             return string=string+this.coef+"x";
         }else {
+            if (isCoefEqualsOne){
+                if (isNegative){
+                    return string+="-x^"+this.xexp;
+                }
+                return string+="x^"+this.xexp;
+            }
             return string=string+this.coef+"x^"+this.xexp;
         }
     }
