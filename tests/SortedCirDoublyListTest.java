@@ -58,11 +58,19 @@ public class SortedCirDoublyListTest {
         assertEquals(null,sortedCirDoublyList.insertDifferent(10));
     }
 
-    @Test
+   @Test
     public void testAddAll() {
-        Integer[] integers2={10,20,5};
+        Integer[] integers2={50,20,5};
+        Integer[] integers3={10,20,30};
+        Integer[] integers4={15,80,30};
         CirDoublyList<Integer> cirDoublyList2=new CirDoublyList<Integer>(integers2);
+        CirDoublyList<Integer> cirDoublyList3=new CirDoublyList<Integer>(integers3);
+        CirDoublyList<Integer> cirDoublyList4=new CirDoublyList<Integer>(integers4);
         sortedCirDoublyList.addAll(cirDoublyList2);
-        System.out.print(sortedCirDoublyList.toString());
+        System.out.println(sortedCirDoublyList.toString());
+        sortedCirDoublyList.addAll(cirDoublyList3);
+        System.out.println(sortedCirDoublyList.toString());
+        sortedCirDoublyList.addAll(cirDoublyList4);
+        System.out.println(sortedCirDoublyList.toString());
     }
 }

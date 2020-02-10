@@ -104,32 +104,24 @@ public class SortedCirDoublyList<T extends Comparable<? super T>> extends CirDou
         while (listNode!=list.head){
             selfNode=this.head.next;
             listNodeNext=listNode.next;
-            System.out.println(listNodeNext.data);
             while (selfNode!=this.head && selfNode.data.compareTo(listNode.data)<0){
                 selfNode=selfNode.next;
+            }
+            if (selfNode==this.head){
+                listNode.prev=selfNode.prev;
+                listNode.next=this.head;
+                selfNode.prev.next=listNode;
+                this.head.prev=listNode;
+                listNode=listNodeNext;
+                continue;
             }
             listNode.prev=selfNode.prev;
             listNode.next=selfNode;
             selfNode.prev.next=listNode;
             selfNode.prev=listNode;
             listNode=listNodeNext;
-            System.out.println(this.toString());
         }
-        list.head.prev.next=this.head;
-
-        System.out.println("this："+this.toString());
-
-        this.head.prev=list.head.prev;
-
-        System.out.println("this："+this.toString());
-
-        list.head.next= list.head;
-
-        System.out.println("this："+this.toString());
-
+        list.head.next=list.head;
         list.head.prev=list.head;
-
-        System.out.println("list："+list.toString());
-        System.out.println("this："+this.toString());
     }
 }
