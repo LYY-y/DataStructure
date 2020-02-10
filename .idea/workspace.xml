@@ -4,13 +4,7 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca9eb0ac-934a-487f-bf37-73b21374be81" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MineTest/SortedCirDoublyList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MineTest/SortedCirDoublyList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/MineTest/SortedCirDoublyListTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/MineTest/SortedCirDoublyListTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SortedCirDoublyList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SortedCirDoublyList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/SortedCirDoublyListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/SortedCirDoublyListTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="ca9eb0ac-934a-487f-bf37-73b21374be81" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,82 +32,34 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../课内例题源码/02.3.3  3. 循环双链表/src/CirDoublyList.java">
+        <entry file="file://$PROJECT_DIR$/src/Addible.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4883">
-              <caret line="259" column="36" selection-start-line="259" selection-start-column="36" selection-end-line="259" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CirDoublyList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1330">
-              <caret line="202" column="23" selection-start-line="202" selection-start-column="23" selection-end-line="202" selection-end-column="23" />
-              <folding>
-                <element signature="method#CirDoublyList#0;class#CirDoublyList#0" />
-                <element signature="method#CirDoublyList#1;class#CirDoublyList#0" />
-                <element signature="method#CirDoublyList#2;class#CirDoublyList#0" />
-                <element signature="method#size#0;class#CirDoublyList#0" />
-                <element signature="method#get#0;class#CirDoublyList#0" />
-                <element signature="method#set#0;class#CirDoublyList#0" />
-                <element signature="method#insert#0;class#CirDoublyList#0" />
-                <element signature="method#insert#1;class#CirDoublyList#0" />
-                <element signature="method#remove#0;class#CirDoublyList#0" />
-                <element signature="method#search#0;class#CirDoublyList#0" />
-                <element signature="method#insertDifferent#0;class#CirDoublyList#0" />
-                <element signature="docComment;method#remove#1;class#CirDoublyList#0" />
-                <element signature="method#remove#1;class#CirDoublyList#0" />
-                <element signature="method#addAll#0;class#CirDoublyList#0" />
-                <element signature="method#toPreviousString#0;class#CirDoublyList#0" />
-                <element signature="method#removeLast#0;class#CirDoublyList#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SortedCirDoublyList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="107" column="39" lean-forward="true" selection-start-line="107" selection-start-column="39" selection-end-line="107" selection-end-column="39" />
-              <folding>
-                <element signature="method#SortedCirDoublyList#1;class#SortedCirDoublyList#0" />
-                <element signature="method#SortedCirDoublyList#2;class#SortedCirDoublyList#0" />
-                <element signature="method#SortedCirDoublyList#3;class#SortedCirDoublyList#0" />
-                <element signature="method#insert#1;class#SortedCirDoublyList#0" />
-                <element signature="method#search#0;class#SortedCirDoublyList#0" />
-                <element signature="method#insertDifferent#0;class#SortedCirDoublyList#0" />
-              </folding>
+            <state>
+              <caret column="8" selection-start-column="8" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tests/SortedCirDoublyListTest.java">
+        <entry file="file://$PROJECT_DIR$/src/TermX.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="73" column="61" selection-start-line="72" selection-start-column="10" selection-end-line="73" selection-end-column="61" />
+            <state relative-caret-position="313">
+              <caret line="69" column="20" lean-forward="true" selection-start-line="69" selection-start-column="20" selection-end-line="69" selection-end-column="20" />
               <folding>
-                <element signature="method#testInsert2#0;class#SortedCirDoublyListTest#0" />
-                <element signature="method#testSearch#0;class#SortedCirDoublyListTest#0" />
-                <element signature="method#testInsertDifferent#0;class#SortedCirDoublyListTest#0" />
-                <element signature="e#2232#2241#0" expanded="true" />
-                <element signature="e#2316#2325#0" expanded="true" />
+                <element signature="e#1530#1531#0" expanded="true" />
+                <element signature="e#1558#1559#0" expanded="true" />
+                <element signature="e#2468#2469#0" expanded="true" />
+                <element signature="e#2675#2676#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DoubleNode.java">
+        <entry file="file://$PROJECT_DIR$/tests/TermXTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
-              <folding>
-                <element signature="e#577#578#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="305">
+              <caret line="27" column="24" lean-forward="true" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -123,6 +69,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
         <option value="JUnit4 Test Class" />
       </list>
@@ -181,6 +128,9 @@
         <option value="$PROJECT_DIR$/src/CirDoublyList.java" />
         <option value="$PROJECT_DIR$/src/SortedCirDoublyList.java" />
         <option value="$PROJECT_DIR$/tests/SortedCirDoublyListTest.java" />
+        <option value="$PROJECT_DIR$/src/Addible.java" />
+        <option value="$PROJECT_DIR$/tests/TermXTest.java" />
+        <option value="$PROJECT_DIR$/src/TermX.java" />
       </list>
     </option>
   </component>
@@ -262,16 +212,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SortedCirDoublyListTest">
-    <configuration name="CirDoublyListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MineTest" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CirDoublyListTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.TermXTest.toString1">
     <configuration name="SortedCirDoublyListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MineTest" />
       <option name="PACKAGE_NAME" value="" />
@@ -291,16 +232,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortedCirDoublyListTest.testCirDoublyListStructure1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MineTest" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SortedCirDoublyListTest" />
-      <option name="METHOD_NAME" value="testCirDoublyListStructure1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SortedCirDoublyListTest.testCirDoublyListStructure2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MineTest" />
       <option name="PACKAGE_NAME" value="" />
@@ -311,13 +242,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TermXTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MineTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TermXTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TermXTest.toString1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MineTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TermXTest" />
+      <option name="METHOD_NAME" value="toString1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TermXTest.toString1" />
+        <item itemvalue="JUnit.TermXTest" />
         <item itemvalue="JUnit.SortedCirDoublyListTest" />
         <item itemvalue="JUnit.SortedCirDoublyListTest.testAddAll" />
         <item itemvalue="JUnit.SortedCirDoublyListTest.testCirDoublyListStructure2" />
-        <item itemvalue="JUnit.SortedCirDoublyListTest.testCirDoublyListStructure1" />
-        <item itemvalue="JUnit.CirDoublyListTest" />
       </list>
     </recent_temporary>
   </component>
@@ -351,44 +301,44 @@
       <workItem from="1581045243273" duration="18370000" />
       <workItem from="1581160133903" duration="9007000" />
       <workItem from="1581209578005" duration="19751000" />
-      <workItem from="1581300655732" duration="5503000" />
+      <workItem from="1581300655732" duration="15030000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SortedCirDoublyListTest_testAddAll - 2020.02.10 at 11h 21m 49s.xml">
-      <configuration name="SortedCirDoublyListTest.testAddAll" configurationId="JUnit" />
+    <history-entry file="TermXTest - 2020.02.10 at 21h 29m 56s.xml">
+      <configuration name="TermXTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SortedCirDoublyListTest_testAddAll - 2020.02.10 at 11h 22m 12s.xml">
-      <configuration name="SortedCirDoublyListTest.testAddAll" configurationId="JUnit" />
+    <history-entry file="TermXTest - 2020.02.10 at 21h 53m 02s.xml">
+      <configuration name="TermXTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SortedCirDoublyListTest_testAddAll - 2020.02.10 at 11h 42m 54s.xml">
-      <configuration name="SortedCirDoublyListTest.testAddAll" configurationId="JUnit" />
+    <history-entry file="TermXTest - 2020.02.10 at 21h 53m 57s.xml">
+      <configuration name="TermXTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SortedCirDoublyListTest_testAddAll - 2020.02.10 at 11h 45m 13s.xml">
-      <configuration name="SortedCirDoublyListTest.testAddAll" configurationId="JUnit" />
+    <history-entry file="TermXTest - 2020.02.10 at 21h 55m 42s.xml">
+      <configuration name="TermXTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SortedCirDoublyListTest_testAddAll - 2020.02.10 at 11h 45m 41s.xml">
-      <configuration name="SortedCirDoublyListTest.testAddAll" configurationId="JUnit" />
+    <history-entry file="TermXTest - 2020.02.10 at 21h 55m 49s.xml">
+      <configuration name="TermXTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SortedCirDoublyListTest_testAddAll - 2020.02.10 at 11h 46m 00s.xml">
-      <configuration name="SortedCirDoublyListTest.testAddAll" configurationId="JUnit" />
+    <history-entry file="TermXTest_toString1 - 2020.02.10 at 22h 09m 47s.xml">
+      <configuration name="TermXTest.toString1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SortedCirDoublyListTest_testAddAll - 2020.02.10 at 11h 46m 48s.xml">
-      <configuration name="SortedCirDoublyListTest.testAddAll" configurationId="JUnit" />
+    <history-entry file="TermXTest_toString1 - 2020.02.10 at 22h 10m 10s.xml">
+      <configuration name="TermXTest.toString1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SortedCirDoublyListTest_testAddAll - 2020.02.10 at 11h 46m 54s.xml">
-      <configuration name="SortedCirDoublyListTest.testAddAll" configurationId="JUnit" />
+    <history-entry file="TermXTest_toString1 - 2020.02.10 at 22h 10m 45s.xml">
+      <configuration name="TermXTest.toString1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SortedCirDoublyListTest_testAddAll - 2020.02.10 at 11h 48m 10s.xml">
-      <configuration name="SortedCirDoublyListTest.testAddAll" configurationId="JUnit" />
+    <history-entry file="TermXTest_toString1 - 2020.02.10 at 22h 11m 34s.xml">
+      <configuration name="TermXTest.toString1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SortedCirDoublyListTest_testAddAll - 2020.02.10 at 11h 48m 26s.xml">
-      <configuration name="SortedCirDoublyListTest.testAddAll" configurationId="JUnit" />
+    <history-entry file="TermXTest_toString1 - 2020.02.10 at 22h 12m 08s.xml">
+      <configuration name="TermXTest.toString1" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="276890000" />
+    <option name="totallyTimeSpent" value="286417000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -404,7 +354,7 @@
       <window_info anchor="bottom" id="Statistic" order="0" weight="0.43909347" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.3286119" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.49865952" visible="true" weight="0.27620396" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.49865952" visible="true" weight="0.3512748" />
       <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.49932975" weight="0.44334278" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -464,31 +414,6 @@
     <SUITE FILE_PATH="coverage/DataStructureTest$SortedSeqListTest_TestInsert.ic" NAME="SortedSeqListTest.TestInsert Coverage Results" MODIFIED="1580439535976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Complex.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1330">
-          <caret line="92" column="19" selection-start-line="92" selection-start-column="19" selection-end-line="92" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#isMatchNum#0;class#Complex#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test1_3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test1_2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="45" column="47" lean-forward="true" selection-start-line="45" selection-start-column="47" selection-end-line="45" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/Object.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="149">
@@ -915,23 +840,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../课内例题源码/02.3.3  3. 循环双链表/src/CirDoublyList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4883">
-          <caret line="259" column="36" selection-start-line="259" selection-start-column="36" selection-end-line="259" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DoubleNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="e#577#578#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/CirDoublyList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1330">
@@ -957,9 +865,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tests/SortedCirDoublyListTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+          <folding>
+            <element signature="method#testInsert2#0;class#SortedCirDoublyListTest#0" />
+            <element signature="method#testSearch#0;class#SortedCirDoublyListTest#0" />
+            <element signature="method#testInsertDifferent#0;class#SortedCirDoublyListTest#0" />
+            <element signature="e#2232#2241#0" expanded="true" />
+            <element signature="e#2316#2325#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/SortedCirDoublyList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
+        <state relative-caret-position="741">
           <caret line="107" column="39" lean-forward="true" selection-start-line="107" selection-start-column="39" selection-end-line="107" selection-end-column="39" />
           <folding>
             <element signature="method#SortedCirDoublyList#1;class#SortedCirDoublyList#0" />
@@ -972,16 +894,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/SortedCirDoublyListTest.java">
+    <entry file="file://$PROJECT_DIR$/../课内例题源码/02.3.3  3. 循环双链表/src/CirDoublyList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="73" column="61" selection-start-line="72" selection-start-column="10" selection-end-line="73" selection-end-column="61" />
+        <state relative-caret-position="4750">
+          <caret line="252" column="38" lean-forward="true" selection-start-line="252" selection-start-column="38" selection-end-line="252" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DoubleNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
           <folding>
-            <element signature="method#testInsert2#0;class#SortedCirDoublyListTest#0" />
-            <element signature="method#testSearch#0;class#SortedCirDoublyListTest#0" />
-            <element signature="method#testInsertDifferent#0;class#SortedCirDoublyListTest#0" />
-            <element signature="e#2232#2241#0" expanded="true" />
-            <element signature="e#2316#2325#0" expanded="true" />
+            <element signature="e#577#578#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Addible.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" selection-start-column="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/TermXTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="27" column="24" lean-forward="true" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TermX.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="69" column="20" lean-forward="true" selection-start-line="69" selection-start-column="20" selection-end-line="69" selection-end-column="20" />
+          <folding>
+            <element signature="e#1530#1531#0" expanded="true" />
+            <element signature="e#1558#1559#0" expanded="true" />
+            <element signature="e#2468#2469#0" expanded="true" />
+            <element signature="e#2675#2676#0" expanded="true" />
           </folding>
         </state>
       </provider>
