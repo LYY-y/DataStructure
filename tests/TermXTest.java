@@ -9,16 +9,14 @@ public class TermXTest {
     TermX termX;
     @Before
     public void setUp() throws Exception {
-
         termX=new TermX("15x^3");
-
     }
 
 
     @Test
-    public void toString1() {
-        TermX termX1=new TermX("x");
-        TermX termX2=new TermX("5x");
+    public void testToString() {
+        TermX termX1=new TermX("-8");
+        TermX termX2=new TermX("5");
         TermX termX3=new TermX("-x");
         TermX termX4=new TermX("-x^5");
         System.out.println(termX.toString());
@@ -30,21 +28,21 @@ public class TermXTest {
 
     @Ignore
     @Test
-    public void equals1() {
+    public void testEquals() {
     }
 
     @Ignore
     @Test
-    public void compareTo() {
+    public void testCompareTo() {
     }
 
     @Ignore
     @Test
-    public void add() {
+    public void testAdd() {
     }
 
     @Ignore
     @Test
-    public void removeable() {
+    public void testRemoveable() {
     }
 }
