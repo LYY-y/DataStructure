@@ -225,4 +225,36 @@ public class SeqList<T> extends Object {
         result.addAll(list);
         return result;
     }
+
+    /**以下为实验内容2-1，P59*/
+    /**基于查找（默认从前向后次序，Last表示从后向前次序）的删除和替换操作*/
+    /**删除所有关键字为key元素，要求元素一次移动到位*/
+    public void removeAll(T key){
+
+    }
+
+    /**将首次出现的关键字为key的元素替换为x*/
+    public void replaceFirst(T key, T x){
+
+    }
+
+    /**将所有关键字为key元素替换为x*/
+    public void replaceAll(T key, T x){
+
+    }
+
+    /**顺序查找最后出现的关键字为key元素*/
+    public int searchLast(T key){
+        return 0;
+    }
+
+    /**删除最后出现的关键字为key元素*/
+    public void removeLast(T key){
+
+    }
+
+    /**将最后出现的关键字为key元素替换为x*/
+    public void replaceLast(T key, T x){
+
+    }
 }
