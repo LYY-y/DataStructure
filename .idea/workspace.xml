@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="ca9eb0ac-934a-487f-bf37-73b21374be81" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MineTest/TermX.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MineTest/TermX.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TermX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TermX.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TermXY.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TermXY.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/TermXTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/TermXTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -35,20 +37,36 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TermXY.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+            <state relative-caret-position="227">
+              <caret line="107" column="28" lean-forward="true" selection-start-line="107" selection-start-column="28" selection-end-line="107" selection-end-column="28" />
               <folding>
-                <element signature="e#233#234#0" expanded="true" />
-                <element signature="e#263#264#0" expanded="true" />
-                <element signature="e#393#394#0" expanded="true" />
-                <element signature="e#417#418#0" expanded="true" />
-                <element signature="e#527#528#0" expanded="true" />
-                <element signature="e#572#573#0" expanded="true" />
-                <element signature="e#641#642#0" expanded="true" />
-                <element signature="e#681#682#0" expanded="true" />
+                <element signature="method#TermXY#0;class#TermXY#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/TermXYTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="15" column="40" lean-forward="true" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/TermXTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="531">
+              <caret line="55" column="29" lean-forward="true" selection-start-line="55" selection-start-column="29" selection-end-line="55" selection-end-column="29" />
+              <folding>
+                <element signature="method#testToString#0;class#TermXTest#0" />
+                <element signature="e#1398#1399#0" expanded="true" />
+                <element signature="e#1426#1427#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -57,14 +75,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TermX.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="88" column="31" selection-start-line="88" selection-start-column="31" selection-end-line="88" selection-end-column="31" />
+            <state relative-caret-position="112">
+              <caret line="119" column="34" lean-forward="true" selection-start-line="119" selection-start-column="34" selection-end-line="119" selection-end-column="34" />
               <folding>
-                <element signature="method#TermX#0;class#TermX#0" />
+                <element signature="imports" expanded="true" />
                 <element signature="method#TermX#1;class#TermX#0" />
-                <element signature="method#toString#0;class#TermX#0" />
-                <element signature="method#compareTo#0;class#TermX#0" />
-                <element signature="method#add#0;class#TermX#0" />
+                <element signature="e#3703#3704#0" expanded="true" />
+                <element signature="e#3738#3739#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -76,8 +93,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -137,12 +154,13 @@
         <option value="$PROJECT_DIR$/src/Addible.java" />
         <option value="$PROJECT_DIR$/tests/PolySinglyListTest.java" />
         <option value="$PROJECT_DIR$/src/polynomial.java" />
-        <option value="$PROJECT_DIR$/src/TermX.java" />
         <option value="$PROJECT_DIR$/src/PolySinglyList.java" />
         <option value="$PROJECT_DIR$/src/Polynomial.java" />
-        <option value="$PROJECT_DIR$/tests/TermXTest.java" />
         <option value="$PROJECT_DIR$/tests/PolynomialTest.java" />
+        <option value="$PROJECT_DIR$/src/TermX.java" />
         <option value="$PROJECT_DIR$/src/TermXY.java" />
+        <option value="$PROJECT_DIR$/tests/TermXTest.java" />
+        <option value="$PROJECT_DIR$/tests/TermXYTest.java" />
       </list>
     </option>
   </component>
@@ -157,6 +175,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -178,7 +197,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -224,63 +242,63 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PolynomialTest.testEquals">
-    <configuration name="PolynomialTest.addAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TermXYTest">
+    <configuration name="TermXTest.testAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MineTest" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PolynomialTest" />
-      <option name="METHOD_NAME" value="addAll" />
+      <option name="MAIN_CLASS_NAME" value="TermXTest" />
+      <option name="METHOD_NAME" value="testAdd" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PolynomialTest.testEquals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TermXTest.testRemoveable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MineTest" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PolynomialTest" />
+      <option name="MAIN_CLASS_NAME" value="TermXTest" />
+      <option name="METHOD_NAME" value="testRemoveable" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TermXYTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MineTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TermXYTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TermXYTest.compareTo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MineTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TermXYTest" />
+      <option name="METHOD_NAME" value="compareTo" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TermXYTest.testEquals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MineTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TermXYTest" />
       <option name="METHOD_NAME" value="testEquals" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PolynomialTest.testToString1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MineTest" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PolynomialTest" />
-      <option name="METHOD_NAME" value="testToString1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PolynomialTest.union" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MineTest" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PolynomialTest" />
-      <option name="METHOD_NAME" value="union" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TermXTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MineTest" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TermXTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PolynomialTest.testEquals" />
-        <item itemvalue="JUnit.PolynomialTest.testToString1" />
-        <item itemvalue="JUnit.PolynomialTest.union" />
-        <item itemvalue="JUnit.PolynomialTest.addAll" />
-        <item itemvalue="JUnit.TermXTest" />
+        <item itemvalue="JUnit.TermXYTest" />
+        <item itemvalue="JUnit.TermXYTest.testEquals" />
+        <item itemvalue="JUnit.TermXYTest.compareTo" />
+        <item itemvalue="JUnit.TermXTest.testRemoveable" />
+        <item itemvalue="JUnit.TermXTest.testAdd" />
       </list>
     </recent_temporary>
   </component>
@@ -315,50 +333,51 @@
       <workItem from="1581160133903" duration="9007000" />
       <workItem from="1581209578005" duration="19751000" />
       <workItem from="1581300655732" duration="15803000" />
-      <workItem from="1581381968875" duration="20246000" />
+      <workItem from="1581381968875" duration="25675000" />
+      <workItem from="1581472321820" duration="8861000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PolynomialTest_union - 2020.02.11 at 14h 47m 23s.xml">
-      <configuration name="PolynomialTest.union" configurationId="JUnit" />
+    <history-entry file="TermXYTest_toString1 - 2020.02.12 at 12h 51m 55s.xml">
+      <configuration name="TermXYTest.toString1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PolynomialTest_union - 2020.02.11 at 14h 47m 26s.xml">
-      <configuration name="PolynomialTest.union" configurationId="JUnit" />
+    <history-entry file="TermXYTest_toString1 - 2020.02.12 at 12h 51m 58s.xml">
+      <configuration name="TermXYTest.toString1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PolynomialTest_union - 2020.02.11 at 14h 47m 51s.xml">
-      <configuration name="PolynomialTest.union" configurationId="JUnit" />
+    <history-entry file="TermXTest_testEquals - 2020.02.12 at 13h 00m 59s.xml">
+      <configuration name="TermXTest.testEquals" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PolynomialTest_union - 2020.02.11 at 14h 48m 56s.xml">
-      <configuration name="PolynomialTest.union" configurationId="JUnit" />
+    <history-entry file="TermXTest_testCompareTo - 2020.02.12 at 13h 02m 04s.xml">
+      <configuration name="TermXTest.testCompareTo" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PolynomialTest_union - 2020.02.11 at 14h 49m 18s.xml">
-      <configuration name="PolynomialTest.union" configurationId="JUnit" />
+    <history-entry file="TermXTest_testAdd - 2020.02.12 at 13h 03m 50s.xml">
+      <configuration name="TermXTest.testAdd" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PolynomialTest_union - 2020.02.11 at 14h 49m 26s.xml">
-      <configuration name="PolynomialTest.union" configurationId="JUnit" />
+    <history-entry file="TermXTest_testAdd - 2020.02.12 at 13h 04m 28s.xml">
+      <configuration name="TermXTest.testAdd" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PolynomialTest_testEquals - 2020.02.11 at 15h 00m 28s.xml">
-      <configuration name="PolynomialTest.testEquals" configurationId="JUnit" />
+    <history-entry file="TermXTest_testRemoveable - 2020.02.12 at 13h 06m 00s.xml">
+      <configuration name="TermXTest.testRemoveable" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PolynomialTest_testToString1 - 2020.02.11 at 15h 05m 35s.xml">
-      <configuration name="PolynomialTest.testToString1" configurationId="JUnit" />
+    <history-entry file="TermXYTest_compareTo - 2020.02.12 at 13h 07m 30s.xml">
+      <configuration name="TermXYTest.compareTo" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PolynomialTest_testEquals - 2020.02.11 at 15h 10m 14s.xml">
-      <configuration name="PolynomialTest.testEquals" configurationId="JUnit" />
+    <history-entry file="TermXYTest_testEquals - 2020.02.12 at 13h 08m 23s.xml">
+      <configuration name="TermXYTest.testEquals" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PolynomialTest_testEquals - 2020.02.11 at 15h 10m 24s.xml">
-      <configuration name="PolynomialTest.testEquals" configurationId="JUnit" />
+    <history-entry file="TermXYTest - 2020.02.12 at 13h 08m 34s.xml">
+      <configuration name="TermXYTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="307436000" />
+    <option name="totallyTimeSpent" value="321726000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49761903" visible="true" weight="0.15147454" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49761903" weight="0.15348525" />
       <window_info id="Structure" order="1" sideWeight="0.50238097" side_tool="true" weight="0.13337801" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -368,8 +387,8 @@
       <window_info anchor="bottom" id="Statistic" order="0" weight="0.43909347" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49865952" visible="true" weight="0.35835695" />
-      <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.49932975" weight="0.47450426" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.49865952" visible="true" weight="0.28470254" />
+      <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.49932975" weight="0.3696884" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" />
@@ -390,6 +409,39 @@
       <window_info anchor="right" id="Database" order="8" weight="0.3297587" />
       <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.3297587" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49761903" visible="true" weight="0.15348525" />
+      <window_info id="Structure" order="1" sideWeight="0.50238097" side_tool="true" weight="0.13337801" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Statistic" order="0" weight="0.43909347" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49865952" visible="true" weight="0.5056657" />
+      <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.49932975" weight="0.398017" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5013405" side_tool="true" weight="0.3045326" />
+      <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.49932975" weight="0.3286119" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" weight="0.3297587" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.3297587" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -416,12 +468,6 @@
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/TermX.java</url>
-          <line>43</line>
-          <properties />
-          <option name="timeStamp" value="52" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Polynomial.java</url>
           <line>74</line>
           <properties />
@@ -432,6 +478,24 @@
           <line>86</line>
           <properties />
           <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/tests/PolynomialTest.java</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/tests/PolynomialTest.java</url>
+          <line>10</line>
+          <properties />
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Polynomial.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="74" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -446,13 +510,6 @@
     <SUITE FILE_PATH="coverage/DataStructureTest$SortedSeqListTest_TestInsert.ic" NAME="SortedSeqListTest.TestInsert Coverage Results" MODIFIED="1580439535976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Josephus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="56" selection-start-line="3" selection-start-column="56" selection-end-line="3" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/StringBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -738,32 +795,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/CirDoublyListTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="method#testInsert#0;class#CirDoublyListTest#0" />
-            <element signature="method#testInsert1#0;class#CirDoublyListTest#0" />
-            <element signature="method#testToPreviousString#0;class#CirDoublyListTest#0" />
-            <element signature="method#testRemoveLast#0;class#CirDoublyListTest#0" />
-            <element signature="method#testSet#0;class#CirDoublyListTest#0" />
-            <element signature="method#testRemove#0;class#CirDoublyListTest#0" />
-            <element signature="method#testClear#0;class#CirDoublyListTest#0" />
-            <element signature="method#testSearch#0;class#CirDoublyListTest#0" />
-            <element signature="method#testInsertDifferent#0;class#CirDoublyListTest#0" />
-            <element signature="method#testRemove2#0;class#CirDoublyListTest#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../课内例题源码/02.3.3  4. 排序循环双链表/src/SortedCirDoublyList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -863,58 +894,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/TermXTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/PolySinglyList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-34">
-          <caret line="3" column="18" lean-forward="true" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-          <folding>
-            <element signature="e#223#224#0" expanded="true" />
-            <element signature="e#246#247#0" expanded="true" />
-            <element signature="e#281#282#0" expanded="true" />
-            <element signature="e#304#305#0" expanded="true" />
-            <element signature="e#416#417#0" expanded="true" />
-            <element signature="e#439#440#0" expanded="true" />
-            <element signature="method#addAll#0;class#PolySinglyList#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Polynomial.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="86" selection-start-line="86" selection-end-line="86" />
-          <folding>
-            <element signature="method#toString#0;class#Polynomial#0" />
-            <element signature="e#2038#2039#0" expanded="true" />
-            <element signature="e#2057#2058#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/PolynomialTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="38" column="29" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/PolySinglyListTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/SortedSinglyList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -955,34 +934,112 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TermX.java">
+    <entry file="file://$PROJECT_DIR$/tests/CirDoublyListTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="88" column="31" selection-start-line="88" selection-start-column="31" selection-end-line="88" selection-end-column="31" />
+        <state relative-caret-position="171">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="14" selection-end-column="5" />
           <folding>
-            <element signature="method#TermX#0;class#TermX#0" />
-            <element signature="method#TermX#1;class#TermX#0" />
-            <element signature="method#toString#0;class#TermX#0" />
-            <element signature="method#compareTo#0;class#TermX#0" />
-            <element signature="method#add#0;class#TermX#0" />
+            <element signature="method#testInsert#0;class#CirDoublyListTest#0" />
+            <element signature="method#testInsert1#0;class#CirDoublyListTest#0" />
+            <element signature="method#testToPreviousString#0;class#CirDoublyListTest#0" />
+            <element signature="method#testRemoveLast#0;class#CirDoublyListTest#0" />
+            <element signature="method#testSet#0;class#CirDoublyListTest#0" />
+            <element signature="method#testRemove#0;class#CirDoublyListTest#0" />
+            <element signature="method#testClear#0;class#CirDoublyListTest#0" />
+            <element signature="method#testSearch#0;class#CirDoublyListTest#0" />
+            <element signature="method#testInsertDifferent#0;class#CirDoublyListTest#0" />
+            <element signature="method#testRemove2#0;class#CirDoublyListTest#0" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tests/PolySinglyListTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Polynomial.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="method#toString#0;class#Polynomial#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/PolynomialTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="35" column="9" lean-forward="true" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PolySinglyList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="18" lean-forward="true" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+          <folding>
+            <element signature="e#223#224#0" expanded="true" />
+            <element signature="e#246#247#0" expanded="true" />
+            <element signature="e#416#417#0" expanded="true" />
+            <element signature="e#443#444#0" expanded="true" />
+            <element signature="method#addAll#0;class#PolySinglyList#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/TermXY.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        <state relative-caret-position="227">
+          <caret line="107" column="28" lean-forward="true" selection-start-line="107" selection-start-column="28" selection-end-line="107" selection-end-column="28" />
           <folding>
-            <element signature="e#233#234#0" expanded="true" />
-            <element signature="e#263#264#0" expanded="true" />
-            <element signature="e#393#394#0" expanded="true" />
-            <element signature="e#417#418#0" expanded="true" />
-            <element signature="e#527#528#0" expanded="true" />
-            <element signature="e#572#573#0" expanded="true" />
-            <element signature="e#641#642#0" expanded="true" />
-            <element signature="e#681#682#0" expanded="true" />
+            <element signature="method#TermXY#0;class#TermXY#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TermX.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="119" column="34" lean-forward="true" selection-start-line="119" selection-start-column="34" selection-end-line="119" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#TermX#1;class#TermX#0" />
+            <element signature="e#3703#3704#0" expanded="true" />
+            <element signature="e#3738#3739#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/TermXTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="531">
+          <caret line="55" column="29" lean-forward="true" selection-start-line="55" selection-start-column="29" selection-end-line="55" selection-end-column="29" />
+          <folding>
+            <element signature="method#testToString#0;class#TermXTest#0" />
+            <element signature="e#1398#1399#0" expanded="true" />
+            <element signature="e#1426#1427#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/TermXYTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="15" column="40" lean-forward="true" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
         </state>
       </provider>
     </entry>

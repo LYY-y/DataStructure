@@ -1,3 +1,6 @@
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 /**一元多项式的项类*/
 public class TermX implements Comparable<TermX>,Addible<TermX> {
     /**系数，x指数（可为正、0），系数也可为double*/
@@ -21,33 +24,43 @@ public class TermX implements Comparable<TermX>,Addible<TermX> {
      * 省略形式说明：当系数为1或-1且指数>0时，省略1，-1只写符号“-”，如x^2，-x^3
      * 当指数为0时，省略x^0，只写系数；当系数为1时，省略^1，只写x*/
     public TermX(String termstr){
+        termstr=termstr.replaceAll(" ","");
         boolean isNegative=termstr.startsWith("-");
         if(isNegative || termstr.startsWith("+")){
             termstr=termstr.substring(1);
         }
-        boolean isXexpEquapsOne=(termstr.indexOf("^")==-1 && termstr.indexOf("x")!=-1);
-        boolean isOnlyCoef=(termstr.indexOf("x")==-1);
-        boolean isCoefEqualsOne=(termstr.indexOf("x")==0);
-        termstr=termstr.replaceAll(" ","");
+
+        int xIndex=termstr.indexOf("x");
+        int expIndex=termstr.indexOf("^");
+
+        Pattern pattern = Pattern.compile("[0-9]*");
+        Matcher isNum = pattern.matcher(termstr);
+        boolean isOnlyCoef=(isNum.matches());
+
+        boolean isOnlyExistX= (xIndex!=-1 && termstr.indexOf("y")==-1);
+        boolean isXexpEqualsOne=(isOnlyExistX && expIndex!=(xIndex+1));
+        boolean isCoefEqualsOne=(isOnlyExistX && xIndex==0);
 
         if (isOnlyCoef){
             this.coef=Integer.parseInt(termstr);
             this.xexp=0;
         }else {
-            if (isXexpEquapsOne){
-                this.xexp=1;
+            if (isOnlyExistX){
                 if (isCoefEqualsOne){
                     this.coef=1;
+                    if (isXexpEqualsOne){
+                        this.xexp=1;
+                    }else {
+                        this.xexp=Integer.parseInt(termstr.substring(expIndex+1));
+                    }
                 }else {
-                    this.coef=Integer.parseInt(termstr.substring(0,termstr.length()-1));
+                    this.coef=Integer.parseInt(termstr.substring(0,xIndex));
+                    if (isXexpEqualsOne){
+                        this.xexp=1;
+                    }else {
+                        this.xexp=Integer.parseInt(termstr.substring(expIndex+1));
+                    }
                 }
-            }else {
-                if (isCoefEqualsOne){
-                    this.coef=1;
-                }else {
-                    this.coef=Integer.parseInt(termstr.substring(0,termstr.indexOf("x")));
-                }
-                this.xexp=Integer.parseInt(termstr.substring(termstr.indexOf("^")+1));
             }
         }
         if (isNegative){
@@ -58,26 +71,25 @@ public class TermX implements Comparable<TermX>,Addible<TermX> {
     /**返回一项对应的“系数x^指数”的省略形式字符串，省略形式说明同TermX(String)*/
     @Override
     public String toString(){
+        boolean isExistX=(this.xexp!=0);
+        boolean isExistCoef=(this.coef!=0);
         boolean isNegative=(this.coef<0);
         boolean isXexpEquapsOne=(this.xexp==1);
-        boolean isOnlyCoef=(this.xexp==0);
         boolean isCoefEqualsOne=(this.coef==1 || this.coef==-1);
-
-        String string = isNegative ? "-" : "+";
-        if (isOnlyCoef){
-            return string+=Math.abs(this.coef);
+        String string="";
+        if (isExistCoef){
+            string += isNegative ? "-" : "+";
+            if (!isCoefEqualsOne){
+                string+=Math.abs(this.coef);
+            }
         }
-        if (isCoefEqualsOne && isXexpEquapsOne){
-            return string+="x";
+        if (isExistX){
+            string+="x";
+            if (!isXexpEquapsOne){
+               string+="^"+this.xexp;
+            }
         }
-        if (isCoefEqualsOne){
-            return string+="x^"+this.xexp;
-        }
-        if (isXexpEquapsOne){
-            return string+=Math.abs(this.coef)+"x";
-        }
-        return string+=Math.abs(this.coef)+"x^"+this.xexp;
-
+        return string;
     }
 
     /**按系数和指数比较两项是否相等*/

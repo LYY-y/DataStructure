@@ -26,23 +26,33 @@ public class TermXTest {
         System.out.println(termX4.toString());
     }
 
-    @Ignore
+
     @Test
     public void testEquals() {
+        TermX termX2=new TermX("15x^3");
+        TermX termX3=new TermX("x");
+        assertTrue(termX.equals(termX2));
+        assertFalse(termX.equals(termX3));
     }
 
-    @Ignore
     @Test
     public void testCompareTo() {
+        TermX termX2=new TermX("15x^3");
+        TermX termX3=new TermX("x");
+        assertEquals(0,termX.compareTo(termX2));
+        assertEquals(1,termX.compareTo(termX3));
     }
 
-    @Ignore
-    @Test
+    @Test(expected = IllegalArgumentException.class)
     public void testAdd() {
+        TermX termX2=new TermX("10x^2");
+        termX.add(termX2);
+        System.out.print(termX);
     }
 
     @Ignore
     @Test
     public void testRemoveable() {
+        assertTrue(new TermX("0x^5").removeable());
     }
 }
