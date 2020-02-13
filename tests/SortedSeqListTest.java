@@ -53,4 +53,10 @@ public class SortedSeqListTest {
         sortedSeqList.addAll(sortedSeqListAdd);
         System.out.print(sortedSeqList.toString());
     }
+
+    @Test
+    public void testCreatePrime(){
+        sortedSeqList.createPrime(10);
+        System.out.println(sortedSeqList.toString());
+    }
 }

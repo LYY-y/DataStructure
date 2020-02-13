@@ -1,5 +1,3 @@
-import java.util.List;
-
 //顺序表
 public class SeqList<T> extends Object {
     /** 对象数组存储顺序表的数据元素，保护成员 */
@@ -226,35 +224,71 @@ public class SeqList<T> extends Object {
         return result;
     }
 
-    /**以下为实验内容2-1，P59*/
+    /**以下为实验2-1，P59*/
     /**基于查找（默认从前向后次序，Last表示从后向前次序）的删除和替换操作*/
     /**删除所有关键字为key元素，要求元素一次移动到位*/
     public void removeAll(T key){
-
+        int removeNum=1;
+        int moveIndex=this.search(key);
+        int selfIndex=moveIndex+1;
+        while (selfIndex<this.n){
+            if (key.equals(this.element[selfIndex])) {
+                removeNum++;
+                selfIndex++;
+                continue;
+            }
+            this.element[moveIndex]=this.element[selfIndex];
+            moveIndex++;
+            selfIndex++;
+        }
+        this.n-=removeNum;
     }
 
     /**将首次出现的关键字为key的元素替换为x*/
     public void replaceFirst(T key, T x){
-
+        if (key!=null && x!=null){
+            int firstIndex=this.search(key);
+            if (firstIndex!=-1){
+                this.element[firstIndex]=x;
+            }
+        }
     }
 
     /**将所有关键字为key元素替换为x*/
     public void replaceAll(T key, T x){
-
+        if (key!=null && x!=null) {
+            int selfIndex = 0;
+            while (selfIndex < this.n) {
+                if (key.equals(this.element[selfIndex])) {
+                    this.element[selfIndex] = x;
+                }
+                selfIndex++;
+            }
+        }
     }
 
     /**顺序查找最后出现的关键字为key元素*/
     public int searchLast(T key){
-        return 0;
+        if (key==null){
+            throw new NullPointerException("x==null");
+        }
+        int selfIndex=this.n-1;
+        while (selfIndex>0 && !key.equals(this.element[selfIndex])){
+            selfIndex--;
+        }
+        return selfIndex;
     }
 
     /**删除最后出现的关键字为key元素*/
     public void removeLast(T key){
-
+        this.remove(this.searchLast(key));
     }
 
     /**将最后出现的关键字为key元素替换为x*/
     public void replaceLast(T key, T x){
-
+        if (key!=null && x!=null) {
+            int lastIndex = this.searchLast(key);
+            this.element[lastIndex] = x;
+        }
     }
 }

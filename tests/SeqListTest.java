@@ -1,9 +1,7 @@
 import org.junit.Before;
 import org.junit.Ignore;
 import org.junit.Test;
-import org.omg.PortableInterceptor.INACTIVE;
 
-import java.util.List;
 
 import static org.junit.Assert.*;
 
@@ -11,7 +9,7 @@ public class SeqListTest {
     SeqList<Integer> seqList;
     @Before
     public void setUp() throws Exception {
-        Integer[] integers={5,80,60,90,20};
+        Integer[] integers={20,5,80,20,60,80,20,20};
         seqList=new SeqList<Integer>(integers);
     }
 
@@ -123,5 +121,45 @@ public class SeqListTest {
         for (int i=0; i<expects.length; i++){
             assertEquals(expects[i],result.element[i]);
         }
+    }
+
+    @Test
+    public void testRemoveAll(){
+        seqList.removeAll(20);
+        System.out.println(seqList.toString());
+
+        Integer[] integers2={20,20,20,20,20};
+        SeqList seqList2=new SeqList<Integer>(integers2);
+        seqList2.removeAll(20);
+        System.out.println(seqList2.toString());
+    }
+
+    @Test
+    public void testReplaceFirst(){
+        seqList.replaceFirst(20,10);
+        System.out.println(seqList.toString());
+    }
+
+    @Test
+    public void testReplaceAll(){
+        seqList.replaceAll(20,2);
+        System.out.println(seqList.toString());
+    }
+
+    @Test
+    public void testSearchLast(){
+        assertEquals(5,seqList.searchLast(80));
+    }
+
+    @Test
+    public void testRemoveLast(){
+        seqList.removeLast(80);
+        System.out.println(seqList.toString());
+    }
+
+    @Test
+    public void testReplaceLast(){
+        seqList.replaceLast(80,88);
+        System.out.println(seqList.toString());
     }
 }

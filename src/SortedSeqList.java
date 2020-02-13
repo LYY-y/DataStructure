@@ -89,4 +89,27 @@ public class SortedSeqList<T extends Comparable<? super T>> extends SeqList<T> {
     public void addAll(SeqList<? extends T> list) {
         super.addAll(list);
     }
+
+    /**P59 实验题2_2
+     * 返回包含max以内所有素数的排序顺序表*/
+    public SortedSeqList<Integer> createPrime(int max) {
+        SortedSeqList<Integer> sortedSeqList;
+        boolean[] arr = new boolean[max];
+        Integer[] primeArr = new Integer[max];
+        int countPrime = 0;
+        arr[1] = true;
+        for (int i = 2; i <= max; i++) {
+            if (!arr[i]) {
+                primeArr[++countPrime] = i;
+            }
+            for (int j = 1; j <= countPrime && i * primeArr[j] <= max; ++j) {
+                arr[i * primeArr[j]] = true;
+                if (i % primeArr[j] == 0) {
+                    break;
+                }
+            }
+        }
+        sortedSeqList=new SortedSeqList<Integer>(primeArr);
+        return sortedSeqList;
+    }
 }
