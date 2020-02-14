@@ -56,7 +56,6 @@ public class SortedSeqListTest {
 
     @Test
     public void testCreatePrime(){
-        sortedSeqList.createPrime(10);
-        System.out.println(sortedSeqList.toString());
+        System.out.println("100以内的素数："+sortedSeqList.createPrime(100).toString());
     }
 }

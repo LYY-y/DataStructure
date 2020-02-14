@@ -20,7 +20,7 @@ public class Josephus {
         System.out.print("被释放的为："+list.get(0));
     }
     public static void main(String[] args){
-        Josephus jtest=new Josephus(5,0,2);
+        Josephus jtest=new Josephus(7,2,3);
 
     }
 }
