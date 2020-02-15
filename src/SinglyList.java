@@ -457,11 +457,105 @@ public class SinglyList<T> extends Object {
 
     /**删除this中所有与pattern匹配的子表，包含模式匹配*/
     public void removeAll(SinglyList<T> list){
-        
+
     }
 
     /**将this中所有与pattern匹配的子表替换为list，包含模式匹配*/
     public void raplaceAll(SinglyList<T> list){
 
+    }
+
+    /**返回数值单链表list元素的平均值*/
+    public static double average(SinglyList<Integer> list){
+        double sum=0;
+        int count=0;
+        Node<Integer> listNode=list.head.next;
+        while (listNode!=null){
+            sum+=listNode.data;
+            count++;
+            listNode=listNode.next;
+        }
+        return sum/count;
+    }
+
+    /**去掉最高分和最低分，再求平均值*/
+    public static double averageExceptMaxMin(SinglyList<Integer> list){
+        int min=Integer.MAX_VALUE;
+        int max=Integer.MIN_VALUE;
+        Node<Integer> listNode=list.head.next;
+        while (listNode!=null){
+            if (listNode.data<min){
+                min=listNode.data;
+            }else {
+                max=listNode.data;
+            }
+            listNode=listNode.next;
+        }
+        list.removeAll(min);
+        list.removeAll(max);
+        return average(list);
+    }
+
+    /**返回单链表list最大值，T类必须能够比较对象大小*/
+    public static <T extends Comparable<? super T>>T max(SinglyList<T> list){
+        Node<T> listNode=list.head.next;
+        T max=listNode.data;
+        while (listNode.next!=null){
+            listNode=listNode.next;
+            if (listNode.data.compareTo(max)>0){
+                max=listNode.data;
+            }
+        }
+        return max;
+    }
+
+    /**判断单链表list是否排序，若asc取值为true，升序，否则为降序*/
+    public static <T extends Comparable<? super T>>boolean isSorted(SinglyList<T> list, boolean asc){
+        if (list.size()==0){
+            return false;
+        }else {
+            Node<T> listNode = list.head.next;
+            while (listNode.next!= null) {
+                if (asc) {
+                    if (listNode.data.compareTo(listNode.next.data) > 0) {
+                        return false;
+                    }
+                } else {
+                    if (listNode.data.compareTo(listNode.next.data) < 0) {
+                        return false;
+                    }
+                }
+                listNode = listNode.next;
+            }
+        }
+        return true;
+    }
+
+    /**分类统计线性表list元素信息，分段信息存于grade数组，返回保存统计结果的单链表，例2.4*/
+    public static SinglyList<Integer> groupCount(SinglyList<Student> list,int grade[]){
+        Integer[] gradeArr=new Integer[grade.length];
+        for (int i=0; i<gradeArr.length; i++){
+            gradeArr[i]=0;
+        }
+        SinglyList<Integer> result=new SinglyList<Integer>(gradeArr);
+        for (int i=0; i<list.size(); i++){
+            Student student=list.get(i);
+            Node<Integer> p=result.head;
+            for (int j=0; j<grade.length-1; j++){
+                p=p.next;
+                if (student.score>=grade[j] && student.score<grade[j+1]){
+                    p.data++;
+                    break;
+                }
+                if (student.score==grade[j+1]){
+                    while (p!=null){
+                        p=p.next;
+                    }
+                    p.data++;
+                    break;
+                }
+            }
+        }
+        return result;
     }
 }

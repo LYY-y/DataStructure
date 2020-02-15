@@ -1,4 +1,5 @@
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
@@ -228,5 +229,60 @@ public class SinglyListTest {
         Integer[] integers2={20,30};
         SinglyList<Integer> singlyList2=new SinglyList<Integer>(integers2);
         assertEquals(20,(Object)singlyList.search(singlyList2).data);
+    }
+
+    @Test
+    public void testAverage(){
+        Integer[] integers2={11,5,5};
+        SinglyList<Integer> singlyList2=new SinglyList<Integer>(integers2);
+        assertEquals( 7,new SinglyList<>().average(singlyList2),0.01);
+    }
+
+    @Test
+    public void testAverageExceptMaxMin(){
+        Integer[] integers2={1,5,5,5,5,9};
+        SinglyList<Integer> singlyList2=new SinglyList<Integer>(integers2);
+        assertEquals( 5,new SinglyList<>().averageExceptMaxMin(singlyList2),0.01);
+    }
+
+    @Test
+    public void testMax(){
+        Integer[] integers2={11,5,5,9};
+        SinglyList<Integer> singlyList2=new SinglyList<Integer>(integers2);
+        assertEquals( 11,(Object)new SinglyList<>().max(singlyList2));
+    }
+
+    @Test
+    public void testIsSorted(){
+        Integer[] integers2={1,2,5};
+        SinglyList<Integer> singlyList2=new SinglyList<Integer>(integers2);
+        assertTrue(new SinglyList<>().isSorted(singlyList2,true));
+        Integer[] integers3={3,2,5};
+        SinglyList<Integer> singlyList3=new SinglyList<Integer>(integers3);
+        assertFalse(new SinglyList<>().isSorted(singlyList3,true));
+        Integer[] integers4={100,20,5};
+        SinglyList<Integer> singlyList4=new SinglyList<Integer>(integers4);
+        assertTrue(new SinglyList<>().isSorted(singlyList4,false));
+    }
+
+    @Test
+    public void testGradeCount(){
+        SinglyList<Student> list;
+        int[] grade;
+        SinglyList result;
+
+        Student[] students={new Student("王红",85),new Student("张明",75),
+                new Student("李强",90), new Student("崔小兵",80),
+                new Student("陈新诺",60),new Student("林二",55),
+                new Student("刘毅",100)};
+
+        list=new SinglyList<Student>(students);
+        list.insert(new Student("刘二",88));
+        grade=new int[]{0,60,70,80,90,100};
+
+        result=new SinglyList<Student>().gradeCount(list,grade);
+        int[] excepts={1,1,1,3,1,1};
+
+
     }
 }
