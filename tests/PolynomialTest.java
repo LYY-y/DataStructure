@@ -1,3 +1,5 @@
+import Chapter2.Polynomial;
+import Chapter2.TermX;
 import org.junit.Before;
 import org.junit.Test;
 

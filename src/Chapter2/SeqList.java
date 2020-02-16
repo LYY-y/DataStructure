@@ -1,3 +1,5 @@
+package Chapter2;
+
 //顺序表
 public class SeqList<T> extends Object {
     /** 对象数组存储顺序表的数据元素，保护成员 */

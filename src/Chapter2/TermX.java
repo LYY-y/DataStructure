@@ -1,8 +1,10 @@
+package Chapter2;
+
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 /**一元多项式的项类*/
-public class TermX implements Comparable<TermX>,Addible<TermX> {
+public class TermX implements Comparable<TermX>,Addible<TermX>,Multipliable<TermX> {
     /**系数，x指数（可为正、0），系数也可为double*/
     protected int coef,xexp;
 
@@ -129,5 +131,19 @@ public class TermX implements Comparable<TermX>,Addible<TermX> {
         return this.coef==0;
     }
 
+    @Override
+    public TermX plus(TermX termX) {
+        TermX copyTermX=new TermX(this);
+        copyTermX.add(termX);
+        return copyTermX;
+    }
 
+    /**两项相乘，若系数相乘，指数相加*/
+    @Override
+    public TermX mul(TermX x) {
+        TermX copyTermX=new TermX(this);
+        copyTermX.coef=copyTermX.coef*x.coef;
+        copyTermX.xexp=copyTermX.xexp+x.xexp;
+        return copyTermX;
+    }
 }

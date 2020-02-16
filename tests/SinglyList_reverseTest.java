@@ -1,7 +1,7 @@
+import Chapter2.SinglyList;
+import Chapter2.SinglyList_reverse;
 import org.junit.Before;
 import org.junit.Test;
-
-import static org.junit.Assert.*;
 
 public class SinglyList_reverseTest {
     Integer[] integers={10,20,30,40,50};
@@ -14,7 +14,7 @@ public class SinglyList_reverseTest {
 
     @Test
     public void testCreateReverse() {
-        singlyList1=SinglyList_reverse.createReverse(integers);
+        singlyList1= SinglyList_reverse.createReverse(integers);
         System.out.print("singlyList1:"+singlyList1.toString());
     }
 

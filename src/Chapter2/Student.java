@@ -1,3 +1,5 @@
+package Chapter2;
+
 /**例2.4  P34*/
 public class Student extends Object implements Comparable<Student>{
     String name;

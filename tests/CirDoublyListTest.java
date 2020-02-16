@@ -1,7 +1,7 @@
+import Chapter2.CirDoublyList;
 import org.junit.Before;
 import org.junit.Ignore;
 import org.junit.Test;
-import org.omg.PortableInterceptor.INACTIVE;
 
 import static org.junit.Assert.*;
 

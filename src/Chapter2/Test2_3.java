@@ -1,3 +1,5 @@
+package Chapter2;
+
 /**使用排序顺序表存储所有Java关键字，判断一个字符串是否为Java关键字*/
 public class Test2_3 {
     String[] keyWordsArr={"abstract", "boolean", "break", "byte", "case", "catch", "char",

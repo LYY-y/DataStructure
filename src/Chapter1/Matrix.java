@@ -1,3 +1,5 @@
+package Chapter1;
+
 public class Matrix {
     private int row;
     private int column;

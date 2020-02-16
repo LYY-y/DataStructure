@@ -1,3 +1,5 @@
+package Chapter2;
+
 /**排序顺序表类（升序）*/
 public class SortedSeqList<T extends Comparable<? super T>> extends SeqList<T> {
     public SortedSeqList() {

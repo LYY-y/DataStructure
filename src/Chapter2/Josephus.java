@@ -1,3 +1,5 @@
+package Chapter2;
+
 /**Josephus环问题（P24）*/
 public class Josephus {
     public Josephus(int number, int start, int distance) {

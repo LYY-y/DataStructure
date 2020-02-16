@@ -1,3 +1,5 @@
+package Chapter2;
+
 /**二元多项式的一项*/
 public class TermXY extends TermX{
     /**y指数*/

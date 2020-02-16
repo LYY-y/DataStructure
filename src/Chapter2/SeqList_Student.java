@@ -1,3 +1,5 @@
+package Chapter2;
+
 public class SeqList_Student {
     /**分类统计线性表list的元素信息，分段信息存于grade数组，返回保存统计结果的数组*/
     public static int[] gradeCount(SeqList<Student> list,int grade[]){
@@ -17,6 +19,7 @@ public class SeqList_Student {
         }
         return result;
     }
+
 
     /**输出线性表list元素及分类统计结果*/
     public static void printCount(SeqList<Student> list, int grade[], int result[]){

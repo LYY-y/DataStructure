@@ -1,3 +1,5 @@
+package Chapter2;
+
 public class Node<T> {
     /**数据域，存储数据元素*/
     public T data;

@@ -1,5 +1,8 @@
+import Chapter2.SeqList;
+import Chapter2.SeqList_Student;
+import Chapter2.SortedSeqList;
+import Chapter2.Student;
 import org.junit.Before;
-import org.junit.BeforeClass;
 import org.junit.Test;
 
 import static org.junit.Assert.*;

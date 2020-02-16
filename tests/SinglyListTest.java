@@ -1,5 +1,6 @@
+import Chapter2.SinglyList;
+import Chapter2.Student;
 import org.junit.Before;
-import org.junit.Ignore;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
@@ -269,7 +270,7 @@ public class SinglyListTest {
     public void testGradeCount(){
         SinglyList<Student> list;
         int[] grade;
-        SinglyList result;
+        SinglyList<Integer> result;
 
         Student[] students={new Student("王红",85),new Student("张明",75),
                 new Student("李强",90), new Student("崔小兵",80),
@@ -279,10 +280,7 @@ public class SinglyListTest {
         list=new SinglyList<Student>(students);
         list.insert(new Student("刘二",88));
         grade=new int[]{0,60,70,80,90,100};
-
-        result=new SinglyList<Student>().gradeCount(list,grade);
-        int[] excepts={1,1,1,3,1,1};
-
-
+        result=SinglyList.groupCount(list,grade);
+        System.out.println(result.toString());
     }
 }

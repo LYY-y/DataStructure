@@ -1,3 +1,5 @@
+package Chapter2;
+
 /**双链表结点类，T指定结点的元素类型*/
 public class DoubleNode<T> {
     /**数据域，存储数据元素*/

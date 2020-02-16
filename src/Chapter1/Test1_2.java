@@ -1,3 +1,5 @@
+package Chapter1;
+
 import java.util.HashMap;
 
 //生成以下产生随机数的方法

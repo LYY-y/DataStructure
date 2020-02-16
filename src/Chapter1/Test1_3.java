@@ -1,3 +1,5 @@
+package Chapter1;
+
 //依次用一维数组和二维数组构造杨辉三角
 public class Test1_3 {
     public int[] PascalTriangle(int row){

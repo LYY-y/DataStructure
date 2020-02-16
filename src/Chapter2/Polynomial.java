@@ -1,3 +1,5 @@
+package Chapter2;
+
 /**多项式类*/
 public class Polynomial {
     /**多项式排序单链表*/

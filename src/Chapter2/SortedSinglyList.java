@@ -1,3 +1,5 @@
+package Chapter2;
+
 public class SortedSinglyList<T extends Comparable<? super T>> extends SinglyList<T> {
     /**构造空排序单链表*/
     public SortedSinglyList() {

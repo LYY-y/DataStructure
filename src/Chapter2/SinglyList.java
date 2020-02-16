@@ -1,3 +1,5 @@
+package Chapter2;
+
 /**单链表类*/
 public class SinglyList<T> extends Object {
     /**头指针，指向单链表的头结点*/
@@ -73,7 +75,11 @@ public class SinglyList<T> extends Object {
                 string+=this.get(i).toString();
                 break;
             }
-            string+=this.get(i).toString()+"，";
+            if ((this.get(i).toString()).equals("+") || (this.get(i).toString()).equals("-")){
+                string+=this.get(i).toString()+1+"，";
+            }else {
+                string+=this.get(i).toString()+"，";
+            }
             p=p.next;
         }
         return string+="）";
@@ -533,7 +539,7 @@ public class SinglyList<T> extends Object {
 
     /**分类统计线性表list元素信息，分段信息存于grade数组，返回保存统计结果的单链表，例2.4*/
     public static SinglyList<Integer> groupCount(SinglyList<Student> list,int grade[]){
-        Integer[] gradeArr=new Integer[grade.length];
+        Integer[] gradeArr=new Integer[grade.length-1];
         for (int i=0; i<gradeArr.length; i++){
             gradeArr[i]=0;
         }
@@ -547,8 +553,8 @@ public class SinglyList<T> extends Object {
                     p.data++;
                     break;
                 }
-                if (student.score==grade[j+1]){
-                    while (p!=null){
+                if (student.score==grade[grade.length-1]){
+                    while (p.next!=null){
                         p=p.next;
                     }
                     p.data++;

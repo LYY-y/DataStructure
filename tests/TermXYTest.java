@@ -1,3 +1,4 @@
+import Chapter2.TermXY;
 import org.junit.Before;
 import org.junit.Test;
 

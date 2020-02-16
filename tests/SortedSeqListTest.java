@@ -1,6 +1,6 @@
+import Chapter2.SortedSeqList;
 import org.junit.Before;
 import org.junit.Test;
-import org.omg.Messaging.SYNC_WITH_TRANSPORT;
 
 import static org.junit.Assert.*;
 

@@ -1,3 +1,5 @@
+package Chapter2;
+
 public class Josephus_SinglyList {
     public Josephus_SinglyList(int number, int start, int distance) {
         String[] strings=new String[number];
