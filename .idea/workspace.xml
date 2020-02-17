@@ -5,58 +5,67 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca9eb0ac-934a-487f-bf37-73b21374be81" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Chapter2/PolySinglyList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MineTest/Addible.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MineTest/Addible.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MineTest/PolySinglyList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MineTest/PolySinglyList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MineTest/SeqList_Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MineTest/SeqList_Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MineTest/SinglyList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MineTest/SinglyList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MineTest/TermX.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MineTest/TermX.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/MineTest/PolySinglyListTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/MineTest/PolySinglyListTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/MineTest/SinglyListTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/MineTest/SinglyListTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Addible.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter2/Addible.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CirDoublyList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter2/CirDoublyList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Complex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1/Complex.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DoubleNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter2/DoubleNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Josephus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter2/Josephus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Josephus_SinglyList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter2/Josephus_SinglyList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Matrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1/Matrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter2/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PolySinglyList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Polynomial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter2/Polynomial.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SeqList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter2/SeqList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SeqList_Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter2/SeqList_Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SinglyList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter2/SinglyList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SinglyList_reverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter2/SinglyList_reverse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SortedCirDoublyList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter2/SortedCirDoublyList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SortedSeqList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter2/SortedSeqList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SortedSinglyList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter2/SortedSinglyList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter2/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TermX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter2/TermX.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TermXY.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter2/TermXY.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test1_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1/Test1_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test1_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1/Test1_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test1_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1/Test1_3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test1_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1/Test1_4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test2_1" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter2/Test2_1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test2_2" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter2/Test2_2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test2_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter2/Test2_3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test2_4" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter2/Test2_4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test2_5" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter2/Test2_5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test2_6" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter2/Test2_6" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test2_7" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter2/Test2_7" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/CirDoublyListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/CirDoublyListTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/PolySinglyListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/PolySinglyListTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/PolynomialTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/PolynomialTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/SeqListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/SeqListTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/SeqList_StudentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/SeqList_StudentTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/SinglyListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/SinglyListTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/SinglyList_reverseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/SinglyList_reverseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/SortedCirDoublyListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/SortedCirDoublyListTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/SortedSeqListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/SortedSeqListTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/SortedSinglyListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/SortedSinglyListTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/TermXTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/TermXTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/TermXYTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/TermXYTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MineTest/Addible.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MineTest/CirDoublyList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MineTest/Complex$ComplexException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MineTest/Complex.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MineTest/DoubleNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MineTest/Josephus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MineTest/Josephus_SinglyList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MineTest/Matrix.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MineTest/Multipliable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MineTest/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MineTest/PolySinglyList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MineTest/Polynomial.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MineTest/SeqList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MineTest/SeqList_Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MineTest/SinglyList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MineTest/SinglyList_reverse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MineTest/SortedCirDoublyList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MineTest/SortedSeqList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MineTest/SortedSinglyList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MineTest/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MineTest/TermX.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MineTest/TermXY.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MineTest/Test1_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MineTest/Test1_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MineTest/Test1_3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MineTest/Test1_4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MineTest/Test2_1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MineTest/Test2_10" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MineTest/Test2_2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MineTest/Test2_3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MineTest/Test2_4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MineTest/Test2_5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MineTest/Test2_6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MineTest/Test2_7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/MineTest/CirDoublyListTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/MineTest/PolySinglyListTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/MineTest/PolynomialTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/MineTest/SeqListTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/MineTest/SeqList_StudentTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/MineTest/SinglyListTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/MineTest/SinglyList_reverseTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/MineTest/SortedCirDoublyListTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/MineTest/SortedSeqListTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/MineTest/SortedSinglyListTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/MineTest/TermXTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/MineTest/TermXYTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter3/MyString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter3/MyString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Chapter3/MyStringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Chapter3/MyStringTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/CirDoublyListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Chapter2/CirDoublyListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/PolySinglyListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Chapter2/PolySinglyListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/PolynomialTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Chapter2/PolynomialTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/SeqListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Chapter2/SeqListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/SeqList_StudentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Chapter2/SeqList_StudentTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/SinglyListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Chapter2/SinglyListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/SinglyList_reverseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Chapter2/SinglyList_reverseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/SortedCirDoublyListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Chapter2/SortedCirDoublyListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/SortedSeqListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Chapter2/SortedSeqListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/SortedSinglyListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Chapter2/SortedSinglyListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/TermXTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Chapter2/TermXTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/TermXYTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Chapter2/TermXYTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -84,28 +93,59 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Chapter3/MyString.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="341">
+              <caret line="132" selection-start-line="132" selection-end-line="132" />
               <folding>
                 <element signature="e#200#201#0" expanded="true" />
-                <element signature="e#231#232#0" expanded="true" />
+                <element signature="e#238#239#0" expanded="true" />
                 <element signature="e#876#877#0" expanded="true" />
-                <element signature="e#895#896#0" expanded="true" />
-                <element signature="e#891#892#0" expanded="true" />
-                <element signature="e#915#916#0" expanded="true" />
+                <element signature="e#918#919#0" expanded="true" />
+                <element signature="e#984#985#0" expanded="true" />
+                <element signature="e#1003#1004#0" expanded="true" />
+                <element signature="e#1068#1069#0" expanded="true" />
+                <element signature="e#1094#1095#0" expanded="true" />
+                <element signature="e#1167#1168#0" expanded="true" />
+                <element signature="e#1201#1202#0" expanded="true" />
+                <element signature="e#1880#1881#0" expanded="true" />
+                <element signature="e#1906#1907#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/Chapter3/MyStringTest.java">
+        <entry file="file://$PROJECT_DIR$/src/Chapter3/MyInteger.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+            <state relative-caret-position="151">
+              <caret line="87" column="67" selection-start-line="87" selection-start-column="67" selection-end-line="87" selection-end-column="67" />
+              <folding>
+                <element signature="e#337#338#0" expanded="true" />
+                <element signature="e#356#357#0" expanded="true" />
+                <element signature="e#575#576#0" expanded="true" />
+                <element signature="e#601#602#0" expanded="true" />
+                <element signature="e#665#666#0" expanded="true" />
+                <element signature="e#704#705#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/Chapter3/MyIntegerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="303">
+              <caret line="49" column="60" selection-start-line="49" selection-start-column="60" selection-end-line="49" selection-end-column="60" />
+              <folding>
+                <element signature="e#300#301#0" expanded="true" />
+                <element signature="e#344#345#0" expanded="true" />
+                <element signature="e#398#399#0" expanded="true" />
+                <element signature="e#419#420#0" expanded="true" />
+                <element signature="e#901#902#0" expanded="true" />
+                <element signature="e#964#965#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -142,9 +182,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/book_ex_2_4/Student.java" />
-        <option value="$PROJECT_DIR$/src/book_ex_2_1/Josephus.java" />
-        <option value="$PROJECT_DIR$/src/Student.java" />
         <option value="$PROJECT_DIR$/src/Node.java" />
         <option value="$PROJECT_DIR$/../课内例题源码/02.3.2  3. 单链表【例2.6】逆转/src/SinglyList_reverse.java" />
         <option value="$PROJECT_DIR$/src/SinglyList_reverse.java" />
@@ -193,6 +230,9 @@
         <option value="$PROJECT_DIR$/src/ChapterTwo/Multipliable.java" />
         <option value="$PROJECT_DIR$/tests/Chapter3/MyStringTest.java" />
         <option value="$PROJECT_DIR$/src/Chapter3/MyString.java" />
+        <option value="$PROJECT_DIR$/tests/Chapter3/MyInteger.java" />
+        <option value="$PROJECT_DIR$/tests/Chapter3/MyIntegerTest.java" />
+        <option value="$PROJECT_DIR$/src/Chapter3/MyInteger.java" />
       </list>
     </option>
   </component>
@@ -207,6 +247,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -219,11 +260,27 @@
               <item name="MineTest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="DataStructureTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MineTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DataStructureTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MineTest" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DataStructureTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MineTest" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter3" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -252,6 +309,8 @@
       <recent name="" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="Chapter3" />
+      <recent name="Chapter2" />
       <recent name="" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -273,51 +332,82 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PolySinglyListTest.testMulAll">
-    <configuration name="PolySinglyListTest.testAddAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.MyIntegerTest.testParseInt2">
+    <configuration name="MyIntegerTest.testCompareTo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MineTest" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PolySinglyListTest" />
-      <option name="METHOD_NAME" value="testAddAll" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Chapter3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Chapter3" />
+      <option name="MAIN_CLASS_NAME" value="Chapter3.MyIntegerTest" />
+      <option name="METHOD_NAME" value="testCompareTo" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PolySinglyListTest.testMulAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MyIntegerTest.testEquals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MineTest" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PolySinglyListTest" />
-      <option name="METHOD_NAME" value="testMulAll" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Chapter3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Chapter3" />
+      <option name="MAIN_CLASS_NAME" value="Chapter3.MyIntegerTest" />
+      <option name="METHOD_NAME" value="testEquals" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PolySinglyListTest.testUnion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MyIntegerTest.testParseInt1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MineTest" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PolySinglyListTest" />
-      <option name="METHOD_NAME" value="testUnion" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Chapter3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Chapter3" />
+      <option name="MAIN_CLASS_NAME" value="Chapter3.MyIntegerTest" />
+      <option name="METHOD_NAME" value="testParseInt1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SinglyListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MyIntegerTest.testParseInt2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MineTest" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SinglyListTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Chapter3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Chapter3" />
+      <option name="MAIN_CLASS_NAME" value="Chapter3.MyIntegerTest" />
+      <option name="METHOD_NAME" value="testParseInt2" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SinglyListTest.testGradeCount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MyIntegerTest.testToString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MineTest" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SinglyListTest" />
-      <option name="METHOD_NAME" value="testGradeCount" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Chapter3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Chapter3" />
+      <option name="MAIN_CLASS_NAME" value="Chapter3.MyIntegerTest" />
+      <option name="METHOD_NAME" value="testToString" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -325,11 +415,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PolySinglyListTest.testMulAll" />
-        <item itemvalue="JUnit.PolySinglyListTest.testUnion" />
-        <item itemvalue="JUnit.PolySinglyListTest.testAddAll" />
-        <item itemvalue="JUnit.SinglyListTest.testGradeCount" />
-        <item itemvalue="JUnit.SinglyListTest" />
+        <item itemvalue="JUnit.MyIntegerTest.testParseInt2" />
+        <item itemvalue="JUnit.MyIntegerTest.testParseInt1" />
+        <item itemvalue="JUnit.MyIntegerTest.testCompareTo" />
+        <item itemvalue="JUnit.MyIntegerTest.testEquals" />
+        <item itemvalue="JUnit.MyIntegerTest.testToString" />
       </list>
     </recent_temporary>
   </component>
@@ -369,50 +459,51 @@
       <workItem from="1581559795906" duration="10919000" />
       <workItem from="1581642674490" duration="30385000" />
       <workItem from="1581754215082" duration="11378000" />
-      <workItem from="1581813661351" duration="17684000" />
+      <workItem from="1581813661351" duration="18582000" />
+      <workItem from="1581925987152" duration="14306000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PolySinglyListTest_testMulAll - 2020.02.16 at 13h 17m 01s.xml">
-      <configuration name="PolySinglyListTest.testMulAll" configurationId="JUnit" />
+    <history-entry file="MyIntegerTest_testParseInt1 - 2020.02.17 at 21h 21m 12s.xml">
+      <configuration name="MyIntegerTest.testParseInt1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PolySinglyListTest_testMulAll - 2020.02.16 at 13h 23m 59s.xml">
-      <configuration name="PolySinglyListTest.testMulAll" configurationId="JUnit" />
+    <history-entry file="MyIntegerTest_testParseInt1 - 2020.02.17 at 21h 25m 15s.xml">
+      <configuration name="MyIntegerTest.testParseInt1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PolySinglyListTest_testMulAll - 2020.02.16 at 13h 25m 19s.xml">
-      <configuration name="PolySinglyListTest.testMulAll" configurationId="JUnit" />
+    <history-entry file="MyIntegerTest_testParseInt1 - 2020.02.17 at 21h 25m 24s.xml">
+      <configuration name="MyIntegerTest.testParseInt1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PolySinglyListTest_testMulAll - 2020.02.16 at 13h 26m 00s.xml">
-      <configuration name="PolySinglyListTest.testMulAll" configurationId="JUnit" />
+    <history-entry file="MyIntegerTest_testParseInt1 - 2020.02.17 at 21h 25m 25s.xml">
+      <configuration name="MyIntegerTest.testParseInt1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PolySinglyListTest_testMulAll - 2020.02.16 at 13h 26m 11s.xml">
-      <configuration name="PolySinglyListTest.testMulAll" configurationId="JUnit" />
+    <history-entry file="MyIntegerTest_testParseInt1 - 2020.02.17 at 21h 26m 13s.xml">
+      <configuration name="MyIntegerTest.testParseInt1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PolySinglyListTest_testMulAll - 2020.02.16 at 13h 27m 55s.xml">
-      <configuration name="PolySinglyListTest.testMulAll" configurationId="JUnit" />
+    <history-entry file="MyIntegerTest_testParseInt2 - 2020.02.17 at 21h 28m 32s.xml">
+      <configuration name="MyIntegerTest.testParseInt2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PolySinglyListTest_testMulAll - 2020.02.16 at 13h 28m 04s.xml">
-      <configuration name="PolySinglyListTest.testMulAll" configurationId="JUnit" />
+    <history-entry file="MyIntegerTest_testParseInt2 - 2020.02.17 at 21h 28m 55s.xml">
+      <configuration name="MyIntegerTest.testParseInt2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PolySinglyListTest_testMulAll - 2020.02.16 at 13h 30m 06s.xml">
-      <configuration name="PolySinglyListTest.testMulAll" configurationId="JUnit" />
+    <history-entry file="MyIntegerTest_testParseInt2 - 2020.02.17 at 21h 30m 39s.xml">
+      <configuration name="MyIntegerTest.testParseInt2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PolySinglyListTest_testMulAll - 2020.02.16 at 13h 30m 56s.xml">
-      <configuration name="PolySinglyListTest.testMulAll" configurationId="JUnit" />
+    <history-entry file="MyIntegerTest_testParseInt2 - 2020.02.17 at 21h 31m 21s.xml">
+      <configuration name="MyIntegerTest.testParseInt2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PolySinglyListTest_testMulAll - 2020.02.16 at 13h 32m 40s.xml">
-      <configuration name="PolySinglyListTest.testMulAll" configurationId="JUnit" />
+    <history-entry file="MyIntegerTest_testParseInt2 - 2020.02.17 at 21h 34m 19s.xml">
+      <configuration name="MyIntegerTest.testParseInt2" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="395955000" />
+    <option name="totallyTimeSpent" value="411159000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49761903" visible="true" weight="0.15549597" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49761903" visible="true" weight="0.1575067" />
       <window_info id="Structure" order="1" sideWeight="0.50238097" side_tool="true" weight="0.13337801" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -422,7 +513,7 @@
       <window_info anchor="bottom" id="Statistic" order="0" weight="0.43909347" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49865952" visible="true" weight="0.28328612" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.49865952" visible="true" weight="0.28470254" />
       <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.49932975" weight="0.44759208" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -464,19 +555,19 @@
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/tests/CirDoublyListTest.java</url>
+          <url>file://$PROJECT_DIR$/tests/Chapter2/CirDoublyListTest.java</url>
           <line>117</line>
           <properties />
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/tests/PolynomialTest.java</url>
+          <url>file://$PROJECT_DIR$/tests/Chapter2/PolynomialTest.java</url>
           <line>33</line>
           <properties />
           <option name="timeStamp" value="70" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/tests/PolynomialTest.java</url>
+          <url>file://$PROJECT_DIR$/tests/Chapter2/PolynomialTest.java</url>
           <line>12</line>
           <properties />
           <option name="timeStamp" value="73" />
@@ -497,24 +588,6 @@
     <SUITE FILE_PATH="coverage/DataStructureTest$SortedSeqListTest_TestInsert.ic" NAME="SortedSeqListTest.TestInsert Coverage Results" MODIFIED="1580439535976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/Integer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="49" column="16" lean-forward="true" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
-          <folding>
-            <element signature="e#46394#46395#0" expanded="true" />
-            <element signature="e#46458#46459#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../课内例题源码/02.3.3  4. 排序循环双链表/src/SortedCirDoublyList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../课内例题源码/02.3.3  4. 排序循环双链表/src/SortedCirDoublyList_Integer例2_3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -547,7 +620,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/SortedCirDoublyListTest.java">
+    <entry file="file://$PROJECT_DIR$/tests/Chapter2/SortedCirDoublyListTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
@@ -600,26 +673,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/CirDoublyListTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="14" column="5" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="14" selection-end-column="5" />
-          <folding>
-            <element signature="method#testInsert#0;class#CirDoublyListTest#0" />
-            <element signature="method#testInsert1#0;class#CirDoublyListTest#0" />
-            <element signature="method#testToPreviousString#0;class#CirDoublyListTest#0" />
-            <element signature="method#testRemoveLast#0;class#CirDoublyListTest#0" />
-            <element signature="method#testSet#0;class#CirDoublyListTest#0" />
-            <element signature="method#testRemove#0;class#CirDoublyListTest#0" />
-            <element signature="method#testClear#0;class#CirDoublyListTest#0" />
-            <element signature="method#testSearch#0;class#CirDoublyListTest#0" />
-            <element signature="method#testInsertDifferent#0;class#CirDoublyListTest#0" />
-            <element signature="method#testRemove2#0;class#CirDoublyListTest#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/PolynomialTest.java">
+    <entry file="file://$PROJECT_DIR$/tests/Chapter2/PolynomialTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="35" column="9" lean-forward="true" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
@@ -636,7 +690,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/TermXTest.java">
+    <entry file="file://$PROJECT_DIR$/tests/Chapter2/TermXTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="531">
           <caret line="55" column="29" lean-forward="true" selection-start-line="55" selection-start-column="29" selection-end-line="55" selection-end-column="29" />
@@ -648,14 +702,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/TermXYTest.java">
+    <entry file="file://$PROJECT_DIR$/tests/Chapter2/TermXYTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/SeqListTest.java">
+    <entry file="file://$PROJECT_DIR$/tests/Chapter2/SeqListTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2641">
           <caret line="162" column="47" selection-start-line="162" selection-start-column="47" selection-end-line="162" selection-end-column="47" />
@@ -713,7 +767,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/SortedSeqListTest.java">
+    <entry file="file://$PROJECT_DIR$/tests/Chapter2/SortedSeqListTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="48" column="9" lean-forward="true" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
@@ -828,14 +882,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/SeqList_StudentTest.java">
+    <entry file="file://$PROJECT_DIR$/tests/Chapter2/SeqList_StudentTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="33" column="34" lean-forward="true" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/SinglyListTest.java">
+    <entry file="file://$PROJECT_DIR$/tests/Chapter2/SinglyListTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="281">
           <caret line="281" selection-start-line="281" selection-end-line="281" />
@@ -904,9 +958,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Chapter2/TermX.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
@@ -920,13 +971,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Chapter2/Addible.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -934,7 +978,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/PolySinglyListTest.java">
+    <entry file="file://$PROJECT_DIR$/tests/Chapter2/PolySinglyListTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="38" column="46" selection-start-line="38" selection-start-column="46" selection-end-line="38" selection-end-column="46" />
@@ -1026,24 +1070,93 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Chapter3/MyStringTest.java">
+    <entry file="file://$PROJECT_DIR$/tests/Chapter2/CirDoublyListTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+        <state relative-caret-position="152">
+          <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+          <folding>
+            <element signature="method#testInsert#0;class#CirDoublyListTest#0" />
+            <element signature="method#testInsert1#0;class#CirDoublyListTest#0" />
+            <element signature="method#testToPreviousString#0;class#CirDoublyListTest#0" />
+            <element signature="method#testRemoveLast#0;class#CirDoublyListTest#0" />
+            <element signature="method#testSet#0;class#CirDoublyListTest#0" />
+            <element signature="method#testRemove#0;class#CirDoublyListTest#0" />
+            <element signature="method#testClear#0;class#CirDoublyListTest#0" />
+            <element signature="method#testSearch#0;class#CirDoublyListTest#0" />
+            <element signature="method#testInsertDifferent#0;class#CirDoublyListTest#0" />
+            <element signature="method#testRemove2#0;class#CirDoublyListTest#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Chapter3/MyString.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="341">
+          <caret line="132" selection-start-line="132" selection-end-line="132" />
           <folding>
             <element signature="e#200#201#0" expanded="true" />
-            <element signature="e#231#232#0" expanded="true" />
+            <element signature="e#238#239#0" expanded="true" />
             <element signature="e#876#877#0" expanded="true" />
-            <element signature="e#895#896#0" expanded="true" />
-            <element signature="e#891#892#0" expanded="true" />
-            <element signature="e#915#916#0" expanded="true" />
+            <element signature="e#918#919#0" expanded="true" />
+            <element signature="e#984#985#0" expanded="true" />
+            <element signature="e#1003#1004#0" expanded="true" />
+            <element signature="e#1068#1069#0" expanded="true" />
+            <element signature="e#1094#1095#0" expanded="true" />
+            <element signature="e#1167#1168#0" expanded="true" />
+            <element signature="e#1201#1202#0" expanded="true" />
+            <element signature="e#1880#1881#0" expanded="true" />
+            <element signature="e#1906#1907#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Chapter3/MyStringTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="62" column="10" lean-forward="true" selection-start-line="62" selection-start-column="10" selection-end-line="62" selection-end-column="10" />
+          <folding>
+            <element signature="e#767#768#0" expanded="true" />
+            <element signature="e#826#827#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter3/MyInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="87" column="67" selection-start-line="87" selection-start-column="67" selection-end-line="87" selection-end-column="67" />
+          <folding>
+            <element signature="e#337#338#0" expanded="true" />
+            <element signature="e#356#357#0" expanded="true" />
+            <element signature="e#575#576#0" expanded="true" />
+            <element signature="e#601#602#0" expanded="true" />
+            <element signature="e#665#666#0" expanded="true" />
+            <element signature="e#704#705#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Chapter3/MyIntegerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="49" column="60" selection-start-line="49" selection-start-column="60" selection-end-line="49" selection-end-column="60" />
+          <folding>
+            <element signature="e#300#301#0" expanded="true" />
+            <element signature="e#344#345#0" expanded="true" />
+            <element signature="e#398#399#0" expanded="true" />
+            <element signature="e#419#420#0" expanded="true" />
+            <element signature="e#901#902#0" expanded="true" />
+            <element signature="e#964#965#0" expanded="true" />
           </folding>
         </state>
       </provider>
