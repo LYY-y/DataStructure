@@ -50,4 +50,33 @@ public class MyIntegerTest {
         assertEquals(487710,MyInteger.parseInt("7711e",16));
     }
 
+    @Test
+    public void testToHexString(){
+        assertEquals("0x000003e8",MyInteger.toHexString(1000));
+        assertEquals("0xffffff80",MyInteger.toHexString(-128));
+        assertEquals("0xffffffff",MyInteger.toHexString(-1));
+        assertEquals("0x0000007f",MyInteger.toHexString(127));
+
+    }
+
+    @Test
+    public void testToBinaryString(){
+        assertEquals("10000000000000000000000000000000",MyInteger.toBinaryString(Integer.MIN_VALUE));
+        assertEquals("00000000000000000000000001111111",MyInteger.toBinaryString(127));
+        assertEquals("11111111111111111111111111111011",MyInteger.toBinaryString(-5));
+    }
+
+    @Test
+    public void testToOctalString(){
+        assertEquals("00000000177",MyInteger.toOctalString(127));
+        assertEquals(Integer.toOctalString(-127),MyInteger.toOctalString(-127));
+    }
+
+    @Test
+    public void testToString2(){
+        assertEquals("00110010",MyInteger.toString(50,2));
+        assertEquals(Integer.toOctalString(-62),MyInteger.toString(-50,8));
+    }
+
+
 }

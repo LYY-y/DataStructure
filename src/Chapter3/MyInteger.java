@@ -94,4 +94,94 @@ public final class MyInteger implements Comparable<MyInteger>{
         }
         return value;
     }
+
+    /**返回整数value的十六进制补码字符串，正数高位补0*/
+    public static String toHexString(int value){
+        char[] buffer=new char[8];
+        for (int i=buffer.length-1; i>=0; i--){
+            int last=value&15;
+            if (last>=10 && last<=15){
+                buffer[i]=(char)(last+87);
+            }else {
+                buffer[i]=(char)(last+48);
+            }
+            value=value>>>4;
+        }
+        for (int i=0; i<buffer.length; i++){
+            if (buffer[i]==0){
+                buffer[i]='0';
+            }
+        }
+        return "0x"+new String(buffer);
+    }
+
+    /**返回value的二进制补码字符串，正数高位补0*/
+    public static String toBinaryString(int value){
+        char[] buffer=new char[32];
+        for (int i=buffer.length-1; i>=0; i--){
+            int last=value&1;
+            buffer[i]=(char)(last+48);
+            value=value>>>1;
+        }
+        for (int i=0; i<buffer.length; i++){
+            if (buffer[i]==0){
+                buffer[i]='0';
+            }
+        }
+        return new String(buffer);
+    }
+
+    /**返回value的八进制补码字符串，正数高位补0
+     * 未解决：如何表示八进制负数的补码*/
+    public static String toOctalString(int value){
+        char[] buffer=new char[32/3+1];
+        for (int i=buffer.length-1; i>=0; i--){
+            int last=value&7;
+            buffer[i]=(char)(last+48);
+            value=value>>>3;
+        }
+        for (int i=0; i<buffer.length; i++){
+            if (buffer[i]==0){
+                buffer[i]='0';
+            }
+        }
+        return new String(buffer);
+    }
+
+    /**返回value的radix进制原码字符串，2<=radix<=16，正数省略+。除radix取余法*/
+    public static String toString(int value, int radix){
+        if (radix<2 || radix>16){
+            throw new NumberFormatException("radix="+radix+"进制超过2-16的范围！");
+        }
+        int n=0;
+        boolean isNegativeNum=false;
+        if (32%radix!=0){
+            n=32/radix+1;
+        }else {
+            n=32/radix;
+        }
+        if (value<0){
+            n++;
+            isNegativeNum=true;
+        }
+        char[] buffer=new char[n];
+        int temp=value;
+        for (int i=buffer.length-1; i>=0 && value!=0; i--){
+            temp=value%radix;
+            value=value/radix;
+            if (temp>=10 && temp<=15){
+                temp=temp+'a'-10;
+            }
+            buffer[i]=(char)(temp+'0');
+        }
+        for (int i=0; i<buffer.length; i++){
+            if (buffer[i]==0){
+                buffer[i]='0';
+            }
+        }
+        if (isNegativeNum){
+            buffer[0]='-';
+        }
+        return new String(buffer);
+    }
 }
