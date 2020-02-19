@@ -155,13 +155,18 @@ public final class MyInteger implements Comparable<MyInteger>{
         }
         int n=0;
         boolean isNegativeNum=false;
-        if (32%radix!=0){
-            n=32/radix+1;
-        }else {
-            n=32/radix;
+        if (radix==2){
+            n=32;
+        }else if (radix<=4){
+            n=16;
+        }else if (radix<=11){
+            n=11;
+        }else if (radix<=16){
+            n=8;
         }
         if (value<0){
             n++;
+            value=0-value;
             isNegativeNum=true;
         }
         char[] buffer=new char[n];
@@ -170,18 +175,18 @@ public final class MyInteger implements Comparable<MyInteger>{
             temp=value%radix;
             value=value/radix;
             if (temp>=10 && temp<=15){
-                temp=temp+'a'-10;
+                temp=temp+65;
             }
             buffer[i]=(char)(temp+'0');
-        }
-        for (int i=0; i<buffer.length; i++){
-            if (buffer[i]==0){
-                buffer[i]='0';
-            }
         }
         if (isNegativeNum){
             buffer[0]='-';
         }
-        return new String(buffer);
+        for (int i=0; i<buffer.length; i++){
+            if (buffer[i]==0){
+                buffer[i]=' ';
+            }
+        }
+        return new String(buffer).replace(" ","");
     }
 }

@@ -74,8 +74,9 @@ public class MyIntegerTest {
 
     @Test
     public void testToString2(){
-        assertEquals("00110010",MyInteger.toString(50,2));
-        assertEquals(Integer.toOctalString(-62),MyInteger.toString(-50,8));
+        assertEquals(Integer.toString(50,2),MyInteger.toString(50,2));
+        assertEquals(Integer.toString(-50,16),MyInteger.toString( -50,16));
+        assertEquals(Integer.toString(-188,7),MyInteger.toString(-188,7));
     }
 
 
