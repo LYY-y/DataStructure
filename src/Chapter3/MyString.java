@@ -60,11 +60,10 @@ public class MyString implements Comparable<MyString>,java.io.Serializable{
     /**返回序号从begin至end-1的子串，0<=begin<length()，0<=end<=length()，begin<end
      * 否则抛出字符串序号越界异常*/
     public MyString subString(int begin, int end){
-        if (begin>=0 && begin<length() && end>=0 && end<=length() && begin<end){
-            MyString subStr=new MyString(this.value,begin,end-begin);
-            return subStr;
+        if (begin==0 && end==this.length()){
+            return new MyString(this);
         }
-        throw new StringIndexOutOfBoundsException();
+        return new MyString(this.value,begin,end-begin);
     }
 
     /**返回序号从begin至串尾的子串*/
@@ -130,5 +129,57 @@ public class MyString implements Comparable<MyString>,java.io.Serializable{
         return this.value.length-str.value.length;
     }
 
+    /**返回当前串（目标串）中首个与模式串pattern匹配的子串序号，匹配失败时返回-1*/
+    public int indexOf(MyString pattern){
+        return this.indexOf(pattern,0);
+    }
+
+    /**返回当前串（目标串）从begin开始首个与模式串pattern匹配的子串序号，匹配失败时返回-1
+     * 0<begin<this.length()。对begin容错，若begin<0，从0开始；若begin序号越界，查找不成功
+     * 若pattern==null，抛出空对象异常*/
+    public int indexOf(MyString pattern, int begin){
+        if (pattern==null){
+            throw new NullPointerException("pattern==null");
+        }
+        if (begin<this.length()){
+            if (begin<0){
+                begin=0;
+            }
+            int i=begin;
+            int j=0;
+            int patLen=pattern.length();
+            while (i<this.length()){
+                if (i+patLen>this.length()){
+                    return -1;
+                }
+                for (j=0; j<patLen; j++){
+                    if (this.value[i]!=pattern.charAt(j)){
+                        i=i-j+1;
+                        break;
+                    }
+                    i++;
+                    if(j==patLen-1){
+                        return i-patLen;
+                    }
+                }
+            }
+            return i-patLen;
+        }else {
+            return -1;
+        }
+    }
+
+
+
+    /**将所有与pattern匹配的子串替换为str*/
+    public MyString replaceAll(MyString pattern, MyString str){
+        int i=this.indexOf(pattern);
+        MyString result=new MyString(this);
+        while (i!=-1){
+            result=result.subString(0,i).concat(str).concat(result.subString(i+pattern.length()));
+            i=result.indexOf(pattern,i+str.length());
+        }
+        return result;
+    }
 
 }

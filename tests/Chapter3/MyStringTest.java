@@ -25,6 +25,11 @@ public class MyStringTest {
     }
 
     @Test
+    public void testCharAt(){
+        assertEquals('c',myString.charAt(2));
+    }
+
+    @Test
     public void testSubString(){
         System.out.println("原字符串：["+myString+"]");
         System.out.println("截取第2-4位的字符串：["+myString.subString(2,4)+"]");
@@ -66,6 +71,31 @@ public class MyStringTest {
     }
 
     @Test
-    public void compareTo() {
+    public void testCompareTo() {
+        MyString myString2=new MyString("abcd");
+        MyString myString3=new MyString("adcd");
+        assertEquals(1,myString.compareTo(myString2));
+        assertEquals(-2,myString.compareTo(myString3));
     }
+
+    @Test
+    public void testIndexOf(){
+        MyString myString2=new MyString("abababcd");
+        MyString pattern2=new MyString("abcd");
+        MyString pattern3=new MyString("ab");
+        assertEquals(4,myString2.indexOf(pattern2,1));
+        assertEquals(0,myString2.indexOf(pattern3));
+        assertEquals(4,myString2.indexOf(pattern3,3));
+        assertEquals(-1,myString2.indexOf(pattern3,7));
+    }
+
+    @Test
+    public void testReplaceAll(){
+        MyString myString2=new MyString("abcdabdabcd");
+        MyString pattern=new MyString("bcd");
+        MyString replaceStr=new MyString("AAAA");
+        MyString result=new MyString("aAAAAabdaAAAA");
+        assertEquals(result,myString2.replaceAll(pattern,replaceStr));
+    }
+
 }

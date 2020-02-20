@@ -164,4 +164,6 @@ public class MyStringBuffer implements java.io.Serializable{
         }
         throw new StringIndexOutOfBoundsException("begin："+begin+"，end"+end+"，end-begin="+(end-begin));
     }
+
+
 }

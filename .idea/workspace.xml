@@ -6,8 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="ca9eb0ac-934a-487f-bf37-73b21374be81" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chapter3/MyInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter3/MyInteger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Chapter3/MyIntegerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Chapter3/MyIntegerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MineTest/Chapter3/MyString.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MineTest/Chapter3/MyString.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/MineTest/Chapter3/MyStringTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/MineTest/Chapter3/MyStringTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter3/MyString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter3/MyString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter3/MyStringBuffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter3/MyStringBuffer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Chapter3/MyStringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Chapter3/MyStringTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,76 +38,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Chapter3/MyString.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="741">
-              <caret line="47" column="33" selection-start-line="47" selection-start-column="33" selection-end-line="47" selection-end-column="33" />
-              <folding>
-                <element signature="e#200#201#0" expanded="true" />
-                <element signature="e#238#239#0" expanded="true" />
-                <element signature="e#876#877#0" expanded="true" />
-                <element signature="e#918#919#0" expanded="true" />
-                <element signature="e#1880#1881#0" expanded="true" />
-                <element signature="e#1942#1943#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Chapter3/MyInteger.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="645">
-              <caret line="183" column="9" lean-forward="true" selection-start-line="183" selection-start-column="9" selection-end-line="183" selection-end-column="9" />
-              <folding>
-                <element signature="e#665#666#0" expanded="true" />
-                <element signature="e#701#702#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Chapter3/MyStringBuffer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
-              <caret line="155" column="80" selection-start-line="155" selection-start-column="80" selection-end-line="155" selection-end-column="80" />
-              <folding>
-                <element signature="e#360#361#0" expanded="true" />
-                <element signature="e#379#380#0" expanded="true" />
-                <element signature="e#651#652#0" expanded="true" />
-                <element signature="e#677#678#0" expanded="true" />
-                <element signature="e#730#731#0" expanded="true" />
-                <element signature="e#756#757#0" expanded="true" />
-                <element signature="e#857#858#0" expanded="true" />
-                <element signature="e#910#911#0" expanded="true" />
-                <element signature="e#2870#2871#0" expanded="true" />
-                <element signature="e#2896#2897#0" expanded="true" />
-                <element signature="e#3217#3218#0" expanded="true" />
-                <element signature="e#3255#3256#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tests/Chapter3/MyStringBufferTest.java">
+        <entry file="file://$PROJECT_DIR$/src/Chapter3/PatternMatching.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="77" column="61" lean-forward="true" selection-start-line="77" selection-start-column="61" selection-end-line="77" selection-end-column="61" />
+            <state relative-caret-position="284">
+              <caret line="32" column="26" lean-forward="true" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
               <folding>
-                <element signature="e#322#323#0" expanded="true" />
-                <element signature="e#370#371#0" expanded="true" />
-                <element signature="e#417#418#0" expanded="true" />
-                <element signature="e#447#448#0" expanded="true" />
-                <element signature="e#516#517#0" expanded="true" />
-                <element signature="e#537#538#0" expanded="true" />
-                <element signature="e#615#616#0" expanded="true" />
-                <element signature="e#645#646#0" expanded="true" />
-                <element signature="e#1632#1633#0" expanded="true" />
-                <element signature="e#1705#1706#0" expanded="true" />
+                <element signature="e#1772#1773#0" expanded="true" />
+                <element signature="e#1820#1821#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/Chapter3/MyStringTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="227">
+              <caret line="94" column="40" selection-start-line="94" selection-start-column="40" selection-end-line="94" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/Chapter3/PatternMatchingTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="67">
+              <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -141,8 +101,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/SinglyList_reverse.java" />
-        <option value="$PROJECT_DIR$/src/test.java" />
         <option value="$PROJECT_DIR$/tests/SinglyList_reverseTest.java" />
         <option value="$PROJECT_DIR$/tests/SortedSinglyListTest.java" />
         <option value="$PROJECT_DIR$/src/DoubleNode.java" />
@@ -185,13 +143,15 @@
         <option value="$PROJECT_DIR$/src/ChapterOne/Test1_4.java" />
         <option value="$PROJECT_DIR$/src/ChapterOne/Matrix.java" />
         <option value="$PROJECT_DIR$/src/ChapterTwo/Multipliable.java" />
-        <option value="$PROJECT_DIR$/tests/Chapter3/MyStringTest.java" />
-        <option value="$PROJECT_DIR$/src/Chapter3/MyString.java" />
         <option value="$PROJECT_DIR$/tests/Chapter3/MyInteger.java" />
         <option value="$PROJECT_DIR$/src/Chapter3/MyInteger.java" />
         <option value="$PROJECT_DIR$/tests/Chapter3/MyIntegerTest.java" />
-        <option value="$PROJECT_DIR$/src/Chapter3/MyStringBuffer.java" />
         <option value="$PROJECT_DIR$/tests/Chapter3/MyStringBufferTest.java" />
+        <option value="$PROJECT_DIR$/src/Chapter3/MyStringBuffer.java" />
+        <option value="$PROJECT_DIR$/src/Chapter3/MyString.java" />
+        <option value="$PROJECT_DIR$/tests/Chapter3/MyStringTest.java" />
+        <option value="$PROJECT_DIR$/src/Chapter3/PatternMatching.java" />
+        <option value="$PROJECT_DIR$/tests/Chapter3/PatternMatchingTest.java" />
       </list>
     </option>
   </component>
@@ -260,7 +220,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.statistic.project.settings" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -291,8 +251,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MyStringBufferTest.testReplace">
-    <configuration name="MyStringBufferTest.setAppend" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.PatternMatchingTest.testindexOf">
+    <configuration name="MyStringTest.testIndexOf" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MineTest" />
       <extension name="coverage">
         <pattern>
@@ -301,14 +261,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Chapter3" />
-      <option name="MAIN_CLASS_NAME" value="Chapter3.MyStringBufferTest" />
-      <option name="METHOD_NAME" value="setAppend" />
+      <option name="MAIN_CLASS_NAME" value="Chapter3.MyStringTest" />
+      <option name="METHOD_NAME" value="testIndexOf" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyStringBufferTest.setInsert2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MyStringTest.testReplaceAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MineTest" />
       <extension name="coverage">
         <pattern>
@@ -317,14 +277,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Chapter3" />
-      <option name="MAIN_CLASS_NAME" value="Chapter3.MyStringBufferTest" />
-      <option name="METHOD_NAME" value="setInsert2" />
+      <option name="MAIN_CLASS_NAME" value="Chapter3.MyStringTest" />
+      <option name="METHOD_NAME" value="testReplaceAll" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyStringBufferTest.setInsert3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MyStringTest.testSubString2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MineTest" />
       <extension name="coverage">
         <pattern>
@@ -333,14 +293,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Chapter3" />
-      <option name="MAIN_CLASS_NAME" value="Chapter3.MyStringBufferTest" />
-      <option name="METHOD_NAME" value="setInsert3" />
+      <option name="MAIN_CLASS_NAME" value="Chapter3.MyStringTest" />
+      <option name="METHOD_NAME" value="testSubString2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyStringBufferTest.testDelete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PatternMatchingTest.getNext" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MineTest" />
       <extension name="coverage">
         <pattern>
@@ -349,14 +309,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Chapter3" />
-      <option name="MAIN_CLASS_NAME" value="Chapter3.MyStringBufferTest" />
-      <option name="METHOD_NAME" value="testDelete" />
+      <option name="MAIN_CLASS_NAME" value="Chapter3.PatternMatchingTest" />
+      <option name="METHOD_NAME" value="getNext" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyStringBufferTest.testReplace" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PatternMatchingTest.testindexOf" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MineTest" />
       <extension name="coverage">
         <pattern>
@@ -365,8 +325,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Chapter3" />
-      <option name="MAIN_CLASS_NAME" value="Chapter3.MyStringBufferTest" />
-      <option name="METHOD_NAME" value="testReplace" />
+      <option name="MAIN_CLASS_NAME" value="Chapter3.PatternMatchingTest" />
+      <option name="METHOD_NAME" value="testindexOf" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -374,11 +334,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MyStringBufferTest.testReplace" />
-        <item itemvalue="JUnit.MyStringBufferTest.testDelete" />
-        <item itemvalue="JUnit.MyStringBufferTest.setAppend" />
-        <item itemvalue="JUnit.MyStringBufferTest.setInsert3" />
-        <item itemvalue="JUnit.MyStringBufferTest.setInsert2" />
+        <item itemvalue="JUnit.PatternMatchingTest.testindexOf" />
+        <item itemvalue="JUnit.PatternMatchingTest.getNext" />
+        <item itemvalue="JUnit.MyStringTest.testReplaceAll" />
+        <item itemvalue="JUnit.MyStringTest.testIndexOf" />
+        <item itemvalue="JUnit.MyStringTest.testSubString2" />
       </list>
     </recent_temporary>
   </component>
@@ -421,50 +381,51 @@
       <workItem from="1581813661351" duration="18582000" />
       <workItem from="1581925987152" duration="14572000" />
       <workItem from="1581997020489" duration="11971000" />
-      <workItem from="1582072164166" duration="23756000" />
+      <workItem from="1582072164166" duration="24399000" />
+      <workItem from="1582163498964" duration="18035000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MyStringBufferTest_testDelete - 2020.02.19 at 20h 09m 29s.xml">
-      <configuration name="MyStringBufferTest.testDelete" configurationId="JUnit" />
+    <history-entry file="PatternMatchingTest_testindexOf - 2020.02.20 at 20h 39m 40s.xml">
+      <configuration name="PatternMatchingTest.testindexOf" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyStringBufferTest_testReplace - 2020.02.19 at 20h 34m 37s.xml">
-      <configuration name="MyStringBufferTest.testReplace" configurationId="JUnit" />
+    <history-entry file="PatternMatchingTest_testindexOf - 2020.02.20 at 20h 39m 43s.xml">
+      <configuration name="PatternMatchingTest.testindexOf" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyStringBufferTest_testReplace - 2020.02.19 at 21h 27m 52s.xml">
-      <configuration name="MyStringBufferTest.testReplace" configurationId="JUnit" />
+    <history-entry file="PatternMatchingTest_testindexOf - 2020.02.20 at 20h 40m 24s.xml">
+      <configuration name="PatternMatchingTest.testindexOf" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyStringBufferTest_testReplace - 2020.02.19 at 21h 27m 56s.xml">
-      <configuration name="MyStringBufferTest.testReplace" configurationId="JUnit" />
+    <history-entry file="PatternMatchingTest_testindexOf - 2020.02.20 at 20h 41m 56s.xml">
+      <configuration name="PatternMatchingTest.testindexOf" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyStringBufferTest_testReplace - 2020.02.19 at 21h 40m 21s.xml">
-      <configuration name="MyStringBufferTest.testReplace" configurationId="JUnit" />
+    <history-entry file="PatternMatchingTest_testindexOf - 2020.02.20 at 20h 43m 29s.xml">
+      <configuration name="PatternMatchingTest.testindexOf" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyStringBufferTest_testReplace - 2020.02.19 at 21h 49m 13s.xml">
-      <configuration name="MyStringBufferTest.testReplace" configurationId="JUnit" />
+    <history-entry file="PatternMatchingTest_testindexOf - 2020.02.20 at 20h 46m 07s.xml">
+      <configuration name="PatternMatchingTest.testindexOf" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyStringBufferTest_testReplace - 2020.02.19 at 21h 49m 45s.xml">
-      <configuration name="MyStringBufferTest.testReplace" configurationId="JUnit" />
+    <history-entry file="PatternMatchingTest_testindexOf - 2020.02.20 at 20h 46m 10s.xml">
+      <configuration name="PatternMatchingTest.testindexOf" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyStringBufferTest_testReplace - 2020.02.19 at 21h 50m 21s.xml">
-      <configuration name="MyStringBufferTest.testReplace" configurationId="JUnit" />
+    <history-entry file="PatternMatchingTest_testindexOf - 2020.02.20 at 20h 46m 54s.xml">
+      <configuration name="PatternMatchingTest.testindexOf" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyStringBufferTest_testReplace - 2020.02.19 at 21h 50m 57s.xml">
-      <configuration name="MyStringBufferTest.testReplace" configurationId="JUnit" />
+    <history-entry file="PatternMatchingTest_testindexOf - 2020.02.20 at 20h 46m 56s.xml">
+      <configuration name="PatternMatchingTest.testindexOf" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyStringBufferTest_testReplace - 2020.02.19 at 21h 51m 02s.xml">
-      <configuration name="MyStringBufferTest.testReplace" configurationId="JUnit" />
+    <history-entry file="PatternMatchingTest_testindexOf - 2020.02.20 at 20h 47m 25s.xml">
+      <configuration name="PatternMatchingTest.testindexOf" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="447152000" />
+    <option name="totallyTimeSpent" value="465830000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49761903" visible="true" weight="0.16152816" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49761903" visible="true" weight="0.16353887" />
       <window_info id="Structure" order="1" sideWeight="0.50238097" side_tool="true" weight="0.13337801" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -549,23 +510,6 @@
     <SUITE FILE_PATH="coverage/DataStructureTest$SortedSeqListTest_TestInsert.ic" NAME="SortedSeqListTest.TestInsert Coverage Results" MODIFIED="1580439535976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Chapter2/DoubleNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="e#577#578#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/Chapter2/PolynomialTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -982,17 +926,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Chapter3/MyStringTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="62" column="10" lean-forward="true" selection-start-line="62" selection-start-column="10" selection-end-line="62" selection-end-column="10" />
-          <folding>
-            <element signature="e#767#768#0" expanded="true" />
-            <element signature="e#826#827#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/AbstractStringBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="178">
@@ -1018,17 +951,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter3/MyString.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
-          <caret line="47" column="33" selection-start-line="47" selection-start-column="33" selection-end-line="47" selection-end-column="33" />
+        <state relative-caret-position="153">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter3/MyInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3363">
+          <caret line="183" column="9" selection-start-line="183" selection-start-column="9" selection-end-line="183" selection-end-column="9" />
           <folding>
-            <element signature="e#200#201#0" expanded="true" />
-            <element signature="e#238#239#0" expanded="true" />
-            <element signature="e#876#877#0" expanded="true" />
-            <element signature="e#918#919#0" expanded="true" />
-            <element signature="e#1880#1881#0" expanded="true" />
-            <element signature="e#1942#1943#0" expanded="true" />
+            <element signature="e#665#666#0" expanded="true" />
+            <element signature="e#701#702#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Chapter3/MyStringBufferTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="75" column="55" lean-forward="true" selection-start-line="75" selection-start-column="55" selection-end-line="75" selection-end-column="55" />
+          <folding>
+            <element signature="e#322#323#0" expanded="true" />
+            <element signature="e#377#378#0" expanded="true" />
+            <element signature="e#417#418#0" expanded="true" />
+            <element signature="e#475#476#0" expanded="true" />
+            <element signature="e#516#517#0" expanded="true" />
+            <element signature="e#577#578#0" expanded="true" />
+            <element signature="e#615#616#0" expanded="true" />
+            <element signature="e#673#674#0" expanded="true" />
+            <element signature="e#1632#1633#0" expanded="true" />
+            <element signature="e#1705#1706#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1048,63 +1003,60 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter3/MyStringBuffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="153" column="19" lean-forward="true" selection-start-line="153" selection-start-column="19" selection-end-line="153" selection-end-column="19" />
+          <folding>
+            <element signature="e#360#361#0" expanded="true" />
+            <element signature="e#384#385#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter3/MyString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#200#201#0" expanded="true" />
+            <element signature="e#238#239#0" expanded="true" />
+            <element signature="e#876#877#0" expanded="true" />
+            <element signature="e#918#919#0" expanded="true" />
+            <element signature="e#1060#1061#0" expanded="true" />
+            <element signature="e#1100#1101#0" expanded="true" />
+            <element signature="e#1880#1881#0" expanded="true" />
+            <element signature="e#1942#1943#0" expanded="true" />
+            <element signature="e#3675#3676#0" expanded="true" />
+            <element signature="e#3721#3722#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter3/MyInteger.java">
+    <entry file="file://$PROJECT_DIR$/tests/Chapter3/MyStringTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="183" column="9" lean-forward="true" selection-start-line="183" selection-start-column="9" selection-end-line="183" selection-end-column="9" />
-          <folding>
-            <element signature="e#665#666#0" expanded="true" />
-            <element signature="e#701#702#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="227">
+          <caret line="94" column="40" selection-start-line="94" selection-start-column="40" selection-end-line="94" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
+    <entry file="file://$PROJECT_DIR$/tests/Chapter3/PatternMatchingTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        <state relative-caret-position="67">
+          <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter3/MyStringBuffer.java">
+    <entry file="file://$PROJECT_DIR$/src/Chapter3/PatternMatching.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="155" column="80" selection-start-line="155" selection-start-column="80" selection-end-line="155" selection-end-column="80" />
+        <state relative-caret-position="284">
+          <caret line="32" column="26" lean-forward="true" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
           <folding>
-            <element signature="e#360#361#0" expanded="true" />
-            <element signature="e#379#380#0" expanded="true" />
-            <element signature="e#651#652#0" expanded="true" />
-            <element signature="e#677#678#0" expanded="true" />
-            <element signature="e#730#731#0" expanded="true" />
-            <element signature="e#756#757#0" expanded="true" />
-            <element signature="e#857#858#0" expanded="true" />
-            <element signature="e#910#911#0" expanded="true" />
-            <element signature="e#2870#2871#0" expanded="true" />
-            <element signature="e#2896#2897#0" expanded="true" />
-            <element signature="e#3217#3218#0" expanded="true" />
-            <element signature="e#3255#3256#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Chapter3/MyStringBufferTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="77" column="61" lean-forward="true" selection-start-line="77" selection-start-column="61" selection-end-line="77" selection-end-column="61" />
-          <folding>
-            <element signature="e#322#323#0" expanded="true" />
-            <element signature="e#370#371#0" expanded="true" />
-            <element signature="e#417#418#0" expanded="true" />
-            <element signature="e#447#448#0" expanded="true" />
-            <element signature="e#516#517#0" expanded="true" />
-            <element signature="e#537#538#0" expanded="true" />
-            <element signature="e#615#616#0" expanded="true" />
-            <element signature="e#645#646#0" expanded="true" />
-            <element signature="e#1632#1633#0" expanded="true" />
-            <element signature="e#1705#1706#0" expanded="true" />
+            <element signature="e#1772#1773#0" expanded="true" />
+            <element signature="e#1820#1821#0" expanded="true" />
           </folding>
         </state>
       </provider>
