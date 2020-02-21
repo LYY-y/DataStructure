@@ -6,11 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ca9eb0ac-934a-487f-bf37-73b21374be81" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MineTest/Chapter3/MyString.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MineTest/Chapter3/MyString.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/MineTest/Chapter3/MyStringTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/MineTest/Chapter3/MyStringTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chapter3/MyString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter3/MyString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chapter3/MyStringBuffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter3/MyStringBuffer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Chapter3/MyStringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Chapter3/MyStringTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter2/SeqList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter2/SeqList.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,33 +34,43 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Chapter3/PatternMatching.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Chapter4/Stack.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="32" column="26" lean-forward="true" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
+            <state>
+              <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Chapter4/SeqStack.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="39" selection-start-line="39" selection-end-line="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Chapter4/Expression.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="392">
+              <caret line="62" column="47" selection-start-line="62" selection-start-column="47" selection-end-line="62" selection-end-column="47" />
               <folding>
-                <element signature="e#1772#1773#0" expanded="true" />
-                <element signature="e#1820#1821#0" expanded="true" />
+                <element signature="method#toPostfix#0;class#Expression#0" />
+                <element signature="e#176#184#0" expanded="true" />
+                <element signature="e#1736#1745#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/Chapter3/MyStringTest.java">
+        <entry file="file://$PROJECT_DIR$/tests/Chapter4/ExpressionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="94" column="40" selection-start-line="94" selection-start-column="40" selection-end-line="94" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/Chapter3/PatternMatchingTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="67">
-              <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+            <state relative-caret-position="245">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
@@ -101,14 +107,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/tests/SinglyList_reverseTest.java" />
-        <option value="$PROJECT_DIR$/tests/SortedSinglyListTest.java" />
-        <option value="$PROJECT_DIR$/src/DoubleNode.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/idea64.exe.vmoptions" />
-        <option value="$PROJECT_DIR$/tests/CirDoublyListTest.java" />
-        <option value="$PROJECT_DIR$/src/CirDoublyList.java" />
-        <option value="$PROJECT_DIR$/src/SortedCirDoublyList.java" />
-        <option value="$PROJECT_DIR$/tests/SortedCirDoublyListTest.java" />
         <option value="$PROJECT_DIR$/src/polynomial.java" />
         <option value="$PROJECT_DIR$/src/Polynomial.java" />
         <option value="$PROJECT_DIR$/tests/PolynomialTest.java" />
@@ -152,10 +150,18 @@
         <option value="$PROJECT_DIR$/tests/Chapter3/MyStringTest.java" />
         <option value="$PROJECT_DIR$/src/Chapter3/PatternMatching.java" />
         <option value="$PROJECT_DIR$/tests/Chapter3/PatternMatchingTest.java" />
+        <option value="$PROJECT_DIR$/src/Chapter4/Stack.java" />
+        <option value="$PROJECT_DIR$/src/Chapter2/SeqList.java" />
+        <option value="$PROJECT_DIR$/src/Chapter4/SeqStack.java" />
+        <option value="$PROJECT_DIR$/src/Chapter4/LinkedStack.java" />
+        <option value="$PROJECT_DIR$/tests/Chapter4/BracketTest.java" />
+        <option value="$PROJECT_DIR$/src/Chapter4/Bracket.java" />
+        <option value="$PROJECT_DIR$/tests/Chapter4/ExpressionTest.java" />
+        <option value="$PROJECT_DIR$/src/Chapter4/Expression.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-10" />
     <option name="width" value="1175" />
     <option name="height" value="1040" />
@@ -182,18 +188,12 @@
               <item name="DataStructureTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="MineTest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter3" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter4" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DataStructureTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="MineTest" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataStructureTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MineTest" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter3" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -220,10 +220,11 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.statistic.project.settings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="Chapter4" />
       <recent name="Chapter3" />
       <recent name="" />
     </key>
@@ -251,50 +252,50 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PatternMatchingTest.testindexOf">
-    <configuration name="MyStringTest.testIndexOf" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ExpressionTest.testToPostfix">
+    <configuration name="BracketTest.testIsMatched" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MineTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chapter3.*" />
+          <option name="PATTERN" value="Chapter4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Chapter3" />
-      <option name="MAIN_CLASS_NAME" value="Chapter3.MyStringTest" />
-      <option name="METHOD_NAME" value="testIndexOf" />
+      <option name="PACKAGE_NAME" value="Chapter4" />
+      <option name="MAIN_CLASS_NAME" value="Chapter4.BracketTest" />
+      <option name="METHOD_NAME" value="testIsMatched" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyStringTest.testReplaceAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ExpressionTest.testToPostfix" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MineTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chapter3.*" />
+          <option name="PATTERN" value="Chapter4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Chapter3" />
-      <option name="MAIN_CLASS_NAME" value="Chapter3.MyStringTest" />
-      <option name="METHOD_NAME" value="testReplaceAll" />
+      <option name="PACKAGE_NAME" value="Chapter4" />
+      <option name="MAIN_CLASS_NAME" value="Chapter4.ExpressionTest" />
+      <option name="METHOD_NAME" value="testToPostfix" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyStringTest.testSubString2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ExpressionTest.testToValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MineTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chapter3.*" />
+          <option name="PATTERN" value="Chapter4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Chapter3" />
-      <option name="MAIN_CLASS_NAME" value="Chapter3.MyStringTest" />
-      <option name="METHOD_NAME" value="testSubString2" />
+      <option name="PACKAGE_NAME" value="Chapter4" />
+      <option name="MAIN_CLASS_NAME" value="Chapter4.ExpressionTest" />
+      <option name="METHOD_NAME" value="testToValue" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -334,11 +335,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ExpressionTest.testToPostfix" />
+        <item itemvalue="JUnit.ExpressionTest.testToValue" />
+        <item itemvalue="JUnit.BracketTest.testIsMatched" />
         <item itemvalue="JUnit.PatternMatchingTest.testindexOf" />
         <item itemvalue="JUnit.PatternMatchingTest.getNext" />
-        <item itemvalue="JUnit.MyStringTest.testReplaceAll" />
-        <item itemvalue="JUnit.MyStringTest.testIndexOf" />
-        <item itemvalue="JUnit.MyStringTest.testSubString2" />
       </list>
     </recent_temporary>
   </component>
@@ -382,50 +383,52 @@
       <workItem from="1581925987152" duration="14572000" />
       <workItem from="1581997020489" duration="11971000" />
       <workItem from="1582072164166" duration="24399000" />
-      <workItem from="1582163498964" duration="18035000" />
+      <workItem from="1582163498964" duration="18738000" />
+      <workItem from="1582260522082" duration="2491000" />
+      <workItem from="1582264674885" duration="8252000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PatternMatchingTest_testindexOf - 2020.02.20 at 20h 39m 40s.xml">
-      <configuration name="PatternMatchingTest.testindexOf" configurationId="JUnit" />
+    <history-entry file="ExpressionTest_testToValue - 2020.02.21 at 21h 47m 06s.xml">
+      <configuration name="ExpressionTest.testToValue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PatternMatchingTest_testindexOf - 2020.02.20 at 20h 39m 43s.xml">
-      <configuration name="PatternMatchingTest.testindexOf" configurationId="JUnit" />
+    <history-entry file="ExpressionTest_testToValue - 2020.02.21 at 21h 49m 17s.xml">
+      <configuration name="ExpressionTest.testToValue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PatternMatchingTest_testindexOf - 2020.02.20 at 20h 40m 24s.xml">
-      <configuration name="PatternMatchingTest.testindexOf" configurationId="JUnit" />
+    <history-entry file="ExpressionTest_testToValue - 2020.02.21 at 21h 50m 51s.xml">
+      <configuration name="ExpressionTest.testToValue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PatternMatchingTest_testindexOf - 2020.02.20 at 20h 41m 56s.xml">
-      <configuration name="PatternMatchingTest.testindexOf" configurationId="JUnit" />
+    <history-entry file="ExpressionTest_testToValue - 2020.02.21 at 21h 51m 40s.xml">
+      <configuration name="ExpressionTest.testToValue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PatternMatchingTest_testindexOf - 2020.02.20 at 20h 43m 29s.xml">
-      <configuration name="PatternMatchingTest.testindexOf" configurationId="JUnit" />
+    <history-entry file="ExpressionTest_testToValue - 2020.02.21 at 21h 52m 37s.xml">
+      <configuration name="ExpressionTest.testToValue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PatternMatchingTest_testindexOf - 2020.02.20 at 20h 46m 07s.xml">
-      <configuration name="PatternMatchingTest.testindexOf" configurationId="JUnit" />
+    <history-entry file="ExpressionTest_testToValue - 2020.02.21 at 21h 56m 03s.xml">
+      <configuration name="ExpressionTest.testToValue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PatternMatchingTest_testindexOf - 2020.02.20 at 20h 46m 10s.xml">
-      <configuration name="PatternMatchingTest.testindexOf" configurationId="JUnit" />
+    <history-entry file="ExpressionTest_testToValue - 2020.02.21 at 21h 58m 01s.xml">
+      <configuration name="ExpressionTest.testToValue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PatternMatchingTest_testindexOf - 2020.02.20 at 20h 46m 54s.xml">
-      <configuration name="PatternMatchingTest.testindexOf" configurationId="JUnit" />
+    <history-entry file="ExpressionTest_testToValue - 2020.02.21 at 21h 58m 04s.xml">
+      <configuration name="ExpressionTest.testToValue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PatternMatchingTest_testindexOf - 2020.02.20 at 20h 46m 56s.xml">
-      <configuration name="PatternMatchingTest.testindexOf" configurationId="JUnit" />
+    <history-entry file="ExpressionTest_testToValue - 2020.02.21 at 21h 58m 30s.xml">
+      <configuration name="ExpressionTest.testToValue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PatternMatchingTest_testindexOf - 2020.02.20 at 20h 47m 25s.xml">
-      <configuration name="PatternMatchingTest.testindexOf" configurationId="JUnit" />
+    <history-entry file="ExpressionTest_testToValue - 2020.02.21 at 21h 59m 22s.xml">
+      <configuration name="ExpressionTest.testToValue" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="465830000" />
+    <option name="totallyTimeSpent" value="477276000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49761903" visible="true" weight="0.16353887" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49761903" visible="true" weight="0.16756032" />
       <window_info id="Structure" order="1" sideWeight="0.50238097" side_tool="true" weight="0.13337801" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -435,8 +438,8 @@
       <window_info anchor="bottom" id="Statistic" order="0" weight="0.43909347" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.3286119" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.49865952" visible="true" weight="0.28470254" />
-      <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.49932975" weight="0.31303117" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49865952" weight="0.28470254" />
+      <window_info active="true" anchor="bottom" id="Debug" order="4" sideWeight="0.49932975" visible="true" weight="0.31303117" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" />
@@ -494,6 +497,30 @@
           <properties />
           <option name="timeStamp" value="73" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Chapter2/SeqList.java</url>
+          <line>45</line>
+          <properties />
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Chapter2/SeqList.java</url>
+          <line>43</line>
+          <properties />
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/tests/Chapter4/ExpressionTest.java</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="86" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Chapter4/Expression.java</url>
+          <line>49</line>
+          <properties />
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
@@ -510,100 +537,6 @@
     <SUITE FILE_PATH="coverage/DataStructureTest$SortedSeqListTest_TestInsert.ic" NAME="SortedSeqListTest.TestInsert Coverage Results" MODIFIED="1580439535976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tests/Chapter2/PolynomialTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="35" column="9" lean-forward="true" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter2/TermXY.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="107" column="28" lean-forward="true" selection-start-line="107" selection-start-column="28" selection-end-line="107" selection-end-column="28" />
-          <folding>
-            <element signature="method#TermXY#0;class#TermXY#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Chapter2/TermXTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="531">
-          <caret line="55" column="29" lean-forward="true" selection-start-line="55" selection-start-column="29" selection-end-line="55" selection-end-column="29" />
-          <folding>
-            <element signature="method#testToString#0;class#TermXTest#0" />
-            <element signature="e#1398#1399#0" expanded="true" />
-            <element signature="e#1426#1427#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Chapter2/TermXYTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Chapter2/SeqListTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2641">
-          <caret line="162" column="47" selection-start-line="162" selection-start-column="47" selection-end-line="162" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter2/Test2_1">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter2/SeqList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="method#SeqList#0;class#SeqList#0" />
-            <element signature="method#SeqList#2;class#SeqList#0" />
-            <element signature="method#get#0;class#SeqList#0" />
-            <element signature="method#set#0;class#SeqList#0" />
-            <element signature="method#toString#0;class#SeqList#0" />
-            <element signature="method#toPreviousString#0;class#SeqList#0" />
-            <element signature="method#insert#0;class#SeqList#0" />
-            <element signature="method#remove#0;class#SeqList#0" />
-            <element signature="method#contains#0;class#SeqList#0" />
-            <element signature="method#insertDifferent#0;class#SeqList#0" />
-            <element signature="method#equals#0;class#SeqList#0" />
-            <element signature="method#addAll#0;class#SeqList#0" />
-            <element signature="docComment;method#SeqList#3;class#SeqList#0" />
-            <element signature="method#SeqList#3;class#SeqList#0" />
-            <element signature="method#union#0;class#SeqList#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter2/SortedSeqList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="100" column="23" selection-start-line="100" selection-start-column="23" selection-end-line="100" selection-end-column="23" />
-          <folding>
-            <element signature="method#SortedSeqList#2;class#SortedSeqList#0" />
-            <element signature="method#SortedSeqList#3;class#SortedSeqList#0" />
-            <element signature="method#insert#0;class#SortedSeqList#0" />
-            <element signature="e#1322#1323#0" expanded="true" />
-            <element signature="e#1406#1407#0" expanded="true" />
-            <element signature="method#search#0;class#SortedSeqList#0" />
-            <element signature="e#2218#2219#0" expanded="true" />
-            <element signature="e#2252#2253#0" expanded="true" />
-            <element signature="e#2443#2452#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/Chapter2/SortedSeqListTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -758,39 +691,6 @@
             <element signature="method#Polynomial#3;class#Polynomial#0" />
             <element signature="e#2074#2075#0" expanded="true" />
             <element signature="e#2117#2118#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter2/SinglyList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="391" column="25" selection-start-line="391" selection-start-column="25" selection-end-line="391" selection-end-column="25" />
-          <folding>
-            <element signature="e#127#128#0" expanded="true" />
-            <element signature="e#166#167#0" expanded="true" />
-            <element signature="e#775#1148#0" />
-            <element signature="e#1154#1417#0" />
-            <element signature="e#1881#1969#0" />
-            <element signature="e#1881#2673#0" />
-            <element signature="e#2793#2843#0" />
-            <element signature="e#2793#3239#0" />
-            <element signature="e#3325#3689#0" />
-            <element signature="e#3695#3869#0" />
-            <element signature="e#3875#4441#0" />
-            <element signature="e#4447#4822#0" />
-            <element signature="e#4828#4933#0" />
-            <element signature="e#4939#5238#0" />
-            <element signature="e#5244#5934#0" />
-            <element signature="e#5940#6218#0" />
-            <element signature="e#6418#6822#0" />
-            <element signature="e#6964#7123#0" />
-            <element signature="e#7129#7430#0" />
-            <element signature="e#7436#7613#0" />
-            <element signature="e#7643#7993#0" />
-            <element signature="e#8079#8599#0" />
-            <element signature="e#8605#9222#0" />
-            <element signature="e#9228#9692#0" />
           </folding>
         </state>
       </provider>
@@ -1033,30 +933,119 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Chapter3/MyStringTest.java">
+    <entry file="file://$PROJECT_DIR$/tests/Chapter3/PatternMatchingTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="94" column="40" selection-start-line="94" selection-start-column="40" selection-end-line="94" selection-end-column="40" />
+        <state relative-caret-position="114">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Chapter3/PatternMatchingTest.java">
+    <entry file="file://$PROJECT_DIR$/tests/Chapter3/MyStringTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        <state relative-caret-position="428">
+          <caret line="94" column="40" selection-start-line="94" selection-start-column="40" selection-end-line="94" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Chapter3/PatternMatching.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="32" column="26" lean-forward="true" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
+        <state relative-caret-position="456">
+          <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter4/Stack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter4/LinkedStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="33" column="9" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter2/SeqList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
           <folding>
-            <element signature="e#1772#1773#0" expanded="true" />
-            <element signature="e#1820#1821#0" expanded="true" />
+            <element signature="method#SeqList#0;class#SeqList#0" />
+            <element signature="method#SeqList#2;class#SeqList#0" />
+            <element signature="e#740#741#0" expanded="true" />
+            <element signature="e#769#770#0" expanded="true" />
+            <element signature="method#set#0;class#SeqList#0" />
+            <element signature="method#toString#0;class#SeqList#0" />
+            <element signature="method#toPreviousString#0;class#SeqList#0" />
+            <element signature="method#insert#0;class#SeqList#0" />
+            <element signature="method#remove#0;class#SeqList#0" />
+            <element signature="method#contains#0;class#SeqList#0" />
+            <element signature="method#insertDifferent#0;class#SeqList#0" />
+            <element signature="method#equals#0;class#SeqList#0" />
+            <element signature="method#addAll#0;class#SeqList#0" />
+            <element signature="docComment;method#SeqList#3;class#SeqList#0" />
+            <element signature="method#SeqList#3;class#SeqList#0" />
+            <element signature="method#union#0;class#SeqList#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter4/Bracket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
+          <folding>
+            <element signature="e#179#187#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Chapter4/BracketTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter4/SeqStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter2/SinglyList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="391" column="25" selection-start-line="391" selection-start-column="25" selection-end-line="391" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Chapter4/ExpressionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter4/Expression.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="62" column="47" selection-start-line="62" selection-start-column="47" selection-end-line="62" selection-end-column="47" />
+          <folding>
+            <element signature="method#toPostfix#0;class#Expression#0" />
+            <element signature="e#176#184#0" expanded="true" />
+            <element signature="e#1736#1745#0" expanded="true" />
           </folding>
         </state>
       </provider>

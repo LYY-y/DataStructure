@@ -38,7 +38,7 @@ public class SeqList<T> extends Object {
     }
 
     /**返回第i个元素*/
-    T get(int i){
+    public T get(int i){
         if (i>=0 && i<=this.n){
             return (T)this.element[i];
         }
