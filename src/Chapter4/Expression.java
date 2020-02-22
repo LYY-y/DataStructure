@@ -47,14 +47,17 @@ public class Expression {
         StringBuilder intStr=new StringBuilder();
         while (i<postfix.length()){
             char ch=postfix.charAt(i);
-            if (ch==' '){
-                if (intStr.length()!=0) {
+            if (ch < '0'|| ch>'9'){
+                if (intStr.length()!=0){
                     value = Integer.parseInt(intStr.toString());
                     stack.push(value);
                     intStr.setLength(0);
                 }
-                i++;
-                continue;
+                if (ch==' '){
+                    i++;
+                    continue;
+                }
+
             }
             if (ch >= '0' && ch <= '9'){
                 if (intStr.length()==0){
@@ -67,11 +70,11 @@ public class Expression {
                 if (ch=='+'){
                     value=value1+value2;
                 }else if (ch=='-'){
-                    value=value1-value2;
+                    value=value2-value1;
                 }else if (ch=='*'){
                     value=value1*value2;
                 }else if (ch=='/'){
-                    value=value1/value2;
+                    value=value2/value1;
                 }
                 stack.push(value);
             }
