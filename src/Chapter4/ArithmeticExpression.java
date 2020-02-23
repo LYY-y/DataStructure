@@ -13,21 +13,57 @@ public class ArithmeticExpression {
 
     /**计算从index开始的一个（子）算术表达式，返回整数值，其中进行多（项）加减运算*/
     public int intValue(){
-        return 0;
+        int value=this.term();
+        while (this.index<this.infix.length()){
+            char ch=this.infix.charAt(this.index);
+            if (ch == '+' || ch == '-') {
+                this.index++;
+                int value2 = this.term();
+                if (ch == '+') {
+                    value = value + value2;
+                } else if (ch == '-') {
+                    value = value - value2;
+                }
+            }else {
+                break;
+            }
+        }
+        return value;
     }
 
     /**计算从index开始的一<项>，其中进行多<因子>的乘除运算*/
     private int term(){
-        return 0;
+        int value=this.factor();
+        while (this.index<this.infix.length()) {
+            char ch = this.infix.charAt(this.index);
+            if (ch == '*' || ch == '/' || ch == '%') {
+                this.index++;
+                int value2 = this.factor();
+                if (ch == '*') {
+                    value = value * value2;
+                } else if (ch == '/') {
+                    value = value / value2;
+                } else if (ch == '%') {
+                    value = value % value2;
+                }
+            }else {
+                break;
+            }
+        }
+        return value;
     }
 
     /**计算从index开始的一项<因子>，其中包含以（）为界的子表达式，间接递归调用*/
     private int factor(){
         int value=0;
         if (this.infix.charAt(this.index)=='('){
+            //跳过'（'
+            this.index++;
             value=this.intValue();
+            //通过')'
+            this.index++;
         }else {
-            
+            value=constant();
         }
         return value;
     }
@@ -45,15 +81,19 @@ public class ArithmeticExpression {
                 index++;
             }
             while (this.index<this.infix.length()){
-                if (ch>='0' || ch<='9'){
-                    value=value*10+ch;
+                ch=this.infix.charAt(this.index);
+                if (ch>='0' && ch<='9'){
+                    value=value*10+(int)(ch-48);
                     index++;
                 }else {
                     break;
                 }
             }
-            throw new NumberFormatException("\""+infix.substring(this.index-1)+"\"不能转化成整数！");
+            if (isNegative){
+                value=0-value;
+            }
+            return value;
         }
-        return value;
+        throw new NumberFormatException("\""+infix.substring(this.index-1)+"\"不能转化成整数！");
     }
 }
