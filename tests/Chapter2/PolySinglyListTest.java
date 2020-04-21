@@ -20,8 +20,9 @@ public class PolySinglyListTest {
         TermX[] terms1={new TermX(-1,0),new TermX(1,1),new TermX(-1,2),
                 new TermX(10,4),new TermX(-3,8),new TermX(5,10),new TermX(9,11)};
         PolySinglyList polySinglyList1=new PolySinglyList(terms1);
+        System.out.println(polySinglyList.toString() + polySinglyList1.toString());
         polySinglyList.addAll(polySinglyList1);
-        System.out.print(polySinglyList.toString());
+        System.out.print("相加后：" + polySinglyList.toString());
     }
 
     @Test

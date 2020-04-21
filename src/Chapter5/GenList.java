@@ -7,7 +7,7 @@ public class GenList<T> {
     public GenNode<T> head;
 
     public GenList() {
-        this.head=new GenNode<T>(null,null,null);
+        this.head=new GenNode<T>();
     }
 
     /**返回广义表所有元素的描述字符串*/
@@ -74,12 +74,20 @@ public class GenList<T> {
         }
         return count;
     }
-//
-//    /**插入原子x作为第i个元素；对i容错*/
-//    public GenNode<T> insert(int i, T x){
-//
-//    }
-//
+
+    /**插入原子x作为第i个元素；对i容错*/
+    public GenNode<T> insert(int i, T x){
+        if (x == null){
+            throw new NullPointerException("x == null");
+        }
+        GenNode<T> front = head;
+        for (int j = 0; front.next != null && j < i; j++){
+            front = front.next;
+        }
+        front.next = new GenNode<T>(x, null, front.next);
+        return front.next;
+    }
+
 //    /**在广义表最后添加原子x结点*/
 //    public GenNode<T> insert(T x){
 //
