@@ -83,4 +83,51 @@ public class Matrix {
         this.rows=m;
         this.columns=n;
     }
+
+    //比较矩阵是否相等
+    public boolean equals(Matrix mat){
+        if (this.rows == mat.rows || this.columns == mat.columns){
+            return false;
+        }
+        for (int i = 0; i < rows; i++){
+            for (int j = 0; j < columns; j++){
+                if (this.element[i][j] != mat.element[i][j]){
+                    return false;
+                }
+            }
+        }
+        return true;
+    }
+
+    //判断是否为对称矩阵
+    public boolean isSymmetric(){
+        for (int i = 0; i < rows; i++){
+            for (int j = 0; j < columns; j++){
+                if (this.element[i][j] != this.element[j][i]){
+                    return false;
+                }
+            }
+        }
+        return true;
+    }
+
+    //返回与this与mat相乘后的矩阵，不改变this
+    public Matrix multi(Matrix mat){
+        if (this.columns != mat.rows){
+            System.out.println("矩阵A的列数不等于矩阵B的行数，矩阵无法相乘！");
+        }
+        Matrix res = new Matrix(this.rows, mat.columns);
+        int r = 0;
+        int c = 0;
+        int n = res.rows
+        while (r < this.rows && c < res.columns) {
+            for (int i = 0; i < res.rows; i++) {
+                for (int j = 0; j < res.columns; j++) {
+                    res.element[r][c] = this.element[i][j] * mat.element[j][i];
+                }
+            }
+        }
+        return res;
+    }
+
 }
