@@ -86,7 +86,7 @@ public class Matrix {
 
     //比较矩阵是否相等
     public boolean equals(Matrix mat){
-        if (this.rows == mat.rows || this.columns == mat.columns){
+        if (this.rows != mat.rows || this.columns != mat.columns){
             return false;
         }
         for (int i = 0; i < rows; i++){
@@ -101,6 +101,9 @@ public class Matrix {
 
     //判断是否为对称矩阵
     public boolean isSymmetric(){
+        if (this.rows != this.columns){
+            return false;
+        }
         for (int i = 0; i < rows; i++){
             for (int j = 0; j < columns; j++){
                 if (this.element[i][j] != this.element[j][i]){
@@ -117,17 +120,44 @@ public class Matrix {
             System.out.println("矩阵A的列数不等于矩阵B的行数，矩阵无法相乘！");
         }
         Matrix res = new Matrix(this.rows, mat.columns);
-        int r = 0;
-        int c = 0;
-        int n = res.rows
-        while (r < this.rows && c < res.columns) {
-            for (int i = 0; i < res.rows; i++) {
-                for (int j = 0; j < res.columns; j++) {
-                    res.element[r][c] = this.element[i][j] * mat.element[j][i];
+        int i = 0;
+        while (i < this.rows){
+            int j = 0;
+            while (j < mat.columns) {
+                int k = 0;
+                while (k < this.columns) {
+                    res.element[i][j] += this.element[i][k] * mat.element[k][j];
+                    k++;
                 }
+                j++;
             }
+            i++;
         }
         return res;
     }
 
+    //返回矩阵的鞍点值。鞍点是指该位置上的元素值在该行上最大、在该列上最小
+    public int saddlePoint(){
+        for (int i = 0; i < this.rows; i++){
+            int col = 0;
+            int max = Integer.MIN_VALUE;
+            for (int j = 0; j < this.columns; j++){
+                if (this.element[i][j] > max){
+                    max = this.element[i][j];
+                    col = j;
+                }
+            }
+            int min = Integer.MAX_VALUE;
+            for (int k = 0; k < this.rows; k++){
+                if (this.element[k][col] < min){
+                    min = this.element[k][col];
+                }
+            }
+            if (max == min){
+                return max;
+            }
+        }
+        System.out.println("该矩阵不存在鞍点值");
+        return -1;
+    }
 }

@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca9eb0ac-934a-487f-bf37-73b21374be81" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ExperimentalReport/Report3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Chapter5/Matrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter5/Matrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExperimentalReport/Report3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExperimentalReport/Report3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +104,7 @@
       <recent name="F:\Personal\Desktop\DataStructure\MineTest\src\ChapterTwo" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Report2">
+  <component name="RunManager" selected="Application.Report3">
     <configuration name="Report1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ExperimentalReport.Report1" />
       <module name="MineTest" />
@@ -131,18 +131,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedMatrixTest.testEqual" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Report3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ExperimentalReport.Report3" />
       <module name="MineTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chapter5.*" />
+          <option name="PATTERN" value="ExperimentalReport.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Chapter5" />
-      <option name="MAIN_CLASS_NAME" value="Chapter5.LinkedMatrixTest" />
-      <option name="METHOD_NAME" value="testEqual" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -175,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Report3" />
         <item itemvalue="Application.Report2" />
         <item itemvalue="JUnit.PolySinglyListTest.testAddAll" />
         <item itemvalue="Application.Report1" />
         <item itemvalue="JUnit.RandomVideoTest.craetRandom" />
-        <item itemvalue="JUnit.LinkedMatrixTest.testEqual" />
       </list>
     </recent_temporary>
   </component>
@@ -233,7 +230,8 @@
       <workItem from="1586591466166" duration="1911000" />
       <workItem from="1587000529339" duration="10592000" />
       <workItem from="1587430907669" duration="16770000" />
-      <workItem from="1588857532691" duration="3137000" />
+      <workItem from="1588857532691" duration="3855000" />
+      <workItem from="1588898494311" duration="11081000" />
     </task>
     <servers />
   </component>
@@ -253,22 +251,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="170" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1586591773988" />
-    <state width="1493" height="235" key="GridCell.Tab.0.bottom" timestamp="1587479757597">
+    <state width="1493" height="2" key="GridCell.Tab.0.bottom" timestamp="1588926170870">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="235" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587479757597" />
-    <state width="1493" height="235" key="GridCell.Tab.0.center" timestamp="1587479757597">
+    <state width="1493" height="2" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588926170870" />
+    <state width="1493" height="2" key="GridCell.Tab.0.center" timestamp="1588926170870">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="235" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587479757597" />
-    <state width="1493" height="235" key="GridCell.Tab.0.left" timestamp="1587479757597">
+    <state width="1493" height="2" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1588926170870" />
+    <state width="1493" height="2" key="GridCell.Tab.0.left" timestamp="1588926170870">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="235" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587479757597" />
-    <state width="1493" height="235" key="GridCell.Tab.0.right" timestamp="1587479757597">
+    <state width="1493" height="2" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1588926170870" />
+    <state width="1493" height="2" key="GridCell.Tab.0.right" timestamp="1588926170870">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="235" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587479757597" />
+    <state width="1493" height="2" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1588926170870" />
     <state width="1493" height="235" key="GridCell.Tab.1.bottom" timestamp="1587479757597">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -285,6 +283,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="235" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1587479757597" />
+    <state x="461" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1588898584103">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="461" y="240" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1588898584103" />
     <state x="533" y="143" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1587012392894">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
