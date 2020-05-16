@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="ca9eb0ac-934a-487f-bf37-73b21374be81" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ExperimentalReport/Report3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExperimentalReport/Report3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MineTest/ExperimentalReport/Report3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MineTest/ExperimentalReport/Report3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter5/SeqMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter5/SeqMatrix.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +67,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -88,67 +89,81 @@
       <recent name="F:\Personal\Desktop\DataStructure\MineTest\src\ChapterTwo" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Report3">
-    <configuration name="Report1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ExperimentalReport.Report1" />
+  <component name="RunManager" selected="JUnit.SeqMatrixTest.testTranspose">
+    <configuration name="LinkedMatrixTest.testSet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MineTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ExperimentalReport.*" />
+          <option name="PATTERN" value="Chapter5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Report2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ExperimentalReport.Report2" />
-      <module name="MineTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ExperimentalReport.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Report3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ExperimentalReport.Report3" />
-      <module name="MineTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ExperimentalReport.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PolySinglyListTest.testAddAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MineTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Chapter2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Chapter2" />
-      <option name="MAIN_CLASS_NAME" value="Chapter2.PolySinglyListTest" />
-      <option name="METHOD_NAME" value="testAddAll" />
+      <option name="PACKAGE_NAME" value="Chapter5" />
+      <option name="MAIN_CLASS_NAME" value="Chapter5.LinkedMatrixTest" />
+      <option name="METHOD_NAME" value="testSet" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RandomVideoTest.craetRandom" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SeqMatrixTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MineTest" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RandomVideoTest" />
-      <option name="METHOD_NAME" value="craetRandom" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Chapter5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Chapter5" />
+      <option name="MAIN_CLASS_NAME" value="Chapter5.SeqMatrixTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SeqMatrixTest.testAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MineTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Chapter5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Chapter5" />
+      <option name="MAIN_CLASS_NAME" value="Chapter5.SeqMatrixTest" />
+      <option name="METHOD_NAME" value="testAdd" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SeqMatrixTest.testPrintMatrix" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MineTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Chapter5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Chapter5" />
+      <option name="MAIN_CLASS_NAME" value="Chapter5.SeqMatrixTest" />
+      <option name="METHOD_NAME" value="testPrintMatrix" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SeqMatrixTest.testTranspose" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MineTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Chapter5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Chapter5" />
+      <option name="MAIN_CLASS_NAME" value="Chapter5.SeqMatrixTest" />
+      <option name="METHOD_NAME" value="testTranspose" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -156,11 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Report3" />
-        <item itemvalue="Application.Report2" />
-        <item itemvalue="JUnit.PolySinglyListTest.testAddAll" />
-        <item itemvalue="Application.Report1" />
-        <item itemvalue="JUnit.RandomVideoTest.craetRandom" />
+        <item itemvalue="JUnit.SeqMatrixTest.testTranspose" />
+        <item itemvalue="JUnit.SeqMatrixTest.testAdd" />
+        <item itemvalue="JUnit.SeqMatrixTest" />
+        <item itemvalue="JUnit.SeqMatrixTest.testPrintMatrix" />
+        <item itemvalue="JUnit.LinkedMatrixTest.testSet" />
       </list>
     </recent_temporary>
   </component>
@@ -217,7 +232,9 @@
       <workItem from="1588857532691" duration="3855000" />
       <workItem from="1588898494311" duration="11081000" />
       <workItem from="1588937641975" duration="1043000" />
-      <workItem from="1589023449030" duration="5183000" />
+      <workItem from="1589023449030" duration="5616000" />
+      <workItem from="1589078177491" duration="20572000" />
+      <workItem from="1589195823214" duration="1022000" />
     </task>
     <servers />
   </component>
@@ -237,42 +254,46 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="170" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1586591773988" />
-    <state width="1493" height="2" key="GridCell.Tab.0.bottom" timestamp="1588926170870">
+    <state width="1493" height="163" key="GridCell.Tab.0.bottom" timestamp="1589197922109">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="2" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588926170870" />
-    <state width="1493" height="2" key="GridCell.Tab.0.center" timestamp="1588926170870">
+    <state width="1493" height="163" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589197922109" />
+    <state width="1493" height="163" key="GridCell.Tab.0.center" timestamp="1589197922109">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="2" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1588926170870" />
-    <state width="1493" height="2" key="GridCell.Tab.0.left" timestamp="1588926170870">
+    <state width="1493" height="163" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1589197922109" />
+    <state width="1493" height="163" key="GridCell.Tab.0.left" timestamp="1589197922109">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="2" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1588926170870" />
-    <state width="1493" height="2" key="GridCell.Tab.0.right" timestamp="1588926170870">
+    <state width="1493" height="163" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1589197922109" />
+    <state width="1493" height="163" key="GridCell.Tab.0.right" timestamp="1589197922109">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="2" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1588926170870" />
-    <state width="1493" height="235" key="GridCell.Tab.1.bottom" timestamp="1587479757597">
+    <state width="1493" height="163" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1589197922109" />
+    <state width="1493" height="92" key="GridCell.Tab.1.bottom" timestamp="1589113100560">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="235" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587479757597" />
-    <state width="1493" height="235" key="GridCell.Tab.1.center" timestamp="1587479757597">
+    <state width="1493" height="92" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589113100560" />
+    <state width="1493" height="92" key="GridCell.Tab.1.center" timestamp="1589113100560">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="235" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1587479757597" />
-    <state width="1493" height="235" key="GridCell.Tab.1.left" timestamp="1587479757597">
+    <state width="1493" height="92" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1589113100560" />
+    <state width="1493" height="92" key="GridCell.Tab.1.left" timestamp="1589113100560">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="235" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1587479757597" />
-    <state width="1493" height="235" key="GridCell.Tab.1.right" timestamp="1587479757597">
+    <state width="1493" height="92" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1589113100560" />
+    <state width="1493" height="92" key="GridCell.Tab.1.right" timestamp="1589113100560">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="235" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1587479757597" />
-    <state x="461" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1589023703506">
+    <state width="1493" height="92" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1589113100560" />
+    <state x="272" y="57" key="SettingsEditor" timestamp="1589195927812">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="461" y="240" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1589023703506" />
+    <state x="272" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1589195927812" />
+    <state x="461" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1589195829692">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="461" y="240" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1589195829692" />
     <state x="533" y="143" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1587012392894">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -281,10 +302,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="457" y="44" width="621" height="735" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1589025093723" />
-    <state x="425" y="187" key="run.anything.popup" timestamp="1588858578684">
+    <state x="425" y="186" key="run.anything.popup" timestamp="1589099281535">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1588858578684" />
+    <state x="425" y="186" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1589099281535" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1587431439117">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
